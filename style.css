@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+Theme Name: sun-care
+Author: Kanta
+Author URI: https://wordpress.org/
+Description: 老人ホーム施設紹介のために開発されました。
+Requires at least: 4.9.6
+Requires PHP: 7.4.1
+Version: 1.0
+Text Domain: sun-care
+*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+/*
+ * Chrome renders extra-wide &nbsp; characters for the Hoefler Text font.
+ * This results in a jumping cursor when typing in both the Classic and block
+ * editors. The following font-face override fixes the issue by manually inserting
+ * a custom font that includes just a Hoefler Text space replacement for that
+ * character instead.
+ */
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url('./assets/font/NotoSansJP-Regular.ttf');
+}
+@font-face {
+  font-family: "Noto Serif JP";
+  src: url('./assets/font/NotoSerifJP-Regular.ttf');
+}
+@font-face {
+  font-family: "Kaisei Haruno Umi";
+  src: url('./assets/font/KaiseiHarunoUmi-Regular.ttf');
+}
+#wpadminbar {
+  display: none;
+}

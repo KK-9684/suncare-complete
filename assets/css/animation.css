@@ -1,0 +1,14 @@
+.ham-sub-menu-wrapper {
+    animation: display 0.7s forwards; /* Animation when opening */
+}
+
+@keyframes display {
+    from {
+        max-height: 0px;
+        opacity: 0;
+    }
+    to {
+        max-height: 300px;
+        opacity: 1;
+    }
+}

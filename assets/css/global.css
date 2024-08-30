@@ -1,0 +1,60 @@
+.font12 {
+    font-size: 12px;
+}
+.font14 {
+    font-size: 14px;
+}
+.font15 {
+    font-size: 15px;
+}
+.font16 {
+    font-size: 1rem;
+}
+.font18 {
+    font-size: 18px;
+}
+.font20 {
+    font-size: 20px;
+}
+.font24 {
+    font-size: 24px;
+}
+.font28 {
+    font-size: 28px;
+}
+.font32 {
+    font-size: 32px;
+}
+.bold {
+    font-weight: 700 !important;
+}
+.medium {
+    font-weight: medium !important;
+}
+.bg-color-l-blue {
+    background-color: #007192;
+}
+.bg-color-d-red {
+    background-color: #8a392a;
+}
+.bg-color-d-green {
+    background-color: #3e6149;
+}
+.bg-color-d-blue {
+    background-color: #160a50;
+}
+.bg-color-d-orange {
+    background-color: #eb6101;
+}
+.color-d-green {
+    color: #3e6149;
+}
+.color-d-orange {
+    color: #eb6101;
+}
+.color-white {
+    color: #ffffff;
+}
+.hide {
+    display: none;
+}
