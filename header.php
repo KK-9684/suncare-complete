@@ -3,6 +3,7 @@
 
 <head>
     <title>東洋ウェルフェア株式会社</title>
+    <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -27,11 +28,54 @@
                     class="log-img me-4" />
             </a>
             <div class="d-flex ms-2 mt-1">
-                <a href="<?php echo esc_url( home_url() ); ?>" class="menu-text-item bold"><span>有料老人ホーム</span></a>
-                <a href="<?php echo esc_url( home_url() ); ?>" class="menu-text-item bold"><span>グループホーム</span></a>
-                <a href="<?php echo esc_url( home_url() ); ?>" class="menu-text-item bold"><span>デイサービス</span></a>
-                <a href="<?php echo esc_url( home_url() ); ?>/introduce/"
-                    class="menu-text-item bold"><span>会社概要</span></a>
+                <div class="menu-text-item-wrapper">
+                    <div class="menu-text-item bold">有料老人ホーム</div>
+                    <div class="menu-text-item-menu hide">
+                        <a href="<?php echo esc_url( home_url() ); ?>/san-care/" class="menu-text-item-menu-item">
+                            <div>介護付有料老人ホーム<br>サン・ケア レジデンス</div>
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-text-item-wrapper">
+                    <div class="menu-text-item bold">グループホーム</div>
+                    <div class="menu-text-item-menu hide">
+                        <a href="<?php echo esc_url( home_url() ); ?>/grouphome/" class="menu-text-item-menu-item">
+                            <div>グループホーム燦 ふくおか</div>
+                            <span>→</span>
+                        </a>
+                        <a href="<?php echo esc_url( home_url() ); ?>/grouphome/" class="menu-text-item-menu-item">
+                            <div>グループホーム燦 ふくおか</div>
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="menu-text-item-wrapper">
+                    <div class="menu-text-item bold">デイサービス</div>
+                    <div class="menu-text-item-menu hide">
+                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice/" class="menu-text-item-menu-item">
+                            <div>デイサービスセンター燦 あずき坂</div>
+                            <span>→</span>
+                        </a>
+                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice/" class="menu-text-item-menu-item">
+                            <div>デイサービスセンター燦 うめぞの</div>
+                            <span>→</span>
+                        </a>
+                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice/" class="menu-text-item-menu-item">
+                            <div>デイサービスセンター燦 てんま</div>
+                            <span>→</span>
+                        </a>
+                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice/" class="menu-text-item-menu-item">
+                            <div>デイサービスセンター燦 はっけん</div>
+                            <span>→</span>
+                        </a>
+                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice/" class="menu-text-item-menu-item">
+                            <div>デイサービスセンター燦 はね</div>
+                            <span>→</span>
+                        </a>
+                    </div>
+                </div>
+                <a href="<?php echo esc_url( home_url() ); ?>/company/" class="menu-text-item bold">会社概要</a>
             </div>
         </div>
         <div class="d-flex align-items-center justify-content-end flex-wrap">
@@ -42,10 +86,14 @@
                 <span class="font12 bold">年中無休（9:00~18:00）</span>
             </div>
             <div class="d-flex ms-3">
-                <a href="<?php echo esc_url( home_url() ); ?>" class="menu-button-item bg-color-l-blue">資料請求</a>
-                <a href="<?php echo esc_url( home_url() ); ?>" class="menu-button-item bg-color-d-red">見学予約</a>
-                <a href="<?php echo esc_url( home_url() ); ?>" class="menu-button-item bg-color-d-green">お問い合わせ</a>
-                <a href="<?php echo esc_url( home_url() ); ?>" class="menu-button-item bg-color-d-blue">採用情報</a>
+                <a href="<?php echo esc_url( home_url() ); ?>/form-document-request/"
+                    class="menu-button-item bg-color-l-blue">資料請求</a>
+                <a href="<?php echo esc_url( home_url() ); ?>/form-visit/"
+                    class="menu-button-item bg-color-d-red">見学予約</a>
+                <a href="<?php echo esc_url( home_url() ); ?>/form-contact/"
+                    class="menu-button-item bg-color-d-green">お問い合わせ</a>
+                <a href="<?php echo esc_url( home_url() ); ?>/recruit/"
+                    class="menu-button-item bg-color-d-blue">採用情報</a>
             </div>
         </div>
     </header>
@@ -127,15 +175,35 @@
                 </a>
             </div>
         </div>
-        <a href="<?php echo esc_url( home_url() ); ?>/introduce/"
+        <a href="<?php echo esc_url( home_url() ); ?>/company/"
             class="ham-main-menu-item-only bg-color-d-orange color-white">会社概要</a>
-        <a href="<?php echo esc_url( home_url() ); ?>"
+        <a href="<?php echo esc_url( home_url() ); ?>/form-document-request/"
             class="ham-main-menu-item-only bg-color-d-orange color-white">資料請求</a>
-        <a href="<?php echo esc_url( home_url() ); ?>"
+        <a href="<?php echo esc_url( home_url() ); ?>/form-visit/"
             class="ham-main-menu-item-only bg-color-d-orange color-white">見学予約</a>
-        <a href="<?php echo esc_url( home_url() ); ?>"
+        <a href="<?php echo esc_url( home_url() ); ?>/form-contact/"
             class="ham-main-menu-item-only bg-color-d-orange color-white">お問い合わせ</a>
-        <a href="<?php echo esc_url( home_url() ); ?>"
+        <a href="<?php echo esc_url( home_url() ); ?>/recruit/"
             class="ham-main-menu-item-only bg-color-d-orange color-white">採用情報</a>
+    </div>
+    <div class="footer-fixed-buttons">
+        <div class="mb-4 text-end me-4">
+            <button id="scrollToTop" class="footer-scroll-top-btn font20">
+                <i class="fa-solid fa-chevron-up"></i>
+            </button>
+        </div>
+        <a href="https://www.instagram.com/toyo.welfare/p/C3p_BTaBx8V/?locale=es_ES%2F&img_index=1" target="_blank">
+            <button class="footer-fixed-button bg-color-d-orange">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-icon.svg" alt="instagram" />
+                <span class="color-l-gray font16 ms-2">Instagram</span>
+            </button>
+        </a>
+        <div class="mb-2 pt-1"></div>
+        <a href="<?php echo get_template_directory_uri(); ?>/pdf/information.pdf" target="_blank">
+            <button class="footer-fixed-button bg-color-d-orange">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bell-icon.svg" alt="instagram" />
+                <span class="color-l-gray font16 ms-2 me-2">お知らせ</span>
+            </button>
+        </a>
     </div>
     <?php wp_head(); ?>

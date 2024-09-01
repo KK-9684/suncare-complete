@@ -1,5 +1,9 @@
 <?php get_header();?>
 <main class="top-page">
+    <?php echo do_shortcode('[metaslider id="34"]'); ?>
+    <div class="top-description">
+
+    </div>
     <section class="assisted-living-facility top-section-wrapper">
         <div class="top-section-titie">
             <h4>ASSISTED LIVING FACILITY</h4>

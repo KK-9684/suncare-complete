@@ -28,8 +28,35 @@
 .bold {
     font-weight: 700 !important;
 }
+.my-40 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.mt-40 {
+   margin-top: 40px;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.my-60 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pb-100 {
+    padding-bottom: 100px;
+}
+.py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .medium {
     font-weight: medium !important;
+}
+.bg-color-l-gray {
+    background-color: #F9F8F4;
 }
 .bg-color-l-blue {
     background-color: #007192;
@@ -46,6 +73,9 @@
 .bg-color-d-orange {
     background-color: #eb6101;
 }
+.color-black {
+    color: #000000;
+}
 .color-d-green {
     color: #3e6149;
 }
@@ -54,6 +84,12 @@
 }
 .color-white {
     color: #ffffff;
+}
+.color-d-blue {
+    color: #160a50;
+}
+.color-l-gray {
+    color: #F9F8F4;
 }
 .hide {
     display: none;

@@ -1,4 +1,5 @@
 $(function() {
+    // hamburger button
     $(".ham-main-menu-item").on("click", function() {
         if (!$(this).next().hasClass('hide')) {
             $(this).next().toggleClass('hide');
@@ -12,5 +13,29 @@ $(function() {
     });
     $(".header-sp-hamburger").on("click", function() {
         $(".ham-menu").toggleClass('hide');
+    });
+
+    // Control scroll-top button hide/show 
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $('#scrollToTop').fadeIn();
+        } else {
+            $('#scrollToTop').fadeOut();
+        }
+    });
+    $('#scrollToTop').click(function() {
+        $('html, body').animate({ scrollTop: 0 }, 100);
+        return false;
+    });
+
+    // menu buttons
+    $('.menu-text-item').hover(function() {
+       $(this).next().removeClass('hide'); 
+    });
+    $('.menu-text-item-wrapper').on("mouseleave", function() {
+        $(this).find('.menu-text-item-menu').addClass('hide');
+    });    
+    $('.menu-text-item-menu-item').on("click", function() {        
+        $(this).parent().toggleClass('hide');
     });
 });

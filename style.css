@@ -27,14 +27,17 @@ Text Domain: sun-care
   font-family: "Noto Sans JP";
   src: url('./assets/font/NotoSansJP-Regular.ttf');
 }
+
 @font-face {
   font-family: "Noto Serif JP";
   src: url('./assets/font/NotoSerifJP-Regular.ttf');
 }
+
 @font-face {
   font-family: "Kaisei Haruno Umi";
   src: url('./assets/font/KaiseiHarunoUmi-Regular.ttf');
 }
+
 #wpadminbar {
   display: none;
 }

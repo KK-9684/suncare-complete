@@ -1,5 +1,5 @@
 .ham-sub-menu-wrapper {
-    animation: display 0.7s forwards; /* Animation when opening */
+    animation: display 0.7s forwards;
 }
 
 @keyframes display {
@@ -10,5 +10,16 @@
     to {
         max-height: 300px;
         opacity: 1;
+    }
+}
+.recruit-item-menu {
+    animation: recruit-display 1s forwards;
+}
+@keyframes recruit-display {
+    from {
+        max-height: 0px;
+    }
+    to {
+        max-height: 3000px;
     }
 }
