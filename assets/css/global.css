@@ -16,17 +16,26 @@
 .font20 {
     font-size: 20px;
 }
-.font24 {
-    font-size: 24px;
+.font25 {
+    font-size: 25px;
 }
 .font28 {
     font-size: 28px;
+}
+.font31 {
+    font-size: 30px;
 }
 .font32 {
     font-size: 32px;
 }
 .bold {
     font-weight: 700 !important;
+}
+.font-serif {
+    font-family: "Noto serif JP";
+}
+.font-umi {
+    font-family: "Kaisei Haruno Umi";
 }
 .my-40 {
     margin-top: 40px;
@@ -58,11 +67,20 @@
 .bg-color-l-gray {
     background-color: #F9F8F4;
 }
+.bg-color-m-blue {
+    background-color: #7194c0;
+}
+.bg-color-mr-blue {
+    background-color: #eef2f8;
+}
 .bg-color-l-blue {
     background-color: #007192;
 }
 .bg-color-d-red {
     background-color: #8a392a;
+}
+.bg-color-l-red {
+    background-color: #ec6d56;
 }
 .bg-color-d-green {
     background-color: #3e6149;
@@ -90,6 +108,12 @@
 }
 .color-l-gray {
     color: #F9F8F4;
+}
+.color-m-blue {
+    color: #7194c0;
+}
+.color-l-blue {
+    color: #007192;
 }
 .hide {
     display: none;

@@ -117,10 +117,9 @@
         </div>
         <div class="mt-5 pt-4 text-center">
             <div class="font15 mb-2">些細な事でもお気軽にご相談下さい。</div>
-            <div class="top-section-phone mb-1 me-4 pe-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone-icon-2.svg" alt="phone-icon"
-                    class="phone-icon-2 me-1 mb-3" />
-                <span class="font32 bold color-d-green">0564-22-7575</span>
+            <div class="top-section-phone color-d-green mb-1 me-4 pe-2">
+                <i class="fa fa-phone font25"></i>
+                <span class="font32 bold">0564-22-7575</span>
             </div>
             <div class="font15 mb-3">受付時間 9:00~18:00</div>
             <div class="font12">所在地:〒444-0038 愛知県岡崎市羽根町小豆坂87（デイサービスセンター燦 あずき坂内）</div>
@@ -147,10 +146,9 @@
         </div>
         <div class="mt-5 pt-4 text-center">
             <div class="font15 mb-2">些細な事でもお気軽にご相談下さい。</div>
-            <div class="top-section-phone mb-1 me-4 pe-2">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone-icon-2.svg" alt="phone-icon"
-                    class="phone-icon-2 me-1 mb-3" />
-                <span class="font32 bold color-d-green">0564-22-8277</span>
+            <div class="top-section-phone color-d-green mb-1 me-4 pe-2">
+                <i class="fa fa-phone font25"></i>
+                <span class="font32 bold">0564-22-8277</span>
             </div>
             <div class="font15 mb-3">受付時間 8:45~17:45</div>
             <div class="font12">所在地:〒444-0038 愛知県岡崎市伝馬通1丁目78番地（サン・ケア レジデンス内）</div>

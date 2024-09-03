@@ -83,6 +83,7 @@ a {
     position: fixed;
     top:20;
     right:0;
+    z-index: 9999;
 }
 .ham-main-menu-item,
 .ham-main-menu-item-only {
@@ -222,23 +223,96 @@ a {
     height: 320px;
     width: 100vw;
     text-align: center;
-    padding: 50px;
+    padding: 50px 0px;
     color: #eeefef;
 }
 .section-big-title-bar h1 {
     font-family: "Noto Serif JP";
 }
 .sancare-top-img {
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
+    margin-top: -150px;
+    padding: 0px auto;
+    display: flex;
+    justify-content: center;
 }
 .sancare-top-img img {
     width: 100%;
-    height: 630px;
+    max-height: 630px;
+    min-height: 300px;
+    max-width: 1700px;
+    height: 40vw;
+    width: 90vw;
     object-fit: cover;
     object-position: top;
     border-radius: 50px;
+}
+.sancare-section-wrapper {
+    padding: 100px 0px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1020px;
+}
+.grid-two-column {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, calc((100% - 70px) / 2));
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.grid-two-column img {
+    width: 100%;
+}
+.service-btns-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, calc((100% - 20px) / 3));
+    gap: 10px;
+}
+.service-btn {
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: white;
+    
+}
+.toggle-btn {
+    width: 280px;
+    height: 50px;
+    background-color: #4c4d4f;
+    border-radius: 60px;
+    padding: 0px 50px;
+    color: white;
+    box-shadow: none;
+    border: none;
+    white-space: nowrap;
+    position: relative;
+}
+.arrow-up-right-icon {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    width: 24px !important;
+    height: 10px;
+}
+.google-map {
+    height: 70vw;
+    max-height: 700px;
+}
+.grid-two-column-2 {
+    display: grid;
+    grid-template-columns: 35% calc(65% - 70px);
+    justify-content: center;
+    gap: 70px;
+}
+
+/* grouphome fukuoka */
+.bg-image-center {
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
 }
 /* recruit */
 .section-title-bar {
@@ -374,6 +448,20 @@ a {
     .menu-text-item {
         border-left: none
     }
+    .grid-two-column {
+        padding: 0px 5%;
+        grid-template-columns: repeat(2, 45%);
+    }
+    .service-btns {
+        padding: 0px 5%;
+    }
+    .google-map {
+        padding: 0px 5%;
+    }
+    .grid-two-column-2 {
+        padding: 0px 5%;
+        grid-template-columns: 30% calc(65% - 70px);
+    }
 }
 @media screen and (max-width: 768px) {
     .header {
@@ -384,6 +472,9 @@ a {
     }
     .header-sp-phone {
         display: none !important;
+    }
+    .footer-fixed-buttons {
+        display: none;
     }
     .log-img {
         width: 240px;
@@ -414,5 +505,18 @@ a {
     }
     .t-label {
         width: 100%;
+    }
+    .grid-two-column {
+        grid-template-columns: auto;
+    }
+    .service-btns {
+        padding: 0px 5%;
+    }
+    .service-btns-wrapper {
+        grid-template-columns: auto auto;
+    }
+    .grid-two-column-2 {
+        padding: 0px 5%;
+        grid-template-columns: auto;
     }
 }
