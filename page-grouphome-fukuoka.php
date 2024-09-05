@@ -26,9 +26,9 @@
             </div>
         </div>
     </section>
-    <div class="bg-color-mr-blue container-fluid">
-        <section class="sancare-section-wrapper">
-            Coming
+    <div class="bg-color-l-gray container-fluid">
+        <section class="sancare-section-wrapper carousel-mode">
+            <?php echo do_shortcode('[metaslider id="148"]'); ?>
         </section>
     </div>
     <section class="sancare-section-wrapper pt-0">
@@ -141,7 +141,7 @@
                     </p>
                 </div>
                 <div class="bg-image-center"
-                    style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/gh-fukuoka-bottom.jpg)">
+                    style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/bottoms/gh-fukuoka-bottom.jpg)">
                 </div>
             </div>
         </section>

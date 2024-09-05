@@ -1,11 +1,16 @@
 <?php get_header();?>
 <main class="top-page">
-    <?php echo do_shortcode('[metaslider id="34"]'); ?>
-    <div class="top-description">
-
+    <div class="top-slide">
+        <?php echo do_shortcode('[metaslider id="34"]'); ?>
+        <div class="top-description">
+            <div class="top-description-main">三河地区地域 </div>
+            <div class="pb-4 top-description-main">No.1の介護福祉企業を目指して。</div>
+            <div class="top-description-sub">人の輪から生まれる笑顔を大切に</div>
+            <div class="top-description-sub">皆さまにやさしく寄り添うサービスを提供していきます。</div>
+        </div>
     </div>
-    <section class="assisted-living-facility top-section-wrapper">
-        <div class="top-section-titie">
+    <section class="assisted-living-facility top-section-wrapper" style="border:none">
+        <div class="top-section-title">
             <h4>ASSISTED LIVING FACILITY</h4>
             <h5>有料老人ホーム</h5>
         </div>
@@ -14,19 +19,23 @@
             そして、日常の健康管理から急病の時まで、安心して暮らせる終の棲家をご提供させていただきます。
         </p>
         <div class="top-section-viewer">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assisted-1.jpg" alt="assisted"
-                class="top-section-img" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assisted-2.jpg" alt="assisted"
-                class="top-section-img" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assisted-3.jpg" alt="assisted"
-                class="top-section-img" />
+            <?php
+                $assisted = get_field('assisted-living-facility', 'option');
+                if ($assisted) {
+                    foreach ($assisted as $image) {
+                        if (isset($image['url'])) {
+                            echo "<img src='" . esc_url($image['url']) . "' alt='assisted' class='top-section-img' loading='lazy'>";
+                        }
+                    }
+                }
+            ?>
         </div>
         <div class="top-section-main-addresss font18 mt-4">介護付有料老人ホーム サン・ケア レジデンス </div>
         <div class="mt-2">愛知県岡崎市伝馬通1丁目78番地</div>
     </section>
 
     <section class="group-home top-section-wrapper">
-        <div class="top-section-titie">
+        <div class="top-section-title">
             <h4>GROUPHOME</h4>
             <h5>グループホーム</h5>
         </div>
@@ -35,16 +44,21 @@
             <br>
             限界を超えてしまう前に、一度ご相談されてはいかがでしょう。
         </p>
-        <div class="top-section-viewer">
+        <div class="top-section-viewer special">
+            <?php $groupHome = get_field('group-home', 'option'); ?>
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/group-home-1.jpg" alt="group-home"
-                    class="top-section-img" />
+                <?php if (!empty($groupHome[0])): ?>
+                <img src="<?php echo esc_url($groupHome[0]['url']); ?>" alt="group-home" loading="lazy"
+                    class="top-section-img">
+                <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">グループホーム燦 ふくおか</div>
                 <div class="mt-2">愛知県岡崎市福岡町字通長36番地</div>
             </div>
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/group-home-2.jpg" alt="group-home"
-                    class="top-section-img" />
+                <?php if (!empty($groupHome[1])): ?>
+                <img src="<?php echo esc_url($groupHome[1]['url']); ?>" alt="group-home" loading="lazy"
+                    class="top-section-img">
+                <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">グループホーム燦 むつみ</div>
                 <div class="mt-2">愛知県岡崎市赤渋町寺前19番地1</div>
             </div>
@@ -52,7 +66,7 @@
     </section>
 
     <section class="day-care-service top-section-wrapper">
-        <div class="top-section-titie">
+        <div class="top-section-title">
             <h4>DAY CARE SERVICE</h4>
             <h5>デイサービス</h5>
         </div>
@@ -62,33 +76,44 @@
             からだのどこかにご不自由があっても、笑顔で一日を過ごせるよう心配りをしています。
         </p>
         <div class="top-section-viewer">
+            <?php $dayCareService = get_field('day-care-service', 'option'); ?>
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-1.jpg" alt="day-care"
-                    class="top-section-img" />
+                <?php if (!empty($dayCareService[0])): ?>
+                <img src="<?php echo esc_url($dayCareService[0]['url']); ?>" alt="day-care-service" loading="lazy"
+                    class="top-section-img">
+                <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">デイサービスセンター燦 あずき坂</div>
                 <div class="mt-2">愛知県岡崎市羽根町小豆坂87番地</div>
             </div>
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-2.jpg" alt="day-care"
-                    class="top-section-img" />
+                <?php if (!empty($dayCareService[1])): ?>
+                <img src="<?php echo esc_url($dayCareService[1]['url']); ?>" alt="day-care-service" loading="lazy"
+                    class="top-section-img">
+                <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">デイサービスセンター燦 うめぞの</div>
                 <div class="mt-2">愛知県岡崎市六供町2丁目3-2</div>
             </div>
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-3.jpg" alt="day-care"
-                    class="top-section-img" />
+                <?php if (!empty($dayCareService[2])): ?>
+                <img src="<?php echo esc_url($dayCareService[2]['url']); ?>" alt="day-care-service" loading="lazy"
+                    class="top-section-img">
+                <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">デイサービスセンター燦 てんま</div>
                 <div class="mt-2">愛知県岡崎市伝馬通1丁目78番地（サンケアレジデンス内）</div>
             </div>
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-4.jpg" alt="day-care"
-                    class="top-section-img" />
+                <?php if (!empty($dayCareService[3])): ?>
+                <img src="<?php echo esc_url($dayCareService[3]['url']); ?>" alt="day-care-service" loading="lazy"
+                    class="top-section-img">
+                <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">デイサービスセンター燦 はっけん</div>
                 <div class="mt-2">愛知県安城市東端町八剱74番地2</div>
             </div>
             <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-5.jpg" alt="day-care"
-                    class="top-section-img" />
+                <?php if (!empty($dayCareService[4])): ?>
+                <img src="<?php echo esc_url($dayCareService[4]['url']); ?>" alt="day-care-service" loading="lazy"
+                    class="top-section-img">
+                <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">デイサービスセンター燦 はね</div>
                 <div class="mt-2">愛知県岡崎市羽根北町一丁目３番地２</div>
             </div>
@@ -96,7 +121,7 @@
     </section>
 
     <section class="rental top-section-wrapper">
-        <div class="top-section-titie">
+        <div class="top-section-title">
             <h4>RENTAL</h4>
             <h5>サン・ケア レンタルセンター</h5>
         </div>
@@ -106,14 +131,16 @@
             ご利用者様ひとりひとりの状態やご自宅の状況等を拝見させていただきながら、より良いご提案をさせていただきます。
         </p>
         <div class="top-section-rental-viewer">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-1.jpg" alt="day-care"
-                class="top-section-rental-img" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-2.jpg" alt="day-care"
-                class="top-section-rental-img" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-3.jpg" alt="day-care"
-                class="top-section-rental-img" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-3.jpg" alt="day-care"
-                class="top-section-rental-img" />
+            <?php
+                $rental = get_field('rental', 'option');
+                if ($rental) {
+                    foreach ($rental as $image) {
+                        if (isset($image['url'])) {
+                            echo "<img src='" . esc_url($image['url']) . "' alt='rental' class='top-section-rental-img' loading='lazy'>";
+                        }
+                    }
+                }
+            ?>
         </div>
         <div class="mt-5 pt-4 text-center">
             <div class="font15 mb-2">些細な事でもお気軽にご相談下さい。</div>
@@ -127,7 +154,7 @@
     </section>
 
     <section class="care-plan top-section-wrapper">
-        <div class="top-section-titie">
+        <div class="top-section-title">
             <h4>CARE PLAN</h4>
             <h5>サン・ケア プランセンター</h5>
         </div>
@@ -137,12 +164,16 @@
             小さな疑問から難しい問題でも、介護支援専門員（ケアマネージャー）にお気軽にご相談ください。地域包括支援センターや医師、市役所などと協力して解決に努めます。
         </p>
         <div class="top-section-viewer">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-1.jpg" alt="day-care"
-                class="top-section-img" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-2.jpg" alt="day-care"
-                class="top-section-img" />
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/day-care-3.jpg" alt="day-care"
-                class="top-section-img" />
+            <?php
+                $rental = get_field('care-plan', 'option');
+                if ($rental) {
+                    foreach ($rental as $image) {
+                        if (isset($image['url'])) {
+                            echo "<img src='" . esc_url($image['url']) . "' alt='care-plan' class='top-section-img' loading='lazy'>";
+                        }
+                    }
+                }
+            ?>
         </div>
         <div class="mt-5 pt-4 text-center">
             <div class="font15 mb-2">些細な事でもお気軽にご相談下さい。</div>

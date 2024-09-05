@@ -27,8 +27,8 @@
         </div>
     </section>
     <div class="bg-color-l-gray container-fluid">
-        <section class="sancare-section-wrapper">
-            Coming
+        <section class="sancare-section-wrapper carousel-mode">
+            <?php echo do_shortcode('[metaslider id="48"]'); ?>
         </section>
     </div>
     <section class="sancare-section-wrapper pt-0">
@@ -193,8 +193,8 @@
                     <i class="fa fa-phone font20"></i>
                     <span>0564-22-7575</span>
                 </p>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assisted-2.jpg" alt="assisted"
-                    width="100%" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bottoms/san-care-bottom.jpg"
+                    alt="assisted" width="100%" />
             </div>
             <div>
                 <div class="color-d-blue font18 font-serif mb-2">■施設概要</div>

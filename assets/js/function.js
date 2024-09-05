@@ -1,4 +1,5 @@
 $(function() {
+    $('img').removeAttr("title");
     // hamburger button
     $(".ham-main-menu-item").on("click", function() {
         if (!$(this).next().hasClass('hide')) {

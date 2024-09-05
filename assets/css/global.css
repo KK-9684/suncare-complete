@@ -82,6 +82,9 @@
 .bg-color-l-red {
     background-color: #ec6d56;
 }
+.bg-color-lr-red {
+    background-color: #fef7f6;
+}
 .bg-color-d-green {
     background-color: #3e6149;
 }
@@ -114,6 +117,9 @@
 }
 .color-l-blue {
     color: #007192;
+}
+.color-l-red {
+    color: #ec6d56;
 }
 .hide {
     display: none;

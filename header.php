@@ -55,23 +55,28 @@
                 <div class="menu-text-item-wrapper">
                     <div class="menu-text-item bold">デイサービス</div>
                     <div class="menu-text-item-menu hide">
-                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice/" class="menu-text-item-menu-item">
+                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice-azukizaka/"
+                            class="menu-text-item-menu-item">
                             <div>デイサービスセンター燦 あずき坂</div>
                             <span>→</span>
                         </a>
-                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice/" class="menu-text-item-menu-item">
+                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice-umezono/"
+                            class="menu-text-item-menu-item">
                             <div>デイサービスセンター燦 うめぞの</div>
                             <span>→</span>
                         </a>
-                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice/" class="menu-text-item-menu-item">
+                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice-tenma/"
+                            class="menu-text-item-menu-item">
                             <div>デイサービスセンター燦 てんま</div>
                             <span>→</span>
                         </a>
-                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice/" class="menu-text-item-menu-item">
+                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice-hakken/"
+                            class="menu-text-item-menu-item">
                             <div>デイサービスセンター燦 はっけん</div>
                             <span>→</span>
                         </a>
-                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice/" class="menu-text-item-menu-item">
+                        <a href="<?php echo esc_url( home_url() ); ?>/dayservice-hane/"
+                            class="menu-text-item-menu-item">
                             <div>デイサービスセンター燦 はね</div>
                             <span>→</span>
                         </a>
@@ -125,7 +130,7 @@
                 <span class="ham-main-menu-icon">＋</span>
             </div>
             <div class="ham-sub-menu-wrapper hide">
-                <a href="<?php echo esc_url( home_url() ); ?>" class="ham-sub-menu-item color-d-orange">
+                <a href="<?php echo esc_url( home_url() ); ?>/san-care/" class="ham-sub-menu-item color-d-orange">
                     <span>介護付有料老人ホーム<br>サン・ケア レジデンス</span>
                     <span>→</span>
                 </a>
@@ -137,11 +142,13 @@
                 <span class="ham-main-menu-icon">＋</span>
             </div>
             <div class="ham-sub-menu-wrapper hide">
-                <a href="<?php echo esc_url( home_url() ); ?>" class="ham-sub-menu-item color-d-orange">
+                <a href="<?php echo esc_url( home_url() ); ?>/grouphome-fukuoka/"
+                    class="ham-sub-menu-item color-d-orange">
                     <span>グループホーム燦 ふくおか</span>
                     <span>→</span>
                 </a>
-                <a href="<?php echo esc_url( home_url() ); ?>" class="ham-sub-menu-item color-d-orange">
+                <a href="<?php echo esc_url( home_url() ); ?>/grouphome-mutsumi/"
+                    class="ham-sub-menu-item color-d-orange">
                     <span>グループホーム燦 むつみ</span>
                     <span>→</span>
                 </a>
@@ -153,23 +160,28 @@
                 <span class="ham-main-menu-icon">＋</span>
             </div>
             <div class="ham-sub-menu-wrapper hide">
-                <a href="<?php echo esc_url( home_url() ); ?>" class="ham-sub-menu-item color-d-orange">
+                <a href="<?php echo esc_url( home_url() ); ?>/dayservice-azukizaka/"
+                    class="ham-sub-menu-item color-d-orange">
                     <span>デイサービスセンター燦 あずき坂</span>
                     <span>→</span>
                 </a>
-                <a href="<?php echo esc_url( home_url() ); ?>" class="ham-sub-menu-item color-d-orange">
+                <a href="<?php echo esc_url( home_url() ); ?>/dayservice-umezono/"
+                    class="ham-sub-menu-item color-d-orange">
                     <span>デイサービスセンター燦 うめぞの</span>
                     <span>→</span>
                 </a>
-                <a href="<?php echo esc_url( home_url() ); ?>" class="ham-sub-menu-item color-d-orange">
+                <a href="<?php echo esc_url( home_url() ); ?>/dayservice-tenma/"
+                    class="ham-sub-menu-item color-d-orange">
                     <span>デイサービスセンター燦 てんま</span>
                     <span>→</span>
                 </a>
-                <a href="<?php echo esc_url( home_url() ); ?>" class="ham-sub-menu-item color-d-orange">
+                <a href="<?php echo esc_url( home_url() ); ?>/dayservice-hakken/"
+                    class="ham-sub-menu-item color-d-orange">
                     <span>デイサービスセンター燦 はっけん</span>
                     <span>→</span>
                 </a>
-                <a href="<?php echo esc_url( home_url() ); ?>" class="ham-sub-menu-item color-d-orange">
+                <a href="<?php echo esc_url( home_url() ); ?>/dayservice-hane/"
+                    class="ham-sub-menu-item color-d-orange">
                     <span>デイサービスセンター燦 はね</span>
                     <span>→</span>
                 </a>
