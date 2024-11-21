@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <?php $current_path = esc_url($_SERVER['REQUEST_URI']); ?>
     <header class="header">
         <div class="d-flex align-items-center justify-content-start flex-wrap">
             <a href="<?php echo esc_url( home_url() ); ?>">
@@ -47,7 +48,7 @@
                         </a>
                         <a href="<?php echo esc_url( home_url() ); ?>/grouphome-mutsumi/"
                             class="menu-text-item-menu-item">
-                            <div>グループホーム燦 ふくおか</div>
+                            <div>グループホーム燦　むつみ</div>
                             <span>→</span>
                         </a>
                     </div>
@@ -86,7 +87,7 @@
             </div>
         </div>
         <div class="d-flex align-items-center justify-content-end flex-wrap">
-            <div class="d-flex align-items-baseline font-umi mt-3 mb-1">
+            <div class="d-flex align-items-baseline font-umi mt-1 mb-1">
                 <i class="fa fa-phone font16"></i>
                 <span class="font20 bold mx-1" style="font-family:'Kaisei Haruno Umi'">0564-22-7575</span>
                 <span class="font12 bold">年中無休（9:00~18:00）</span>
@@ -199,8 +200,8 @@
             class="ham-main-menu-item-only bg-color-d-orange color-white">採用情報</a>
     </div>
     <div class="footer-fixed-buttons">
-        <div class="mb-4 text-end me-4">
-            <button id="scrollToTop" class="footer-scroll-top-btn font20">
+        <div class=" footer-scroll-top-btn-wrapper">
+            <button id="scrollToTop" class="footer-scroll-top-btn font20" style="display: none;">
                 <i class="fa-solid fa-chevron-up"></i>
             </button>
         </div>
@@ -221,14 +222,17 @@
                     } else {
                         echo 'https://www.instagram.com/toyo.welfare/p/C3p_BTaBx8V/?locale=es_ES%2F&img_index=1';
                     }
-                ?>" target="_blank">
+                ?>" target="_blank"
+            class="<?php if($current_path == '/sun-care/' || $current_path == '/sun-care/recruit/' || strpos($current_path, 'form-')) {echo 'hide';} else {echo '';} ?>">
             <button class="footer-fixed-button 
                 <?php 
                     $current_path = esc_url($_SERVER['REQUEST_URI']);
                     if (strpos($current_path, 'grouphome')) {
                         echo 'bg-color-m-blue';
-                    } else if (strpos($current_path, 'dayservice')){
+                    } else if (strpos($current_path, 'dayservice')) {
                         echo 'bg-color-l-red';
+                    } else if (strpos($current_path, 'san-care')) {
+                        echo 'bg-color-d-blue';
                     } else {
                         echo 'bg-color-d-orange';
                     }
@@ -238,7 +242,8 @@
             </button>
         </a>
         <div class="mb-2 pt-1"></div>
-        <a href="<?php echo get_template_directory_uri(); ?>/pdf/information.pdf" target="_blank">
+        <a href="<?php echo get_template_directory_uri(); ?>/pdf/information.pdf" target="_blank"
+            class="<?php if($current_path == '/sun-care/recruit/' || strpos($current_path, 'form-')) {echo 'hide';} else {echo '';} ?>">
             <button class="footer-fixed-button 
                 <?php 
                     $current_path = esc_url($_SERVER['REQUEST_URI']);
@@ -246,6 +251,8 @@
                         echo 'bg-color-m-blue';
                     } else if (strpos($current_path, 'dayservice')){
                         echo 'bg-color-l-red';
+                    } else if (strpos($current_path, 'san-care')) {
+                        echo 'bg-color-d-blue';
                     } else {
                         echo 'bg-color-d-orange';
                     }

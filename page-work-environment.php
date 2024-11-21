@@ -1,21 +1,22 @@
 <?php get_header();?>
 <main class="top-page">
     <section class="section-wrapper d-block">
-        <div class="top-section-titie">
+        <div class="top-section-title">
             <h4>WORK ENVIRONMENT</h4>
             <h5>職場環境等の取り組みについて</h5>
         </div>
-        <p class="font18 mt-4 color-d-orange" style="font-family:'Noto Serif JP'">
+        <p class="font18 mt-4 color-d-orange">
             介護職員等特定処遇改善加算に基づく職場環境等の取り組みについて
         </p>
         <p class="font15 mb-5">
             令和元年１０月に新設されました「介護職員等特定処遇改善加算」の算定に伴う取得要件について、賃金以外での取り組みを、以下によりご参照下さい。
         </p>
-        <h5 class="company-item-label mt-5"><span class="color-d-orange me-1"> ■</span><span>算定区分</span></h5>
+        <h5 class="environment-item-label mt-5"><span class="color-d-orange me-1"> ■</span><span>算定区分</span></h5>
         <p class="font16 mt-3">
             東洋ウェルフェア株式会社は算定区分【特定加算Ⅱ】を取得しております。
         </p>
-        <h5 class="company-item-label mt-5"><span class="color-d-orange me-1"> ■</span><span>取組み（Ⅰ）　資質の向上</span></h5>
+        <h5 class="environment-item-label mt-5"><span class="color-d-orange me-1"> ■</span><span>取組み（Ⅰ）　資質の向上</span>
+        </h5>
         <div class="d-flex mt-3">
             <div class="font18 me-2">①</div>
             <p class="font16">
@@ -32,7 +33,8 @@
                 ・社内研修及び人事評価制を基に、給与規程のキャリアアップ基準に連動して行っている。
             </p>
         </div>
-        <h5 class="company-item-label mt-5"><span class="color-d-orange me-1"> ■</span><span>取組み（Ⅱ）　労働環境・処遇の改善</span>
+        <h5 class="environment-item-label mt-5"><span class="color-d-orange me-1">
+                ■</span><span>取組み（Ⅱ）　労働環境・処遇の改善</span>
         </h5>
         <div class="d-flex mt-3">
             <div class="font18 me-2">①</div>
@@ -89,7 +91,7 @@
                 （2018→レジデンス導入／2020→GHむつみ導入／2020→GHふくおか導入）
             </p>
         </div>
-        <h5 class="company-item-label mt-5"><span class="color-d-orange me-1"> ■</span>取組み（Ⅲ）　その他</h5>
+        <h5 class="environment-item-label mt-5"><span class="color-d-orange me-1"> ■</span>取組み（Ⅲ）　その他</h5>
         <div class="d-flex mt-3">
             <div class="font18 me-2">①</div>
             <p class="font16">

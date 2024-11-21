@@ -4,47 +4,52 @@
         <h5 class="mb-3">RECRUIT</h5>
         <h1>採用情報</h1>
     </div>
-    <section class="section-wrapper pb-100">
+    <section class="section-wrapper pt-0 pb-100">
         <div class="recruit-description">
-            <h2>働きやすい環境が自慢です</h2>
-            <div class="text-start font15 my-40">
-                親会社である「太田油脂株式会社」は、創業110年超の岡崎の老舗企業です。労働条件などは同じですので、社員の休暇は年間120日。スタッフ数が充実しているので、無理な勤務体制になることがありません。子育て中の方も安心して働くことができます。
-            </div>
+            <?php
+                $introduceTitle = get_field('recruitment-introduce-title', 'option');
+                $introduceDescription = get_field('recruitment-introduce-description', 'option');           
+               
+                echo "<h2>".$introduceTitle."</h2>";
+                echo "<div class='text-start font15 my-40'>".$introduceDescription."</div>";
+            ?>
             <a href="<?php echo esc_url( home_url() ); ?>/work-environment/">
                 <button class="work-environment-btn bg-color-d-blue font15">職場環境等の取り組みについて
                 </button>
             </a>
         </div>
-        <div class="my-60 font20 text-center">
+        <div class="mb-5 pb-3 font20 text-center">
             募集要項一覧
         </div>
         <div class="recruit-viewer">
             <p class="font12">ご覧になりたい項目をクリックしてください</p>
             <div class="recruit-list">
-                <div class="recruit-item">
-                    <span>
-                        介護付有料老人ホーム サン・ケア レジデンス<br>
-                        【 正社員 ／ 嘱託社員 】
-                    </span>
-                    <span class=""> ー </span>
-                </div>
-                <div class="recruit-item-menu hide">
-                    <div class="mb-2 font16 bold color-d-blue">正社員 募集要項</div>
-                    <table class="recruit-table">
-                    </table>
-                </div>
-                <div class="recruit-item">
-                    <span>
-                        介護付有料老人ホーム サン・ケア レジデンス<br>
-                        【 正社員 ／ 嘱託社員 】
-                    </span>
-                    <span class="recruit-item-icon"> ー </span>
-                </div>
-                <div class="recruit-item-menu hide">
-                    <div class="mb-2 font16 bold color-d-blue">正社員 募集要項</div>
-                    <table class="recruit-table">
-                    </table>
-                </div>
+                <?php 
+                    $rows = get_field('recruitment', 'option');
+
+                    if( $rows ) {
+                        foreach( $rows as $index => $row  ) {
+                            echo "<div class='recruit-item'><span> &nbsp ".$row['recruitment-title']."<br>".$row['recruitment-category']."</span><span> ー </span></div>";
+                            
+                            if ($row['recruitment-content']) {
+                                echo "<div class='recruit-item-menu hide'>";
+
+                                foreach( $row['recruitment-content'] as $con) {
+                                    if (isset($con)) {
+                                        echo "<div class='mb-2 font16 bold color-d-blue'>".$con['カテゴリー']." 募集要項</div><table class='recruit-table'>";
+                                        foreach( $con as $field_name => $item) {
+                                            if ($field_name != 'カテゴリー' && $item) {
+                                                echo "<tr><td class='rt-label'>".$field_name."</td><td>". $item."</td></tr>";
+                                            }
+                                        }
+                                        echo "</table>";
+                                    }
+                                }
+                                echo "</div>";
+                            }                           
+                        }
+                    }
+                ?>
             </div>
         </div>
     </section>
@@ -61,16 +66,6 @@
 
 <script>
 $(document).ready(function() {
-    $.getJSON("<?php echo get_template_directory_uri(); ?>/assets/json/company-introduce.json")
-        .done(function(data) {
-            const rows = data.map(element =>
-                `<tr><td class="rt-label">${element.label}</td><td>${element.value}</td></tr>`
-            ).join('');
-            $('.recruit-table').html(rows);
-        })
-        .fail(function() {
-            console.error("Could not find company-introduce.json file");
-        });
     $(".recruit-item").on("click", function() {
         if (!$(this).next().hasClass('hide')) {
             $(this).next().toggleClass('hide');

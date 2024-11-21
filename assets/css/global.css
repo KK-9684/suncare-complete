@@ -28,6 +28,9 @@
 .font32 {
     font-size: 32px;
 }
+.font40 {
+    font-size: 40px;
+}
 .bold {
     font-weight: 700 !important;
 }
@@ -121,6 +124,21 @@
 .color-l-red {
     color: #ec6d56;
 }
+.color-red {
+    color: red;
+}
+.color-d-red {
+    color: #8a392a;
+}
 .hide {
     display: none;
+}
+.margin-top--20 {
+    margin-top: -20px;
+}
+.wrap {
+    white-space: pre-line;
+}
+.full-width {
+    width: 100%;
 }

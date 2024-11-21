@@ -15,9 +15,14 @@ $(function() {
     $(".header-sp-hamburger").on("click", function() {
         $(".ham-menu").toggleClass('hide');
     });
-
+    $(window).resize(function() {
+        $(".ham-menu").addClass('hide');
+        $(".menu-text-item-menu").addClass('hide');        
+    });
     // Control scroll-top button hide/show 
     $(window).scroll(function() {
+        $(".ham-menu").addClass('hide');
+        $(".menu-text-item-menu").addClass('hide');        
         if ($(this).scrollTop() > 100) {
             $('#scrollToTop').fadeIn();
         } else {

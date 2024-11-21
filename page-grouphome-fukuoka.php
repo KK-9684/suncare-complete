@@ -10,7 +10,7 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper" style="max-width: 1240px">
+    <section class="sancare-section-wrapper" style="max-width: 1080px">
         <div class="grid-two-column">
             <div>
                 <h3 class="font-serif"> 笑顔がつなぐ、温もりの日々。</h3>
@@ -105,9 +105,9 @@
         <div class="pt-5 service-btns">
             <p class="font20 font-serif">余暇活動として、様々な催しものを企画しております。</p>
             <div class="service-btns-wrapper">
-                <button class="service-btn bg-color-m-blue">季節のイベント</button>
-                <button class="service-btn bg-color-m-blue">ボランティアの訪問</button>
-                <button class="service-btn bg-color-m-blue">職員が行う余暇活動</button>
+                <div class="service-btn bg-color-m-blue">季節のイベント</div>
+                <div class="service-btn bg-color-m-blue">ボランティアの訪問</div>
+                <div class="service-btn bg-color-m-blue">職員が行う余暇活動</div>
             </div>
         </div>
     </section>
@@ -120,7 +120,11 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.25048273573!2d137.148635675519!3d34.90016307248479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bdeb840fb79d%3A0x8bca28b9a18f9bb!2z44CSNDQ0LTA4MjUg5oSb55-l55yM5bKh5bSO5biC56aP5bKh55S66YCa6ZW377yT77yW!5e0!3m2!1sja!2sjp!4v1723136585876!5m2!1sja!2sjp"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="mt-3">所在地：〒444-0825　岡崎市福岡町字通長36番地　（Googleマップで見る）</div>
+            <div class="mt-3">
+                所在地：〒444-0825　岡崎市福岡町字通長36番地　
+                <a href="https://maps.google.com/maps?ll=34.900159,137.151211&z=17&t=m&hl=ja&gl=JP&mapclient=embed&q=%E3%80%92444-0825%20%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E7%A6%8F%E5%B2%A1%E7%94%BA%E9%80%9A%E9%95%B7%EF%BC%93%EF%BC%96"
+                    target="_blank">（Googleマップで見る）</a>
+            </div>
         </div>
     </section>
     <div class="bg-color-mr-blue container-fluid">

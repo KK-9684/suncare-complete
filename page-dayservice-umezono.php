@@ -10,7 +10,7 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper" style="max-width: 1240px">
+    <section class="sancare-section-wrapper" style="max-width: 1080px">
         <div class="grid-two-column">
             <div>
                 <h3 class="font-serif"> 利用者様とご家族様の </h3>
@@ -32,7 +32,7 @@
             <?php echo do_shortcode('[metaslider id="187"]'); ?>
         </section>
     </div>
-    <section class="sancare-section-wrapper" style="max-width:1240px">
+    <section class="sancare-section-wrapper" style="max-width:1080px">
         <div class="dayservice-section-title mb-5">
             <h4>THE FEATURE</h4>
             <h5>デイサービスセンター燦の強み</h5>
@@ -64,48 +64,23 @@
         </div>
     </section>
     <div class="bg-color-lr-red container-fluid">
-        <section class="sancare-section-wrapper" style="max-width:1240px">
+        <section class="sancare-section-wrapper" style="max-width:1080px">
             <div class="dayservice-section-title mb-5">
                 <h4>TIME SCHEDULE</h4>
                 <h5>1日の過ごし方</h5>
             </div>
             <div class="grid-two-column-3">
-                <div>
-                    <div class="d-flex mb-4">
-                        <span class="color-l-red font18 bold" style="min-width:100px">9:30</span>
-                        <div>
-                            <div class="color-l-red font18 bold mb-2">デイ到着&ティータイム</div>
-                            <p>飲み物は各利用者様の好みに合わせたものを提供します。スタッフも一緒です。</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-4">
-                        <span class="color-l-red font18 bold" style="min-width:100px">9:30</span>
-                        <div>
-                            <div class="color-l-red font18 bold mb-2">デイ到着&ティータイム</div>
-                            <p>飲み物は各利用者様の好みに合わせたものを提供します。スタッフも一緒です。</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-4">
-                        <span class="color-l-red font18 bold" style="min-width:100px">9:30</span>
-                        <div>
-                            <div class="color-l-red font18 bold mb-2">デイ到着&ティータイム</div>
-                            <p>飲み物は各利用者様の好みに合わせたものを提供します。スタッフも一緒です。</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-4">
-                        <span class="color-l-red font18 bold" style="min-width:100px">9:30</span>
-                        <div>
-                            <div class="color-l-red font18 bold mb-2">デイ到着&ティータイム</div>
-                            <p>飲み物は各利用者様の好みに合わせたものを提供します。スタッフも一緒です。</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-4">
-                        <span class="color-l-red font18 bold" style="min-width:100px">9:30</span>
-                        <div>
-                            <div class="color-l-red font18 bold mb-2">デイ到着&ティータイム</div>
-                            <p>飲み物は各利用者様の好みに合わせたものを提供します。スタッフも一緒です。</p>
-                        </div>
-                    </div>
+                <div class="mb-5">
+                    <?php 
+                        $rows = get_field('umezono-time-schedule', 'option');
+                        if( $rows ) {
+                            foreach( $rows as $row ) {
+                                $margin = '';
+                                if (empty($row['schedule-time'])) $margin = 'margin-top--20';
+                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 bold' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 bold mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
+                            }
+                        }
+                    ?>
                 </div>
                 <div class="circle-image-wrapper">
                     <?php if (!empty($image[5])): ?>
@@ -132,7 +107,11 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.28548500013!2d137.17371617551998!3d34.9243764711789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bc52dd2a8f83%3A0x5a7ebcaf43163aa5!2z44CSNDQ0LTA4MTQg5oSb55-l55yM5bKh5bSO5biC57695qC555S65bCP6LGG5Z2C77yY77yXIOODh-OCpOOCteODvOODk-OCueOCu-ODs-OCv-ODvOeHpuOBguOBmuOBjeWdgg!5e0!3m2!1sja!2sjp!4v1723215582885!5m2!1sja!2sjp"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="mt-3">所在地：〒444-0814　愛知県岡崎市羽根町小豆坂87番地　（Googleマップで見る）</div>
+            <div class="mt-3">
+                所在地：〒444-0814　愛知県岡崎市羽根町小豆坂87番地　
+                <a href="https://maps.google.com/maps?ll=34.924372,137.176291&z=17&t=m&hl=ja&gl=JP&mapclient=embed&q=%E3%83%87%E3%82%A4%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E7%87%A6%E3%81%82%E3%81%9A%E3%81%8D%E5%9D%82%20%E3%80%92444-0814%20%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E7%BE%BD%E6%A0%B9%E7%94%BA%E5%B0%8F%E8%B1%86%E5%9D%82%EF%BC%98%EF%BC%97"
+                    target="_blank">（Googleマップで見る）</a>
+            </div>
         </div>
     </section>
     <div class="bg-color-lr-red container-fluid">
