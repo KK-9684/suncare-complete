@@ -181,10 +181,6 @@
         </div>
     </section>
     <div class="bg-color-l-gray container-fluid d-flex flex-column align-items-center py-100">
-        <?php if (!empty($image[9])): ?>
-        <img src="<?php echo esc_url($image[9]['url']); ?>" alt="Sancare Image" loading="lazy" width="90%"
-            style="max-width:900px">
-        <?php endif; ?>
         <br>
         <a href="<?php echo esc_url( home_url() ); ?>/expenses/">
             <div class="toggle-btn text-center mt-5">
@@ -203,8 +199,9 @@
                     <i class="fa fa-phone font20"></i>
                     <span>0564-22-7575</span>
                 </p>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bottoms/san-care-bottom.jpg"
-                    alt="assisted" width="100%" />
+                <?php if (!empty($image[9])): ?>
+                <img src="<?php echo esc_url($image[9]['url']); ?>" alt="Sancare Image" width="100%" loading="lazy">
+                <?php endif; ?>
             </div>
             <div>
                 <div class="color-d-blue font18 font-serif mb-2">■施設概要</div>

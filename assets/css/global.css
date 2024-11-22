@@ -1,6 +1,9 @@
 .font12 {
     font-size: 12px;
 }
+.font13 {
+    font-size: 13px;
+}
 .font14 {
     font-size: 14px;
 }
@@ -30,6 +33,9 @@
 }
 .font40 {
     font-size: 40px;
+}
+.line2 {
+    line-height: 2;
 }
 .bold {
     font-weight: 700 !important;

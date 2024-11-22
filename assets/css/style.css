@@ -17,11 +17,6 @@ a {
 th {
     background-color: #DCDDDE;
 }
-.top-page {
-    max-width: 1920px;
-    margin-right: auto;
-    margin-left: auto;
-}
 /* header */
 .header,
 .header-sp {
@@ -148,26 +143,24 @@ th {
 }
 
 /* top */
-.top-slide .metaslider .slides img {
-    min-height: 600px;
-    object-fit: cover;
-    object-position: right;
-}
-.top-slide {
+.top-main {
     position: relative;
+}
+.top-img {
+    width: 100%;
+    height: calc(100vh - 90px);
+    max-height: 2000px;
+    object-fit: cover;
+    object-position: 75%;
 }
 .top-description {
     font-family: "Noto Serif JP";
     position: absolute;
-    top: 240px;
+    top: 33%;
     left: 330px;
-    color: black;
-}
-.top-description-main {
-    font-size: 32px;
-}
-.top-description-sub {
-    font-size: 24px;
+    color: #4c4d4f;
+    font-size: 30px;
+    line-height: 2;
 }
 .top-section-wrapper {
     padding: 120px 0px;
@@ -311,6 +304,7 @@ th {
 }
 .carousel-mode {
     max-width: 1080px;
+    padding: 60px 0px 30px 0px;
 }
 .metaslider.ms-theme-clarity .flexslider {
     margin-bottom: 0px !important;
@@ -321,9 +315,9 @@ th {
 }
 .carousel-mode .metaslider.ms-theme-clarity .flexslider .caption-wrap .caption {
     background: #F9F8F4 !important;
-}
-.carousel-mode .metaslider.ms-theme-clarity .flexslider .caption-wrap .caption {
     padding: 10px 0px !important;
+    color: #4c4d4f !important;
+    font-family: "Noto Sans JP" !important;
 }
 .carousel-mode .metaslider.ms-theme-clarity .flexslider .flex-direction-nav li a {
     width: 40px !important;
@@ -678,7 +672,7 @@ table {
 }
 @media screen and (max-width: 1920px) {
     .top-description {
-        left: 18vw;
+        left: 15vw;
     }
 }  
 @media screen and (max-width: 1700px) {
@@ -699,12 +693,7 @@ table {
     .top-description {
         left: 10vw;
         top: 100px;
-    }
-    .top-description-main {
         font-size: 24px;
-    }
-    .top-description-sub {
-        font-size: 18px;
     }
     .top-section-wrapper {
         max-width: 90vw;
@@ -758,8 +747,9 @@ table {
     }
     .top-description {
         left: 0;
-        top: 100px;
+        top: 40px;
         padding:0 5%;
+        font-size: clamp(17px, 4.5vw, 22px);
     }
     .top-section-wrapper {
         max-width: 90vw;

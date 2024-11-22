@@ -25,7 +25,7 @@
     <header class="header">
         <div class="d-flex align-items-center justify-content-start flex-wrap">
             <a href="<?php echo esc_url( home_url() ); ?>">
-                <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/header-log.svg" alt="東洋ウェルフェア株式会社"
+                <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="東洋ウェルフェア株式会社"
                     class="log-img me-4" />
             </a>
             <div class="d-flex ms-2 mt-1">
@@ -48,7 +48,7 @@
                         </a>
                         <a href="<?php echo esc_url( home_url() ); ?>/grouphome-mutsumi/"
                             class="menu-text-item-menu-item">
-                            <div>グループホーム燦　むつみ</div>
+                            <div>グループホーム燦 むつみ</div>
                             <span>→</span>
                         </a>
                     </div>
@@ -107,7 +107,7 @@
     <header class="header-sp">
         <div class="d-flex align-items-center">
             <a href="<?php echo esc_url( home_url() ); ?>">
-                <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/header-log.svg" alt="東洋ウェルフェア株式会社"
+                <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="東洋ウェルフェア株式会社"
                     class="log-img" />
             </a>
         </div>
@@ -241,7 +241,7 @@
                 <span class="color-l-gray font16 ms-2">Instagram</span>
             </button>
         </a>
-        <div class="mb-2 pt-1"></div>
+        <div style="margin-top:6px"></div>
         <a href="<?php echo get_template_directory_uri(); ?>/pdf/information.pdf" target="_blank"
             class="<?php if($current_path == '/sun-care/recruit/' || strpos($current_path, 'form-')) {echo 'hide';} else {echo '';} ?>">
             <button class="footer-fixed-button 
