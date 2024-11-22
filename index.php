@@ -9,12 +9,12 @@
             圧倒的な感動と新たな彩をお届けします。
         </h1>
     </section>
-    <section class="assisted-living-facility top-section-wrapper" style="border:none">
+    <section class="assisted-living-facility top-section-wrapper">
         <div class="top-section-title">
             <h4>ASSISTED LIVING FACILITY</h4>
             <h5>有料老人ホーム</h5>
         </div>
-        <p class="font13 my-4 py-2">
+        <p class="font13 my-4">
             個人の時間は尊重しつつ、きめ細やかな個別ケアを心がけています。<br>
             そして、日常の健康管理から急病の時まで、安心して暮らせるプライベートルームをご提供させていただきます。
         </p>
@@ -40,7 +40,7 @@
             <h4>GROUPHOME</h4>
             <h5>グループホーム</h5>
         </div>
-        <p class="font13 my-4 py-2">
+        <p class="font13 my-4">
             共同生活を送りながら、いつまでも自分らしい暮らしが続けられるようお手伝いをいたします。
         </p>
         <div class="top-section-viewer special">
@@ -68,10 +68,10 @@
             <h4>DAY CARE SERVICE</h4>
             <h5>デイサービス</h5>
         </div>
-        <p class="font13 my-4 py-2">
+        <p class="font13 my-4">
             デイサービスに通えることを誇りに思えるよう、圧倒的な感動と新しい景色を創り続けます。
         </p>
-        <h5 class="mt-5 mb-4"><span class="color-d-orange font18"> ■認知症対応型通所介護</span></h5>
+        <h5 class="mt-4 mb-3"><span class="color-d-orange font18"> ■認知症対応型通所介護</span></h5>
         <div class="top-section-viewer">
             <?php $dayCareService = get_field('day-care-service', 'option'); ?>
             <a href="<?php echo esc_url( home_url() ); ?>/dayservice-azukizaka/">
@@ -91,7 +91,7 @@
                 <div class="font13 mt-2">愛知県岡崎市六供町2丁目3-2</div>
             </a>
         </div>
-        <h5 class="mt-5 mb-4"><span class="color-d-orange font18"> ■通所介護</span></h5>
+        <h5 class="mt-5 mb-3"><span class="color-d-orange font18"> ■通所介護</span></h5>
         <div class="top-section-viewer">
             <a href="<?php echo esc_url( home_url() ); ?>/dayservice-tenma/">
                 <?php if (!empty($dayCareService[2])): ?>
@@ -125,7 +125,7 @@
                 <h4>CARE PLAN</h4>
                 <h5>サン・ケア プランセンター</h5>
             </div>
-            <p class="font13 line2 my-4 py-2">
+            <p class="font13 my-4">
                 サン・ケアプランセンターでは、介護保険についての説明や要介護認定を受けるための申請・手続きのお手伝い、認定を受けられた方へのケアプランの作成をしております。<br>
                 小さな疑問から難しい問題でも、介護支援専門員（ケアマネジャー）にお気軽にご相談ください。地域包括支援センターや医師、市役所などと協力して解決に努めます。
             </p>

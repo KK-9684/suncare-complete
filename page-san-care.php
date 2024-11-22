@@ -11,13 +11,14 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
         <div class="grid-two-column">
             <div>
-                <h3 class="font-serif"> 賑やかに、</h3>
-                <h3 class="font-serif"> 地域へとけこむ暮らし。</h3>
-                <p class="font16 pt-4">
-                    こだわりを持ち、わがままを共感して欲しい方向けの「サン・ケアレジデンス」は、オープンな環境で入居者様とご家族の両方の気持ちに寄り添うことで、他の高齢者様向け施設とは違い、家で過ごすよりも安心して明るく過ごせる有料老人ホームです。
+                <h2 class="font25 font-serif"> 笑顔あふれる幸せな「わが家」が、ここにあります。</h2>
+                <p class="font16 pt-2">
+                    寄り添って一緒に笑顔になる。<br>
+                    「どうしたら笑顔になっていただけるだろうか」、「どうすることがこの方にとって最善だろうか」。<br>
+                    スタッフは常にこうした問いを心に抱き、ケアに取り組んでいます。できないときはそっと寄り添い、ゆっくりと待ち、できたときには自分のことのように喜びます。私たちは、皆様と喜びを分かち合いながら、日々を共に生きています。
                 </p>
             </div>
             <div>
@@ -42,10 +43,9 @@
             <div>
                 <div class="font-serif font31">01.住空間 </div>
                 <div class="font-serif font16">LIVING</div>
-                <div class="font-serif font20 mt-3">思い思いに暮らせる、</div>
-                <div class="font-serif font20 mt-1">自由度の高い快適な住まいです。 </div>
-                <p class="pt-3">
-                    この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、（100文字以内）
+                <h3 class="font-serif font20 mt-2">全室バルコニー付き、自由なライフスタイルを叶えるゆとりの住空間が魅力です。</h3>
+                <p class="font14 pt-2">
+                    広々としたバスルームやトイレをはじめ、居室の各所にバリアフリー設計を採用しています。また、床暖房や電磁調理器、緊急コールシステムなども完備し、年齢を重ねても快適で安心してお過ごしいただける生活空間をご提供しています。
                 </p>
                 <button class="toggle-btn" id="floor-toggle">
                     <span>敷地配置図・間取り例</span>
@@ -54,14 +54,13 @@
                 </button>
             </div>
         </div>
-        <div class="grid-two-column">
+        <div class="grid-two-column column-reverse">
             <div>
                 <div class="font-serif font31">02.介護サービス</div>
                 <div class="font-serif font16">NURSING CARE SERVICE</div>
-                <div class="font-serif font20 mt-3">寄り添って一緒に笑顔になる、</div>
-                <div class="font-serif font20 mt-1">きめ細やかな個別ケアを心がけています。</div>
-                <p class="pt-3">
-                    この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、（100文字以内）
+                <h3 class="font-serif font20 mt-2">寄り添って一緒に笑顔になる、きめ細やかな個別ケアを心がけています。</h3>
+                <p class="pt-2">
+                    プライベートな時間を尊重しながら、安心で安全なきめ細やかな個別ケアを心がけています。食事や入浴、排泄などのケアも、ご本人の意思を大切にし、丁寧に対応いたします。
                 </p>
             </div>
             <div>
@@ -89,21 +88,19 @@
             </div>
             <div>
                 <div class="font-serif font31">03.医療・リハビリ</div>
-                <div class="font-serif font16">MEDICAL /REHABILITATION</div>
-                <div class="font-serif font20 mt-3">生活機能の維持や向上を目指し、 </div>
-                <div class="font-serif font20 mt-1">健やかで楽しい毎日をサポートいたします。</div>
-                <p class="pt-3">
-                    この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、（100文字以内）
+                <div class="font-serif font16">MEDICAL / REHABILITATION</div>
+                <h3 class="font-serif font20 mt-2">生活機能の維持や向上を目指し、健やかで楽しい毎日をサポートいたします。</h3>
+                <p class="pt-2">
+                    毎日の健康状態を見守り、必要に応じてお薬の管理やリハビリをサポートします。看護師が常駐しており、医療機関との連携もスムーズです。定期的に医師による診療が行われるため、安心して日々をお過ごしいただけます。協力医療機関と連携し、定期健康診断や健康相談も実施し、入居者様一人ひとりに寄り添ったケアを提供しています。
                 </p>
             </div>
         </div>
-        <div class="grid-two-column">
+        <div class="grid-two-column column-reverse">
             <div>
                 <div class="font-serif font31">04.食事</div>
                 <div class="font-serif font16">MEAL</div>
-                <div class="font-serif font20 mt-3">安全・安心の食材を吟味し、 </div>
-                <div class="font-serif font20 mt-1">こだわりの食事で健康を応援します。</div>
-                <p class="pt-3">
+                <h3 class="font-serif font20 mt-2">安全・安心の食材を吟味し、こだわりの食事で健康を応援します。</h3>
+                <p class="pt-2">
                     この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、（100文字以内）
                 </p>
             </div>
@@ -122,24 +119,22 @@
             <div>
                 <div class="font-serif font31">05.終身入居の保証</div>
                 <div class="font-serif font16">LIFETIME RESIDENCY GUARANTEE</div>
-                <div class="font-serif font20 mt-3">終の棲家として、</div>
-                <div class="font-serif font20 mt-1">老後を安心してお過ごしいただけます。</div>
-                <p class="pt-3">
-                    この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、（100文字以内）
+                <h3 class="font-serif font20 mt-3">ご本人や家族の意向に沿い、最期まで尊厳を保っていただけるようサポートいたします。</h3>
+                <p class="pt-2">
+                    当館は、お元気な方から医療を必要とされている方、お身体の不自由な方、認知症の方まで幅広く対応しています。日常の健康管理から緊急時の対応まで安心して過ごせる環境を整え、ご本人・ご家族希望に応じて看取りまでお世話させて頂きます。
                 </p>
                 <p class="pt-3 font12">
-                    ※入居者の言動が、他の入居者に精神的苦痛を与えたり、生命に危害を及ぼす恐れがあり、かつ入居者に対する通常の介護方法ではこれを防止する事ができない場合は、契約を解除した依拠していただく事があります。
+                    ※入居者の言動が、他の入居者に精神的苦痛を与えたり、生命に危害を及ぼす恐れがあり、かつ入居者に対する通常の介護方法ではこれを防止する事ができない場合は、契約を解除し退所していただく事があります。
                 </p>
             </div>
         </div>
-        <div class="grid-two-column">
+        <div class="grid-two-column column-reverse">
             <div>
                 <div class="font-serif font31">06.アクティビティ</div>
                 <div class="font-serif font16">ACTIVITY</div>
-                <div class="font-serif font20 mt-3">季節の訪れを楽しむのイベントをはじめ、</div>
-                <div class="font-serif font20 mt-1">明日が待ち遠しくなる多彩な催しをご用意しています。</div>
-                <p class="pt-3">
-                    この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、（100文字以内）
+                <h3 class="font-serif font20 mt-2">毎日を笑顔でお過ごしいただくために、明日が待ち遠しくなる多彩な催しをご用意しています。</h3>
+                <p class="pt-2">
+                    入居者様が日々の暮らしを楽しんでいただけるよう、七夕やクリスマスなど季節に合わせたイベントを開催しています。また、レクリエーションや体操など、楽しみながら参加できるプログラムも充実しており、参加はご本人の意志を尊重し、自由に選んでいただけるよう配慮しています。
                 </p>
             </div>
             <div>
@@ -157,10 +152,10 @@
             <div>
                 <div class="font-serif font31">07.立地</div>
                 <div class="font-serif font16">LOCATION</div>
-                <div class="font-serif font20 mt-3">岡崎の中心エリアで暮らす、</div>
-                <div class="font-serif font20 mt-1">満ち足りた日常。</div>
-                <p class="pt-3">
-                    この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、（100文字以内）
+                <h3 class="font-serif font20 mt-2">岡崎の中心地。歴史と文化と自然に囲まれた、住み心地の良い住環境です。</h3>
+                <p class="pt-2">
+                    愛知県岡崎市の中心部に位置する「サン・ケア レジデンス」は、都市部名古屋市へのアクセスが良く、周辺には岡崎城や大岡越前守陣屋跡、図書館交流プラザなどの歴史的建造物や文化施設などが充実。<br>
+                    岡崎公園前を流れる乙川沿いは、緑豊かで春には桜が咲き誇るなど、歴史と文化と自然が融合した住み心地の良い住環境です。
                 </p>
             </div>
         </div>

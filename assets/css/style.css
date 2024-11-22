@@ -159,7 +159,7 @@ th {
     top: 33%;
     left: 330px;
     color: #4c4d4f;
-    font-size: 30px;
+    font-size: 34px;
     line-height: 2;
 }
 .top-section-wrapper {
@@ -167,7 +167,6 @@ th {
     margin-right: auto;
     margin-left: auto;
     max-width: 1080px;
-    border-top: 1px solid gray;  
 }
 .top-section-title {
     border-left: 3px solid #eb6101;
@@ -211,7 +210,11 @@ th {
 .phone-icon-2 {
     height: 24px;
 }
-
+.assisted-living-facility,
+.group-home,
+.day-care-service {
+    border-bottom: 1px solid #ebebeb;
+}
 /* company */
 .section-wrapper {
     max-width: 820px;
@@ -304,7 +307,8 @@ th {
 }
 .carousel-mode {
     max-width: 1080px;
-    padding: 60px 0px 30px 0px;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 .metaslider.ms-theme-clarity .flexslider {
     margin-bottom: 0px !important;
@@ -613,7 +617,7 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border-top: 1px solid gray;
+    border-top: 1px solid #ebebeb;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-bottom: 80px;    
@@ -778,11 +782,27 @@ table {
     .service-btns-wrapper {
         grid-template-columns: auto auto;
     }
+
     .grid-two-column,
     .grid-two-column-2,
     .grid-two-column-3,
     .grid-column-4 {
-        grid-template-columns: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-two-column {
+        margin-top: 50px;
+        gap: 30px;
+    }
+
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .sancare-section-wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .facility-info-description {
         display: block !important
@@ -800,6 +820,10 @@ table {
     }
     .special img {
         max-width: none;
+    }
+    .carousel-mode {
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
     .carousel-mode .metaslider.ms-theme-clarity .flexslider .flex-direction-nav li a {
         width: 20px !important;
