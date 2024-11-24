@@ -72,7 +72,7 @@
             デイサービスに通えることを誇りに思えるよう、圧倒的な感動と新しい景色を創り続けます。
         </p>
         <h5 class="mt-4 mb-3"><span class="color-d-orange font18"> ■認知症対応型通所介護</span></h5>
-        <div class="top-section-viewer">
+        <div class="top-section-viewer special">
             <?php $dayCareService = get_field('day-care-service', 'option'); ?>
             <a href="<?php echo esc_url( home_url() ); ?>/dayservice-azukizaka/">
                 <?php if (!empty($dayCareService[0])): ?>

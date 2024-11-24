@@ -1,5 +1,5 @@
 <?php get_header();?>
-<?php $image = get_field('sancare-images', 'option'); ?>
+<?php $image = get_field('day-hakken-images', 'option'); ?>
 <main class="top-page">
     <div class="section-big-title-bar bg-color-l-red">
         <h6 class="mb-3">認知症対応型通所介護</h6>
@@ -10,13 +10,13 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
         <div class="grid-two-column">
             <div>
-                <h3 class="font-serif">あたたかな雰囲気、スタッフの笑顔。</h3>
-                <h3 class="font-serif">共に笑い、共に生きるがモットーです。</h3>
-                <p class="font16 pt-4">
-                    デイサービスセンター燦はっけんでは、大きな窓から光があふれるゆったりとしたフロアで、一日を過ごしていただけます。司会上手なスタッフをはじめ、ガーデニングが得意なスタッフなど、明るい笑顔のスタッフが様々な個性を活かして利用者様へのサービスに繋げています。
+                <h2 class="font25 font-serif">「共に笑い、共に生きる」をモットーに、共に成長をすることを目指しています。</h2>
+                <p class="font16 pt-2">
+                    デイサービスセンター燦
+                    はっけんでは、「共に笑い、共に生きる」をモットーに、利用者様、家族様、スタッフが一体となり、成長を共にすることを目指しています。特に食事とレクリエーションに力を入れ、彩り豊かな美しいお食事や種類豊富なメニューを提供。おやつ作りでは利用者様にお手伝いいただき、楽しめる環境を整えています。職員の特技を活かした多彩なレクリエーションも好評で、心身ともに充実した時間をお過ごしいただけます。
                 </p>
             </div>
             <div>
@@ -34,30 +34,31 @@
     <section class="sancare-section-wrapper" style="max-width:1080px">
         <div class="dayservice-section-title mb-5">
             <h4>THE FEATURE</h4>
-            <h5>デイサービスセンター燦の強み</h5>
+            <h5>デイサービスセンター燦 はっけんの強み</h5>
         </div>
         <div class="grid-column-4">
             <div>
                 <?php if (!empty($image[2])): ?>
                 <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font20 font-serif">「笑顔」があふれる心のこもったケア</p>
-                <p>利用者様の意志、感情を最優先にし、決して強要はしません。笑顔あふれるスタッフたちによる個別ケアのため、他では続けられなかった方も、楽しんで通ってくださるよう心のこもったサポートを行っています。</p>
+                <p class="pt-4 font18 font-serif">ここに来たからこそ味わえる感動</p>
+                <p>無限の可能性で、ワンランク上の体験を創り上げています。個性豊かで多彩なスタッフが集まり、音楽、おやつ作り、創作活動、フラワーアレンジメント、己書教室、美容セラピー等様々なイベントを企画。日常生活に新しい感動が生まれ、個性を引き出すお手伝いをさせていただきます。
+                </p>
             </div>
             <div>
                 <?php if (!empty($image[3])): ?>
                 <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font20 font-serif">心と体にやさしい手作りのお昼ごはん</p>
-                <p>美味しいと評判のお昼ごはんでは、認知症予防に効果のあるといわれているえごま油も摂取していただいています。新鮮な食材で品数も多い自慢の昼食は、飲食店にも負けない絶品の手作りごはんで、利用者様の笑顔を引き出します。
+                <p class="pt-4 font18 font-serif">心と体にやさしい手作りのお昼ごはん</p>
+                <p>美味しいと評判のお昼ごはんは、スタッフの真心込めた手作りです。新鮮な食材で、品数も多い自慢の昼食。イベント食にも力を入れ、食の楽しみ満載。見た目の美しさにもこだわり、飲食店にも負けていない絶品のメニューで、豊かな心と、健やかな身体づくりをお手伝いします。
                 </p>
             </div>
             <div>
                 <?php if (!empty($image[4])): ?>
                 <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font20 font-serif">お風呂はお一人ずつゆったりと</p>
-                <p>着替えから入浴まで完全にお一人ずつの「個浴」のため、リラックスしてお風呂を楽しんでいただけます。個室で１対１なので、ゆっくりとお話もできてお世話する私たちも人生の先輩のいろいろなお話が聞ける楽しみな時間です。
+                <p class="pt-4 font18 font-serif">笑顔が弾む、ガーデンスペース</p>
+                <p>デイルームから繋がるガーデンスペースには、温かみのある木のファニチャーがお出迎え。車椅子や歩行器でもお散歩が楽しめるアプローチでは、四季を感じながら、活動的に過ごせます。畑づくりは、利用者様から知識を教わりながら、共に季節の作物を育て、収穫し、食事やおやつでご提供しています。
                 </p>
             </div>
         </div>
@@ -68,7 +69,7 @@
                 <h4>TIME SCHEDULE</h4>
                 <h5>1日の過ごし方</h5>
             </div>
-            <div class="grid-two-column-3">
+            <div class="grid-two-column-5">
                 <div class="mb-5">
                     <?php 
                         $rows = get_field('hakken-time-schedule', 'option');
@@ -92,25 +93,21 @@
                     <?php endif; ?>
                 </div>
             </div>
-            <div class="dayservice-section-area">
-                <p class="font20 color-l-red">送迎エリア</p>
-                <p class="font16">愛知県安城市東端町八剱より半径約5km圏内</p>
-            </div>
         </section>
     </div>
     <section class="sancare-section-wrapper">
         <div class="font31 font-serif text-center">ACCESS</div>
-        <div class="font20 font-serif text-center pb-5">アクセス</div>
+        <div class="font20 font-serif text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.28548500013!2d137.17371617551998!3d34.9243764711789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bc52dd2a8f83%3A0x5a7ebcaf43163aa5!2z44CSNDQ0LTA4MTQg5oSb55-l55yM5bKh5bSO5biC57695qC555S65bCP6LGG5Z2C77yY77yXIOODh-OCpOOCteODvOODk-OCueOCu-ODs-OCv-ODvOeHpuOBguOBmuOBjeWdgg!5e0!3m2!1sja!2sjp!4v1723215582885!5m2!1sja!2sjp"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="mt-3">
-                所在地：〒444-1213　愛知県安城市東端町八剱74番地2　
-                <a href="https://maps.google.com/maps?ll=34.924372,137.176291&z=17&t=m&hl=ja&gl=JP&mapclient=embed&q=%E3%83%87%E3%82%A4%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E7%87%A6%E3%81%82%E3%81%9A%E3%81%8D%E5%9D%82%20%E3%80%92444-0814%20%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E7%BE%BD%E6%A0%B9%E7%94%BA%E5%B0%8F%E8%B1%86%E5%9D%82%EF%BC%98%EF%BC%97"
-                    target="_blank">（Googleマップで見る）</a>
-            </div>
+        </div>
+        <div class="mt-3">
+            所在地：〒444-1213　愛知県安城市東端町八剱74番地2　
+            <a href="https://maps.google.com/maps?ll=34.924372,137.176291&z=17&t=m&hl=ja&gl=JP&mapclient=embed&q=%E3%83%87%E3%82%A4%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E7%87%A6%E3%81%82%E3%81%9A%E3%81%8D%E5%9D%82%20%E3%80%92444-0814%20%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E7%BE%BD%E6%A0%B9%E7%94%BA%E5%B0%8F%E8%B1%86%E5%9D%82%EF%BC%98%EF%BC%97"
+                target="_blank" class="nowrap">（Googleマップで見る）</a>
         </div>
     </section>
     <div class="bg-color-lr-red container-fluid">
@@ -118,9 +115,9 @@
             <div class="grid-two-column-3 mt-0">
                 <div>
                     <p class="color-l-red font18 font-serif">■施設情報</p>
-                    <div class="font16 mb-2">デイサービスセンター燦 はっけん</div>
+                    <div class="font16">デイサービスセンター燦 はっけん</div>
                     <p class="font25 font-umi">
-                        <i class="fa fa-phone font20"></i>
+                        <i class="fa fa-phone font18"></i>
                         <span>0566-45-7070</span>
                     </p>
                     <div class="d-flex facility-info-description">
@@ -136,9 +133,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-image-center"
-                    style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/bottoms/hakken-bottom.jpg)">
-                </div>
+                <?php if (!empty($image[7])): ?>
+                <img src="<?php echo esc_url($image[7]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <?php endif; ?>
             </div>
         </section>
     </div>

@@ -1,5 +1,5 @@
 <?php get_header();?>
-<?php $image = get_field('sancare-images', 'option'); ?>
+<?php $image = get_field('day-umezono-images', 'option'); ?>
 <main class="top-page">
     <div class="section-big-title-bar bg-color-l-red">
         <h6 class="mb-3">認知症対応型通所介護</h6>
@@ -10,14 +10,13 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
         <div class="grid-two-column">
             <div>
-                <h3 class="font-serif"> 利用者様とご家族様の </h3>
-                <h3 class="font-serif" style="margin-left:-15px">「穏やかな生活」を支援します。</h3>
-                <p class="font16 pt-4">
-                    デイサービスセンター燦うめぞのでは自宅で過ごすようなゆっくりと穏やかな時間が流れ、利用者様とスタッフが一緒に一日を過ごします。
-                    また、ケアをさせていただく場合は、適切なタイミングで決して無理強いをすることなく利用者様に合わせて行ってまいります。
+                <h2 class="font25 font-serif">利用者様とご家族様の「穏やかな生活」を支援します。 </h2>
+                <p class="font16 pt-2">
+                    デイサービスセンター燦
+                    うめぞのでは、静かに過ごしたい方、音楽を楽しみたい方、お話をしたい方など、皆様がそれぞれの過ごし方を自由に選び、リラックスして過ごしていただける環境を整えています。スタッフは利用者様一人ひとりのペースに寄り添い、デイサービス内だけでなく、ご自宅でも安心して穏やかに過ごせることを目指しています。
                 </p>
             </div>
             <div>
@@ -35,21 +34,22 @@
     <section class="sancare-section-wrapper" style="max-width:1080px">
         <div class="dayservice-section-title mb-5">
             <h4>THE FEATURE</h4>
-            <h5>デイサービスセンター燦の強み</h5>
+            <h5>デイサービスセンター燦 うめぞのの強み</h5>
         </div>
         <div class="grid-column-4">
             <div>
                 <?php if (!empty($image[2])): ?>
                 <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font20 font-serif">「笑顔」があふれる心のこもったケア</p>
-                <p>利用者様の意志、感情を最優先にし、決して強要はしません。笑顔あふれるスタッフたちによる個別ケアのため、他では続けられなかった方も、楽しんで通ってくださるよう心のこもったサポートを行っています。</p>
+                <p class="pt-4 font18 font-serif">穏やかに過ごせる個別ケアの徹底</p>
+                <p>利用者様の意志や感情を最優先に考え、できる限りペースを乱さないよう心掛け、その方にとって最適なケアを提供しています。日々の生活の中では、食事後の片付けやタオルの洗濯など、利用者様が自主的にお手伝いくださる場面もあり、無理なく自然な形でケアを進めています。
+                </p>
             </div>
             <div>
                 <?php if (!empty($image[3])): ?>
                 <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font20 font-serif">心と体にやさしい手作りのお昼ごはん</p>
+                <p class="pt-4 font18 font-serif">心と体にやさしい手作りのお昼ごはん</p>
                 <p>美味しいと評判のお昼ごはんでは、認知症予防に効果のあるといわれているえごま油も摂取していただいています。新鮮な食材で品数も多い自慢の昼食は、飲食店にも負けない絶品の手作りごはんで、利用者様の笑顔を引き出します。
                 </p>
             </div>
@@ -57,8 +57,8 @@
                 <?php if (!empty($image[4])): ?>
                 <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font20 font-serif">お風呂はお一人ずつゆったりと</p>
-                <p>着替えから入浴まで完全にお一人ずつの「個浴」のため、リラックスしてお風呂を楽しんでいただけます。個室で１対１なので、ゆっくりとお話もできてお世話する私たちも人生の先輩のいろいろなお話が聞ける楽しみな時間です。
+                <p class="pt-4 font18 font-serif">自然にふれ、共に楽しむレクリエーション</p>
+                <p>季節ごとに外出を楽しみ、桜や紅葉など自然の美しさを感じられるイベントを開催しています。八幡の蓮の花や川津桜、滝山寺、一畑山薬師寺への外出も好評で、利用者様は毎回楽しみにされています。少人数で行われる書道やパズルなど豊富なアクティビティもご用意しており、参加は自由です。
                 </p>
             </div>
         </div>
@@ -69,7 +69,7 @@
                 <h4>TIME SCHEDULE</h4>
                 <h5>1日の過ごし方</h5>
             </div>
-            <div class="grid-two-column-3">
+            <div class="grid-two-column-5">
                 <div class="mb-5">
                     <?php 
                         $rows = get_field('umezono-time-schedule', 'option');
@@ -93,25 +93,21 @@
                     <?php endif; ?>
                 </div>
             </div>
-            <div class="dayservice-section-area">
-                <p class="font20 color-l-red">送迎エリア</p>
-                <p class="font16">岡崎市内の　梅園・根石・男川・羽根・岡崎・六名・三島・竜美丘・連尺・広幡・井田愛宕・岩津・大樹寺・大門・矢作東・矢作北・城南の各小学校区ただし旧額田地区を除く。</p>
-            </div>
         </section>
     </div>
     <section class="sancare-section-wrapper">
         <div class="font31 font-serif text-center">ACCESS</div>
-        <div class="font20 font-serif text-center pb-5">アクセス</div>
+        <div class="font20 font-serif text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.28548500013!2d137.17371617551998!3d34.9243764711789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bc52dd2a8f83%3A0x5a7ebcaf43163aa5!2z44CSNDQ0LTA4MTQg5oSb55-l55yM5bKh5bSO5biC57695qC555S65bCP6LGG5Z2C77yY77yXIOODh-OCpOOCteODvOODk-OCueOCu-ODs-OCv-ODvOeHpuOBguOBmuOBjeWdgg!5e0!3m2!1sja!2sjp!4v1723215582885!5m2!1sja!2sjp"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="mt-3">
-                所在地：〒444-0814　愛知県岡崎市羽根町小豆坂87番地　
-                <a href="https://maps.google.com/maps?ll=34.924372,137.176291&z=17&t=m&hl=ja&gl=JP&mapclient=embed&q=%E3%83%87%E3%82%A4%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E7%87%A6%E3%81%82%E3%81%9A%E3%81%8D%E5%9D%82%20%E3%80%92444-0814%20%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E7%BE%BD%E6%A0%B9%E7%94%BA%E5%B0%8F%E8%B1%86%E5%9D%82%EF%BC%98%EF%BC%97"
-                    target="_blank">（Googleマップで見る）</a>
-            </div>
+        </div>
+        <div class="mt-3">
+            所在地：〒444-0814　愛知県岡崎市羽根町小豆坂87番地　
+            <a href="https://maps.google.com/maps?ll=34.924372,137.176291&z=17&t=m&hl=ja&gl=JP&mapclient=embed&q=%E3%83%87%E3%82%A4%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E7%87%A6%E3%81%82%E3%81%9A%E3%81%8D%E5%9D%82%20%E3%80%92444-0814%20%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E7%BE%BD%E6%A0%B9%E7%94%BA%E5%B0%8F%E8%B1%86%E5%9D%82%EF%BC%98%EF%BC%97"
+                target="_blank" class="nowrap">（Googleマップで見る）</a>
         </div>
     </section>
     <div class="bg-color-lr-red container-fluid">
@@ -119,9 +115,9 @@
             <div class="grid-two-column-3 mt-0">
                 <div>
                     <p class="color-l-red font18 font-serif">■施設情報</p>
-                    <div class="font16 mb-2">デイサービスセンター燦 うめぞの</div>
+                    <div class="font16">デイサービスセンター燦 うめぞの</div>
                     <p class="font25 font-umi">
-                        <i class="fa fa-phone font20"></i>
+                        <i class="fa fa-phone font18"></i>
                         <span>0564-64-3064</span>
                     </p>
                     <div class="d-flex facility-info-description">
@@ -137,9 +133,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-image-center"
-                    style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/img/bottoms/umezono-bottom.jpg)">
-                </div>
+                <?php if (!empty($image[7])): ?>
+                <img src="<?php echo esc_url($image[7]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <?php endif; ?>
             </div>
         </section>
     </div>

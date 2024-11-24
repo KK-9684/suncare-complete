@@ -160,6 +160,9 @@ h3 {
 .wrap {
     white-space: pre-line;
 }
+.nowrap {
+    white-space: nowrap;
+}
 .full-width {
     width: 100%;
 }
