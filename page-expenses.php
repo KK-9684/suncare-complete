@@ -6,8 +6,8 @@
     </div>
     <section class="sancare-section-wrapper">
         <div class="color-d-red">
-            <div class="font28 font-serif text-center">入居一時金</div>
-            <div class="font40 font-serif bold text-center pb-3">0円プラン料金表</div>
+            <div class="font28 font-Pr6N text-center">入居一時金</div>
+            <div class="font40 font-Pr6N bold text-center pb-3">0円プラン料金表</div>
             <div class="expenses-title-underline"></div>
             <div class="d-flex justify-content-center">
                 <div class="expenses-title-angle"></div>
@@ -103,8 +103,8 @@
     </section>
     <section class="sancare-section-wrapper">
         <div class="color-d-red">
-            <div class="font28 font-serif text-center">入居一時金</div>
-            <div class="font40 font-serif bold text-center pb-3">1,000万円プラン料金表</div>
+            <div class="font28 font-Pr6N text-center">入居一時金</div>
+            <div class="font40 font-Pr6N bold text-center pb-3">1,000万円プラン料金表</div>
             <div class="expenses-title-underline"></div>
             <div class="d-flex justify-content-center">
                 <div class="expenses-title-angle"></div>

@@ -13,7 +13,7 @@
     <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
         <div class="grid-two-column">
             <div>
-                <h2 class="font25 font-serif">利用者様とご家族様の「穏やかな生活」を支援します。 </h2>
+                <h2 class="font25 font-Pr6N">利用者様とご家族様の「穏やかな生活」を支援します。 </h2>
                 <p class="font16 pt-2">
                     デイサービスセンター燦
                     うめぞのでは、静かに過ごしたい方、音楽を楽しみたい方、お話をしたい方など、皆様がそれぞれの過ごし方を自由に選び、リラックスして過ごしていただける環境を整えています。スタッフは利用者様一人ひとりのペースに寄り添い、デイサービス内だけでなく、ご自宅でも安心して穏やかに過ごせることを目指しています。
@@ -41,24 +41,24 @@
                 <?php if (!empty($image[2])): ?>
                 <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font18 font-serif">穏やかに過ごせる個別ケアの徹底</p>
-                <p>利用者様の意志や感情を最優先に考え、できる限りペースを乱さないよう心掛け、その方にとって最適なケアを提供しています。日々の生活の中では、食事後の片付けやタオルの洗濯など、利用者様が自主的にお手伝いくださる場面もあり、無理なく自然な形でケアを進めています。
+                <p class="pt-4 font18 font-Pr6N">穏やかに過ごせる個別ケアの徹底</p>
+                <p class="font14">利用者様の意志や感情を最優先に考え、できる限りペースを乱さないよう心掛け、その方にとって最適なケアを提供しています。日々の生活の中では、食事後の片付けやタオルの洗濯など、利用者様が自主的にお手伝いくださる場面もあり、無理なく自然な形でケアを進めています。
                 </p>
             </div>
             <div>
                 <?php if (!empty($image[3])): ?>
                 <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font18 font-serif">心と体にやさしい手作りのお昼ごはん</p>
-                <p>美味しいと評判のお昼ごはんでは、認知症予防に効果のあるといわれているえごま油も摂取していただいています。新鮮な食材で品数も多い自慢の昼食は、飲食店にも負けない絶品の手作りごはんで、利用者様の笑顔を引き出します。
+                <p class="pt-4 font18 font-Pr6N">心と体にやさしい手作りのお昼ごはん</p>
+                <p class="font14">美味しいと評判のお昼ごはんでは、認知症予防に効果のあるといわれているえごま油も摂取していただいています。新鮮な食材で品数も多い自慢の昼食は、飲食店にも負けない絶品の手作りごはんで、利用者様の笑顔を引き出します。
                 </p>
             </div>
             <div>
                 <?php if (!empty($image[4])): ?>
                 <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font18 font-serif">自然にふれ、共に楽しむレクリエーション</p>
-                <p>季節ごとに外出を楽しみ、桜や紅葉など自然の美しさを感じられるイベントを開催しています。八幡の蓮の花や川津桜、滝山寺、一畑山薬師寺への外出も好評で、利用者様は毎回楽しみにされています。少人数で行われる書道やパズルなど豊富なアクティビティもご用意しており、参加は自由です。
+                <p class="pt-4 font18 font-Pr6N">自然にふれ、共に楽しむレクリエーション</p>
+                <p class="font14">季節ごとに外出を楽しみ、桜や紅葉など自然の美しさを感じられるイベントを開催しています。八幡の蓮の花や川津桜、滝山寺、一畑山薬師寺への外出も好評で、利用者様は毎回楽しみにされています。少人数で行われる書道やパズルなど豊富なアクティビティもご用意しており、参加は自由です。
                 </p>
             </div>
         </div>
@@ -96,8 +96,8 @@
         </section>
     </div>
     <section class="sancare-section-wrapper">
-        <div class="font31 font-serif text-center">ACCESS</div>
-        <div class="font20 font-serif text-center pb-3">アクセス</div>
+        <div class="font28 font-Pr6N text-center">ACCESS</div>
+        <div class="font20 font-Pr6N text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.28548500013!2d137.17371617551998!3d34.9243764711789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bc52dd2a8f83%3A0x5a7ebcaf43163aa5!2z44CSNDQ0LTA4MTQg5oSb55-l55yM5bKh5bSO5biC57695qC555S65bCP6LGG5Z2C77yY77yXIOODh-OCpOOCteODvOODk-OCueOCu-ODs-OCv-ODvOeHpuOBguOBmuOBjeWdgg!5e0!3m2!1sja!2sjp!4v1723215582885!5m2!1sja!2sjp"
@@ -114,9 +114,9 @@
         <section class="sancare-section-wrapper">
             <div class="grid-two-column-3 mt-0">
                 <div>
-                    <p class="color-l-red font18 font-serif">■施設情報</p>
+                    <p class="color-l-red font18 font-Pr6N">■施設情報</p>
                     <div class="font16">デイサービスセンター燦 うめぞの</div>
-                    <p class="font25 font-umi">
+                    <p class="font25 font-Pr6N-M">
                         <i class="fa fa-phone font18"></i>
                         <span>0564-64-3064</span>
                     </p>

@@ -13,7 +13,7 @@
     <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
         <div class="grid-two-column">
             <div>
-                <h2 class="font25 font-serif">元気になれる、きれいになれるをスローガンに、未来に希望がもてる介護を目指しています。</h2>
+                <h2 class="font25 font-Pr6N">元気になれる、きれいになれるをスローガンに、未来に希望がもてる介護を目指しています。</h2>
                 <p class="font16 pt-2">
                     デイサービスセンター燦
                     てんまでは、心と身体の両面から元気を引き出す取り組みを行っています。特に「ビューティタッチセラピー」によるフェイシャルマッサージやハンドマッサージ、ネイルケアなどの美容ケアは、リラクゼーション効果と血行促進を促し、心身のリフレッシュをサポートします。また、機能訓練系のデイサービスが難しい方にも、遊び感覚でリハビリを行うプログラムを提供するなど、余暇活動を通じて、健康と笑顔に満ちた日々をお届けします。
@@ -41,24 +41,27 @@
                 <?php if (!empty($image[2])): ?>
                 <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font18 font-serif">充実した余暇活動</p>
-                <p>利用者様が楽しく運動機能の向上や低下防止に取り組めるよう、モルックやボッチャといったニュースポーツを積極的に導入しています。さらに、ボランティアの方々による合唱や習字、太鼓、スタッフとのおやつ作りやゲームなど、工夫を凝らしたレクリエーションをご用意しております。
+                <p class="pt-4 font18 font-Pr6N">充実した余暇活動</p>
+                <p class="font14">
+                    利用者様が楽しく運動機能の向上や低下防止に取り組めるよう、モルックやボッチャといったニュースポーツを積極的に導入しています。さらに、ボランティアの方々による合唱や習字、太鼓、スタッフとのおやつ作りやゲームなど、工夫を凝らしたレクリエーションをご用意しております。
                 </p>
             </div>
             <div>
                 <?php if (!empty($image[3])): ?>
                 <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font18 font-serif">心も体も美しくなる、手作りのお昼ごはん</p>
-                <p>栄養バランスにこだわった手作りのお昼ごはんは、美味しさだけでなく、楽しく食べて美しくなる要素が詰まっています。認知症予防に効果が期待されるえごま油を取り入れたメニューや、新鮮な食材を使用した多彩なメニューが、心も体も健やかに保ち、利用者様の笑顔を引き出します。
+                <p class="pt-4 font18 font-Pr6N">心も体も美しくなる、手作りのお昼ごはん</p>
+                <p class="font14">
+                    栄養バランスにこだわった手作りのお昼ごはんは、美味しさだけでなく、楽しく食べて美しくなる要素が詰まっています。認知症予防に効果が期待されるえごま油を取り入れたメニューや、新鮮な食材を使用した多彩なメニューが、心も体も健やかに保ち、利用者様の笑顔を引き出します。
                 </p>
             </div>
             <div>
                 <?php if (!empty($image[4])): ?>
                 <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font18 font-serif">お風呂はお一人ずつゆったりと</p>
-                <p>当館自慢の「檜風呂」は、着替えから入浴まで完全にお一人ずつの「個浴」のため、温泉気分を味わいながらリラックスしてご利用いただけます。また、1対1でスタッフとの会話も弾み、人生の先輩からのお話を聞かせていただく貴重な時間として、スタッフにとっても特別なひとときとなっています。
+                <p class="pt-4 font18 font-Pr6N">お風呂はお一人ずつゆったりと</p>
+                <p class="font14">
+                    当館自慢の「檜風呂」は、着替えから入浴まで完全にお一人ずつの「個浴」のため、温泉気分を味わいながらリラックスしてご利用いただけます。また、1対1でスタッフとの会話も弾み、人生の先輩からのお話を聞かせていただく貴重な時間として、スタッフにとっても特別なひとときとなっています。
                 </p>
             </div>
         </div>
@@ -96,8 +99,8 @@
         </section>
     </div>
     <section class="sancare-section-wrapper">
-        <div class="font31 font-serif text-center">ACCESS</div>
-        <div class="font20 font-serif text-center pb-3">アクセス</div>
+        <div class="font28 font-Pr6N text-center">ACCESS</div>
+        <div class="font20 font-Pr6N text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.28548500013!2d137.17371617551998!3d34.9243764711789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bc52dd2a8f83%3A0x5a7ebcaf43163aa5!2z44CSNDQ0LTA4MTQg5oSb55-l55yM5bKh5bSO5biC57695qC555S65bCP6LGG5Z2C77yY77yXIOODh-OCpOOCteODvOODk-OCueOCu-ODs-OCv-ODvOeHpuOBguOBmuOBjeWdgg!5e0!3m2!1sja!2sjp!4v1723219192112!5m2!1sja!2sjp"
@@ -114,9 +117,9 @@
         <section class="sancare-section-wrapper">
             <div class="grid-two-column-3 mt-0">
                 <div>
-                    <p class="color-l-red font18 font-serif">■施設情報</p>
+                    <p class="color-l-red font18 font-Pr6N">■施設情報</p>
                     <div class="font16">デイサービスセンター燦 てんま</div>
-                    <p class="font25 font-umi">
+                    <p class="font25 font-Pr6N-M">
                         <i class="fa fa-phone font18"></i>
                         <span>0564-22-0177</span>
                     </p>
@@ -133,8 +136,8 @@
                         </div>
                     </div>
                 </div>
-                <?php if (!empty($image[6])): ?>
-                <img src="<?php echo esc_url($image[6]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <?php if (!empty($image[7])): ?>
+                <img src="<?php echo esc_url($image[7]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
             </div>
         </section>

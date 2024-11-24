@@ -27,7 +27,7 @@
             </table>
         </div>
     </section>
-    <section class="section-wrapper pb-100">
+    <section class="section-wrapper pb-80">
         <div>
             <div class="top-section-title">
                 <h4>HISTORY</h4>

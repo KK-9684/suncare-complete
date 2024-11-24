@@ -13,7 +13,7 @@
     <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
         <div class="grid-two-column">
             <div>
-                <h2 class="font25 font-serif">気持ちに寄り添い、共感する。<br>一人ひとりの笑顔を守る場所です。</h2>
+                <h2 class="font25 font-Pr6N">気持ちに寄り添い、共感する。<br>一人ひとりの笑顔を守る場所です。</h2>
                 <p class="font16 pt-2">
                     デイサービスセンター燦
                     あずき坂では、12名の利用者様一人ひとりの健康状態や過ごしやすさに配慮し、認知症に特化した個別ケアを提供しています。コミュニケーションが難しい場面でも、スタッフが寄り添い、穏やかで安心できる日々をサポートします。施設内だけでなく、ご自宅でも穏やかに過ごせるよう心掛け、無理なく楽しい毎日をお手伝いしています。
@@ -41,24 +41,24 @@
                 <?php if (!empty($image[2])): ?>
                 <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font18 font-serif">心のこもった介護</p>
-                <p>利用者様とスタッフが楽しく日々を過ごせるような介護を目指しています。スタッフの入れ替わりが少なく、認知症の方でも顔を覚えやすい環境です。無理なくその方に合った支援を提供し、役割や楽しみを見つけながら、充実した時間を過ごしていただけるようサポートしています。
+                <p class="pt-4 font18 font-Pr6N">心のこもった介護</p>
+                <p class="font14">利用者様とスタッフが楽しく日々を過ごせるような介護を目指しています。スタッフの入れ替わりが少なく、認知症の方でも顔を覚えやすい環境です。無理なくその方に合った支援を提供し、役割や楽しみを見つけながら、充実した時間を過ごしていただけるようサポートしています。
                 </p>
             </div>
             <div>
                 <?php if (!empty($image[3])): ?>
                 <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font18 font-serif">飲食店にも負けない絶品の手作り昼食</p>
-                <p>美味しい食事は自然と笑顔を引き出します。あずき坂の自慢のお昼ごはんは、飲食店にも劣らない手作りの絶品料理。利用者様の近くで調理を行うことで、料理の温かさや香りが広がり、食欲をそそります。心を込めた手作りの食事が、利用者様に元気と笑顔をもたらします。
+                <p class="pt-4 font18 font-Pr6N">飲食店にも負けない絶品の手作り昼食</p>
+                <p class="font14">美味しい食事は自然と笑顔を引き出します。あずき坂の自慢のお昼ごはんは、飲食店にも劣らない手作りの絶品料理。利用者様の近くで調理を行うことで、料理の温かさや香りが広がり、食欲をそそります。心を込めた手作りの食事が、利用者様に元気と笑顔をもたらします。
                 </p>
             </div>
             <div>
                 <?php if (!empty($image[4])): ?>
                 <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
-                <p class="pt-4 font18 font-serif">ゆったり、のんびり、イライラせずに</p>
-                <p>利用者様一人ひとりの個性を大切にし、穏やかでリラックスできる時間を過ごしていただくことを心がけています。声掛けの際はその方に合わせた工夫を凝らし、表情や態度からも気持ちを汲み取るよう努めています。入居者様が施設での時間を楽しみにしてくださることが、スタッフにとっても大きな喜びです。
+                <p class="pt-4 font18 font-Pr6N">ゆったり、のんびり、イライラせずに</p>
+                <p class="font14">利用者様一人ひとりの個性を大切にし、穏やかでリラックスできる時間を過ごしていただくことを心がけています。声掛けの際はその方に合わせた工夫を凝らし、表情や態度からも気持ちを汲み取るよう努めています。入居者様が施設での時間を楽しみにしてくださることが、スタッフにとっても大きな喜びです。
                 </p>
             </div>
         </div>
@@ -96,8 +96,8 @@
         </section>
     </div>
     <section class="sancare-section-wrapper">
-        <div class="font31 font-serif text-center">ACCESS</div>
-        <div class="font20 font-serif text-center pb-3">アクセス</div>
+        <div class="font28 font-Pr6N text-center">ACCESS</div>
+        <div class="font20 font-Pr6N text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.28548500013!2d137.17371617551998!3d34.9243764711789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bc52dd2a8f83%3A0x5a7ebcaf43163aa5!2z44CSNDQ0LTA4MTQg5oSb55-l55yM5bKh5bSO5biC57695qC555S65bCP6LGG5Z2C77yY77yXIOODh-OCpOOCteODvOODk-OCueOCu-ODs-OCv-ODvOeHpuOBguOBmuOBjeWdgg!5e0!3m2!1sja!2sjp!4v1723215582885!5m2!1sja!2sjp"
@@ -114,9 +114,9 @@
         <section class="sancare-section-wrapper">
             <div class="grid-two-column-3 mt-0">
                 <div>
-                    <p class="color-l-red font18 font-serif">■施設情報</p>
+                    <p class="color-l-red font18 font-Pr6N">■施設情報</p>
                     <div class="font16">デイサービスセンター燦 あずき坂</div>
-                    <p class="font25 font-umi">
+                    <p class="font25 font-Pr6N-M">
                         <i class="fa fa-phone font18"></i>
                         <span>0564-58-1250</span>
                     </p>

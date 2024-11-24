@@ -14,7 +14,7 @@
     <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
         <div class="grid-two-column">
             <div>
-                <h2 class="font25 font-serif"> 笑顔あふれる幸せな「わが家」が、ここにあります。</h2>
+                <h2 class="font25 font-Pr6N"> 笑顔あふれる幸せな「わが家」が、ここにあります。</h2>
                 <p class="font16 pt-2">
                     寄り添って一緒に笑顔になる。<br>
                     「どうしたら笑顔になっていただけるだろうか」、「どうすることがこの方にとって最善だろうか」。<br>
@@ -41,13 +41,13 @@
                 <?php endif; ?>
             </div>
             <div>
-                <div class="font-serif font31">01.住空間 </div>
-                <div class="font-serif font16">LIVING</div>
-                <h3 class="font-serif font20 mt-2">全室バルコニー付き、自由なライフスタイルを叶えるゆとりの住空間が魅力です。</h3>
+                <div class="font-Pr6N font31">01.住空間 </div>
+                <div class="font-Pr6N font16">LIVING</div>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">全室バルコニー付き、自由なライフスタイルを叶えるゆとりの住空間が魅力です。</h3>
                 <p class="font14 pt-2">
                     広々としたバスルームやトイレをはじめ、居室の各所にバリアフリー設計を採用しています。また、床暖房や電磁調理器、緊急コールシステムなども完備し、年齢を重ねても快適で安心してお過ごしいただける生活空間をご提供しています。
                 </p>
-                <button class="toggle-btn" id="floor-toggle">
+                <button class="toggle-btn mt-3" id="floor-toggle">
                     <span>敷地配置図・間取り例</span>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-up-right.svg"
                         alt="arrow-up-right-icon" class="arrow-up-right-icon" />
@@ -56,10 +56,10 @@
         </div>
         <div class="grid-two-column column-reverse">
             <div>
-                <div class="font-serif font31">02.介護サービス</div>
-                <div class="font-serif font16">NURSING CARE SERVICE</div>
-                <h3 class="font-serif font20 mt-2">寄り添って一緒に笑顔になる、きめ細やかな個別ケアを心がけています。</h3>
-                <p class="pt-2">
+                <div class="font-Pr6N font31">02.介護サービス</div>
+                <div class="font-Pr6N font16">NURSING CARE SERVICE</div>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">寄り添って一緒に笑顔になる、きめ細やかな個別ケアを心がけています。</h3>
+                <p class="font14 pt-2">
                     プライベートな時間を尊重しながら、安心で安全なきめ細やかな個別ケアを心がけています。食事や入浴、排泄などのケアも、ご本人の意思を大切にし、丁寧に対応いたします。
                 </p>
             </div>
@@ -69,8 +69,8 @@
                 <?php endif; ?>
             </div>
         </div>
-        <div class="pt-5 service-btns">
-            <p class="font20 font-serif">安心しておくつろぎいただけるよう、様々な生活支援サービスも充実しています。</p>
+        <div class="pt-3 service-btns">
+            <p class="font20 font-Pr6N">安心しておくつろぎいただけるよう、様々な生活支援サービスも充実しています。</p>
             <div class="service-btns-wrapper">
                 <div class="service-btn bg-color-d-blue">フロントサービス</div>
                 <div class="service-btn bg-color-d-blue">家事サービス</div>
@@ -87,21 +87,22 @@
                 <?php endif; ?>
             </div>
             <div>
-                <div class="font-serif font31">03.医療・リハビリ</div>
-                <div class="font-serif font16">MEDICAL / REHABILITATION</div>
-                <h3 class="font-serif font20 mt-2">生活機能の維持や向上を目指し、健やかで楽しい毎日をサポートいたします。</h3>
-                <p class="pt-2">
+                <div class="font-Pr6N font31">03.医療・リハビリ</div>
+                <div class="font-Pr6N font16">MEDICAL / REHABILITATION</div>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">生活機能の維持や向上を目指し、健やかで楽しい毎日をサポートいたします。</h3>
+                <p class="font14 pt-2">
                     毎日の健康状態を見守り、必要に応じてお薬の管理やリハビリをサポートします。看護師が常駐しており、医療機関との連携もスムーズです。定期的に医師による診療が行われるため、安心して日々をお過ごしいただけます。協力医療機関と連携し、定期健康診断や健康相談も実施し、入居者様一人ひとりに寄り添ったケアを提供しています。
                 </p>
             </div>
         </div>
         <div class="grid-two-column column-reverse">
             <div>
-                <div class="font-serif font31">04.食事</div>
-                <div class="font-serif font16">MEAL</div>
-                <h3 class="font-serif font20 mt-2">安全・安心の食材を吟味し、こだわりの食事で健康を応援します。</h3>
-                <p class="pt-2">
-                    この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、（100文字以内）
+                <div class="font-Pr6N font31">04.食事</div>
+                <div class="font-Pr6N font16">MEAL</div>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">安全・安心の食材を吟味し、こだわりの食事で健康を応援します。</h3>
+                <p class="font14 pt-2">
+                    私たちは美味しさはもちろん、毎日の食事が楽しみになるよう創意工夫を凝らしています。<br>
+                    安全で信頼できる食材を厳選し、入居者様・利用者様の健康状態に合わせたお食事を提供いたします。えごまオイルを取り入れるなど、健康づくりをサポートしています。
                 </p>
             </div>
             <div>
@@ -117,10 +118,10 @@
                 <?php endif; ?>
             </div>
             <div>
-                <div class="font-serif font31">05.終身入居の保証</div>
-                <div class="font-serif font16">LIFETIME RESIDENCY GUARANTEE</div>
-                <h3 class="font-serif font20 mt-3">ご本人や家族の意向に沿い、最期まで尊厳を保っていただけるようサポートいたします。</h3>
-                <p class="pt-2">
+                <div class="font-Pr6N font31">05.終身入居の保証</div>
+                <div class="font-Pr6N font16">LIFETIME RESIDENCY GUARANTEE</div>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">ご本人や家族の意向に沿い、最期まで尊厳を保っていただけるようサポートいたします。</h3>
+                <p class="font14 pt-2">
                     当館は、お元気な方から医療を必要とされている方、お身体の不自由な方、認知症の方まで幅広く対応しています。日常の健康管理から緊急時の対応まで安心して過ごせる環境を整え、ご本人・ご家族希望に応じて看取りまでお世話させて頂きます。
                 </p>
                 <p class="pt-3 font12">
@@ -130,10 +131,10 @@
         </div>
         <div class="grid-two-column column-reverse">
             <div>
-                <div class="font-serif font31">06.アクティビティ</div>
-                <div class="font-serif font16">ACTIVITY</div>
-                <h3 class="font-serif font20 mt-2">毎日を笑顔でお過ごしいただくために、明日が待ち遠しくなる多彩な催しをご用意しています。</h3>
-                <p class="pt-2">
+                <div class="font-Pr6N font31">06.アクティビティ</div>
+                <div class="font-Pr6N font16">ACTIVITY</div>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">毎日を笑顔でお過ごしいただくために、明日が待ち遠しくなる多彩な催しをご用意しています。</h3>
+                <p class="font14 pt-2">
                     入居者様が日々の暮らしを楽しんでいただけるよう、七夕やクリスマスなど季節に合わせたイベントを開催しています。また、レクリエーションや体操など、楽しみながら参加できるプログラムも充実しており、参加はご本人の意志を尊重し、自由に選んでいただけるよう配慮しています。
                 </p>
             </div>
@@ -150,10 +151,10 @@
                 <?php endif; ?>
             </div>
             <div>
-                <div class="font-serif font31">07.立地</div>
-                <div class="font-serif font16">LOCATION</div>
-                <h3 class="font-serif font20 mt-2">岡崎の中心地。歴史と文化と自然に囲まれた、住み心地の良い住環境です。</h3>
-                <p class="pt-2">
+                <div class="font-Pr6N font31">07.立地</div>
+                <div class="font-Pr6N font16">LOCATION</div>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">岡崎の中心地。歴史と文化と自然に囲まれた、住み心地の良い住環境です。</h3>
+                <p class="font14 pt-2">
                     愛知県岡崎市の中心部に位置する「サン・ケア レジデンス」は、都市部名古屋市へのアクセスが良く、周辺には岡崎城や大岡越前守陣屋跡、図書館交流プラザなどの歴史的建造物や文化施設などが充実。<br>
                     岡崎公園前を流れる乙川沿いは、緑豊かで春には桜が咲き誇るなど、歴史と文化と自然が融合した住み心地の良い住環境です。
                 </p>
@@ -162,8 +163,8 @@
     </section>
     <hr>
     <section class="sancare-section-wrapper">
-        <div class="font31 font-serif text-center">ACCESS</div>
-        <div class="font20 font-serif text-center pb-3">アクセス</div>
+        <div class="font28 font-Pr6N text-center">ACCESS</div>
+        <div class="font20 font-Pr6N text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.9712577643136!2d137.16543807552142!3d34.95732906940032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bd2f005a6855%3A0xab1c8b1eb2bfccc3!2z44CSNDQ0LTAwMzgg5oSb55-l55yM5bKh5bSO5biC5Lyd6aas6YCa77yR5LiB55uu77yX77yY!5e0!3m2!1sja!2sjp!4v1723104680464!5m2!1sja!2sjp"
@@ -176,22 +177,73 @@
                 target="_blank" class="nowrap">（Googleマップで見る）</a>
         </div>
     </section>
-    <div class="bg-color-l-gray container-fluid d-flex flex-column align-items-center py-100">
-        <br>
-        <a href="<?php echo esc_url( home_url() ); ?>/expenses/">
-            <div class="toggle-btn text-center mt-5">
-                <span>料金表を見る</span>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-up-right.svg"
-                    alt="arrow-up-right-icon" class="arrow-up-right-icon" />
+    <div class="bg-color-l-gray container-fluid py-80">
+        <section class="expenses-box">
+            <div class="top-section-title">
+                <h4>EXPENSES</h4>
+                <h5>ご利用料金のご案内</h5>
             </div>
-        </a>
+            <br>
+            <p class="expenses-title font-Pr6N">
+                入居費用は、
+                <span class="color-d-red">入居一時金0円プラン</span>
+                と
+                <span class="color-d-red">1,000万円〜プラン</span>
+                の2種類からお選び頂けます。
+            </p>
+            <p class="font16">【例】要介護1の場合（1人部屋でのご契約）</p>
+            <div class="plan-row">
+                <div>
+                    <a class="plan-title">プラン1</a>
+                    <span class="font22">入居一時金</span>
+                </div>
+                <div class="plan-price">
+                    <div>
+                        <span class="color-d-red font32">0</span>
+                        <span class="color-d-red font25">円</span>
+                        <span class="font22 me-2">／月額利用料</span>
+                    </div>
+                    <div>
+                        <span class="color-d-red font25">337,402</span>
+                        <span class="color-d-red font22">円</span>
+                        <span class="font16">（税込）</span>
+                    </div>
+                </div>
+            </div>
+            <div class="plan-row">
+                <div>
+                    <a class="plan-title">プラン2</a>
+                    <span class="font22">入居一時金</span>
+                </div>
+                <div class="plan-price">
+                    <div>
+                        <span class="color-d-red font32">1,000</span>
+                        <span class="color-d-red font25">万円</span>
+                        <span class="font22 me-2">／月額利用料</span>
+                    </div>
+                    <div>
+                        <span class="color-d-red font25">267,902</span>
+                        <span class="color-d-red font22">円</span>
+                        <span class="font16">（税込）</span>
+                    </div>
+                </div>
+            </div>
+            <p class="font16">※特定契約をした場合の料金であり、サービス内容に違いはありません。</p>
+            <a href="<?php echo esc_url( home_url() ); ?>/expenses/">
+                <div class="toggle-btn text-center mt-5">
+                    <span>料金表を見る</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-up-right.svg"
+                        alt="arrow-up-right-icon" class="arrow-up-right-icon" />
+                </div>
+            </a>
+        </section>
     </div>
-    <section class="sancare-section-wrapper">
+    <div class="sancare-section-wrapper">
         <div class="grid-two-column-2">
             <div>
-                <p class="color-d-blue font18 font-serif">■施設概要</p>
+                <p class="color-d-blue font18 font-Pr6N">■施設概要</p>
                 <div class="font16">有料老人ホーム「サン・ケアレジデンス」</div>
-                <p class="font25 font-umi">
+                <p class="font25 font-Pr6N-M">
                     <i class="fa fa-phone font20"></i>
                     <span>0564-22-7575</span>
                 </p>
@@ -200,11 +252,11 @@
                 <?php endif; ?>
             </div>
             <div>
-                <div class="color-d-blue font18 font-serif mb-2">■施設概要</div>
+                <div class="color-d-blue font18 font-Pr6N mb-2">■施設概要</div>
                 <div class="mb-5">
                     ●建物構造／鉄筋コンクリート造地上5階・地下1階建（土地・建物共自己所有）●敷地面積／1388.95㎡●建築面積／803.42㎡●延床面積／4243.67㎡（その内有料老人ホーム部分としての延床面積は2642.52㎡）●入居定員／50名●施設の類型／介護付有料老人ホーム（一般型特定施設入居者生活介護）●居住の権利形態／利用権方式●入居時の要件／自立、要支援、要介護●介護保険／愛知県指定介護保険特定施設、愛知県指定介護予防特定施設●介護居室区分／全室個室●介護にかかわる職員体制／2：1以上（要介護者2人に対し週37時間換算で介護職員1人以上）●介護保険の指定居宅サービスの種類／特定施設入居者生活介護・介護予防特定施設入居者生活介護のサービス
                 </div>
-                <div class="color-d-blue font18 font-serif mb-2">■協力医療機関</div>
+                <div class="color-d-blue font18 font-Pr6N mb-2">■協力医療機関</div>
                 <div class="mb-2">
                     ●内科／大原内科医院【週1回の往診、年1回の健康診断 （ご希望者に限り年２回目の健康診断も含む）】<br>
                     ●精神科、神経科、心療内科／竜美ストレス心療クリニック【月2回の往診】<br>
@@ -214,21 +266,21 @@
                 <div>※医療機関に支払う医療費は、ご本人負担となります。</div>
             </div>
         </div>
-    </section>
-    <div class="modal" id="myModal" tabindex="-1">
-        <div class="modal-dialog-centered" id="myModal">
-            <div class="modal-content" id="floor" style="width:30%">
-                <div class="floor-prev"><i class="fa fa-angle-left"></i></div>
-                <?php if (!empty($floor[0])): ?>
-                <img src="<?php echo esc_url($floor[0]['url']); ?>" alt="Sancare Floor Image" id="floor_image"
-                    loading="lazy">
-                <?php endif; ?>
-                <div class="floor-next"><i class="fa fa-angle-right"></i></div>
+        </section>
+        <div class="modal" id="myModal" tabindex="-1">
+            <div class="modal-dialog-centered" id="myModal">
+                <div class="modal-content" id="floor" style="width:30%">
+                    <div class="floor-prev"><i class="fa fa-angle-left"></i></div>
+                    <?php if (!empty($floor[0])): ?>
+                    <img src="<?php echo esc_url($floor[0]['url']); ?>" alt="Sancare Floor Image" id="floor_image"
+                        loading="lazy">
+                    <?php endif; ?>
+                    <div class="floor-next"><i class="fa fa-angle-right"></i></div>
+                </div>
             </div>
+            <div class="close-btn"><i class="fa fa-close"></i></div>
+            <div class="search-btn"><i class="fa fa-search"></i></div>
         </div>
-        <div class="close-btn"><i class="fa fa-close"></i></div>
-        <div class="search-btn"><i class="fa fa-search"></i></div>
-    </div>
 </main>
 <?php get_footer(); ?>
 

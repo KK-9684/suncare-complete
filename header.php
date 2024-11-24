@@ -30,7 +30,7 @@
             </a>
             <div class="d-flex ms-2 mt-1">
                 <div class="menu-text-item-wrapper">
-                    <div class="menu-text-item bold">有料老人ホーム</div>
+                    <div class="menu-text-item">有料老人ホーム</div>
                     <div class="menu-text-item-menu hide">
                         <a href="<?php echo esc_url( home_url() ); ?>/san-care/" class="menu-text-item-menu-item">
                             <div>介護付有料老人ホーム<br>サン・ケア レジデンス</div>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="menu-text-item-wrapper">
-                    <div class="menu-text-item bold">グループホーム</div>
+                    <div class="menu-text-item">グループホーム</div>
                     <div class="menu-text-item-menu hide">
                         <a href="<?php echo esc_url( home_url() ); ?>/grouphome-fukuoka/"
                             class="menu-text-item-menu-item">
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="menu-text-item-wrapper">
-                    <div class="menu-text-item bold">デイサービス</div>
+                    <div class="menu-text-item">デイサービス</div>
                     <div class="menu-text-item-menu hide">
                         <a href="<?php echo esc_url( home_url() ); ?>/dayservice-azukizaka/"
                             class="menu-text-item-menu-item">
@@ -83,14 +83,14 @@
                         </a>
                     </div>
                 </div>
-                <a href="<?php echo esc_url( home_url() ); ?>/company/" class="menu-text-item bold">会社概要</a>
+                <a href="<?php echo esc_url( home_url() ); ?>/company/" class="menu-text-item">会社概要</a>
             </div>
         </div>
         <div class="d-flex align-items-center justify-content-end flex-wrap">
-            <div class="d-flex align-items-baseline font-umi mt-1 mb-1">
+            <div class="d-flex align-items-baseline mt-1 mb-1">
                 <i class="fa fa-phone font16"></i>
-                <span class="font20 bold mx-1" style="font-family:'Kaisei Haruno Umi'">0564-22-7575</span>
-                <span class="font12 bold">年中無休（9:00~18:00）</span>
+                <span class="font20 font-Pr6N-M mx-1">0564-22-7575</span>
+                <span class="font12">年中無休（9:00~18:00）</span>
             </div>
             <div class="d-flex ms-3">
                 <a href="<?php echo esc_url( home_url() ); ?>/form-document-request/"
@@ -112,17 +112,17 @@
             </a>
         </div>
         <div class="d-flex">
-            <div class="d-flex align-items-baseline mt-3 me-3 header-sp-phone font-umi">
+            <div class="d-flex align-items-baseline mt-3 me-3 header-sp-phone font-Pr6N-M">
                 <i class="fa fa-phone font16"></i>
-                <span class="font20 bold mx-1">0564-22-7575</span>
-                <span class="font12 bold">年中無休（9:00~18:00）</span>
+                <span class="font20 mx-1">0564-22-7575</span>
+                <span class="font12">年中無休（9:00~18:00）</span>
             </div>
             <div class="header-sp-hamburger">
                 <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="hamburger" />
             </div>
         </div>
     </header>
-    <div style="width:300px" class="ham-menu bold hide">
+    <div style="width:300px" class="ham-menu hide">
         <a href="<?php echo esc_url( home_url() ); ?>"
             class="ham-main-menu-item-only bg-color-d-orange color-white">TOP</a>
         <div>

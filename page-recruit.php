@@ -4,14 +4,14 @@
         <h5 class="mb-3">RECRUIT</h5>
         <h1>採用情報</h1>
     </div>
-    <section class="section-wrapper pt-0 pb-100">
+    <section class="section-wrapper pt-0 pb-80">
         <div class="recruit-description">
             <?php
                 $introduceTitle = get_field('recruitment-introduce-title', 'option');
                 $introduceDescription = get_field('recruitment-introduce-description', 'option');           
                
                 echo "<h2>".$introduceTitle."</h2>";
-                echo "<div class='text-start font15 my-40'>".$introduceDescription."</div>";
+                echo "<div class='text-start font15 my-30'>".$introduceDescription."</div>";
             ?>
             <a href="<?php echo esc_url( home_url() ); ?>/work-environment/">
                 <button class="work-environment-btn bg-color-d-blue font15">職場環境等の取り組みについて
@@ -26,7 +26,6 @@
             <div class="recruit-list">
                 <?php 
                     $rows = get_field('recruitment', 'option');
-
                     if( $rows ) {
                         foreach( $rows as $index => $row  ) {
                             echo "<div class='recruit-item'><span> &nbsp ".$row['recruitment-title']."<br>".$row['recruitment-category']."</span><span> ー </span></div>";
@@ -36,7 +35,7 @@
 
                                 foreach( $row['recruitment-content'] as $con) {
                                     if (isset($con)) {
-                                        echo "<div class='mb-2 font16 bold color-d-blue'>".$con['カテゴリー']." 募集要項</div><table class='recruit-table'>";
+                                        echo "<div class='mb-2 font16 font-SourceHanSansJP-M color-d-blue'>".$con['カテゴリー']." 募集要項</div><table class='recruit-table'>";
                                         foreach( $con as $field_name => $item) {
                                             if ($field_name != 'カテゴリー' && $item) {
                                                 echo "<tr><td class='rt-label'>".$field_name."</td><td>". $item."</td></tr>";
@@ -53,7 +52,7 @@
             </div>
         </div>
     </section>
-    <div class="text-center container-fluid bg-color-l-gray py-100">
+    <div class="text-center container-fluid bg-color-l-gray py-80">
         <div class="mb-2 font16">随時募集しています。</div>
         <div class="mb-3 font16">「ENTRY」ボタンよりご応募ください。</div>
         <a href="<?php echo esc_url( home_url() ); ?>/form-entry/">

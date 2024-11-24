@@ -1,6 +1,6 @@
 <?php get_header();?>
 <main class="top-page">
-    <section class="section-wrapper d-block pb-100">
+    <section class="section-wrapper d-block pb-80">
         <div class="top-section-title">
             <h4>PRIVACY POLICY</h4>
             <h5>個人情報保護方針</h5>

@@ -1,53 +1,54 @@
-h3 {
-    line-height: 1.8;
-}
 .font12 {
-    font-size: 12px;
-    line-height: 1.8;
+    font-size: clamp(11px, 2.2vw, 12px);
+    line-height: 1.5;
 }
 .font13 {
-    font-size: 13px;
-    line-height: 1.8;
+    font-size: clamp(12px, 2.4vw, 13px);
+    line-height: 1.5;
 }
 .font14 {
-    font-size: 14px;
+    font-size: clamp(13px, 2.6vw, 14px);
     line-height: 1.8;
 }
 .font15 {
-    font-size: 15px;
+    font-size: clamp(14px, 2.8vw, 15px);
     line-height: 1.8;
 }
 .font16 {
-    font-size: 1rem;
+    font-size: clamp(15px, 3vw, 16px);
     line-height: 1.8;
 }
 .font18 {
-    font-size: 18px;
-    line-height: 1.8;
+    font-size: clamp(16px, 3.2vw, 18px);
+    line-height: 1.5;
 }
 .font20 {
-    font-size: 20px;
-    line-height: 1.8;
+    font-size: clamp(18px, 3.6vw, 20px);
+    line-height: 1.5;
+}
+.font22 {
+    font-size: clamp(20px, 4vw, 22px);;
+    line-height: 1.5;
 }
 .font25 {
     font-size: 25px;
-    line-height: 1.8;
+    line-height: 1.5;
 }
 .font28 {
-    font-size: 28px;
-    line-height: 1.8;
+    font-size: clamp(22px, 4.4vw, 28px);
+    line-height: 1.5;
 }
 .font31 {
-    font-size: 30px;
-    line-height: 1.8;
+    font-size: clamp(28px, 5.6vw, 31px);;
+    line-height: 1.5;
 }
 .font32 {
     font-size: 32px;
-    line-height: 1.8;
+    line-height: 1.5;
 }
 .font40 {
     font-size: 40px;
-    line-height: 1.8;
+    line-height: 1.5;
 }
 .no-border {
     border: unset !important;
@@ -55,38 +56,25 @@ h3 {
 .bold {
     font-weight: 700 !important;
 }
-.font-serif {
-    font-family: "Noto serif JP";
+.font-Pr6N {
+    font-family: "游明朝体 Pr6N";
 }
-.font-umi {
-    font-family: "Kaisei Haruno Umi";
+.font-Pr6N-M {
+    font-family: "游明朝体 Pr6N M";
 }
-.my-40 {
-    margin-top: 40px;
-    margin-bottom: 40px;
+.font-SourceHanSansJP-M {
+    font-family: "Source Han Sans JP M";
 }
-.mt-40 {
-   margin-top: 40px;
+.my-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.mb-40 {
-    margin-bottom: 40px;
+.pb-80 {
+    padding-bottom: 80px;
 }
-.my-60 {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-.pt-100 {
-    padding-top: 100px;
-}
-.pb-100 {
-    padding-bottom: 100px;
-}
-.py-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.medium {
-    font-weight: medium !important;
+.py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .bg-color-l-gray {
     background-color: #F9F8F4;
@@ -165,4 +153,7 @@ h3 {
 }
 .full-width {
     width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0px !important;
 }
