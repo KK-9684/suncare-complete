@@ -7,7 +7,7 @@
     <section class="sancare-section-wrapper">
         <div class="color-d-red">
             <div class="font28 font-Pr6N text-center">入居一時金</div>
-            <div class="font40 font-Pr6N bold text-center pb-3">0円プラン料金表</div>
+            <div class="font40 font-Pr6N-M text-center pb-3">0円プラン料金表</div>
             <div class="expenses-title-underline"></div>
             <div class="d-flex justify-content-center">
                 <div class="expenses-title-angle"></div>
@@ -39,7 +39,7 @@
                     $rows = get_field('no-nursing-care-room', 'option');
                     if( $rows ) {
                         foreach( $rows as $row ) {
-                            echo "<tr><td class='t-label'>".$row['type']."</td><td>".$row['housing-costs']."</td><td>".$row['administrative-costs']."</td><td>".$row['other-costs']."</td><td>".$row['meal']."</td><td class='bold'>".$row['total']."</td></tr>";
+                            echo "<tr><td class='t-label'>".$row['type']."</td><td>".$row['housing-costs']."</td><td>".$row['administrative-costs']."</td><td>".$row['other-costs']."</td><td>".$row['meal']."</td><td class='font-SourceHanSansJP-M'>".$row['total']."</td></tr>";
                         }
                     }
                 ?>
@@ -64,7 +64,7 @@
                     $rows = get_field('rooms-with-nursing-care', 'option');
                     if( $rows ) {
                         foreach( $rows as $row ) {
-                            echo "<tr><td class='t-label'>".$row['type']."</td><td>".$row['housing-costs']."</td><td>".$row['administrative-costs']."</td><td>".$row['other-costs']."</td><td>".$row['meal']."</td><td class='bold'>".$row['total']."</td></tr>";
+                            echo "<tr><td class='t-label'>".$row['type']."</td><td>".$row['housing-costs']."</td><td>".$row['administrative-costs']."</td><td>".$row['other-costs']."</td><td>".$row['meal']."</td><td class='font-SourceHanSansJP-M'>".$row['total']."</td></tr>";
                         }
                     }
                 ?>
@@ -93,7 +93,7 @@
                             if ($index == 2) {
                                 $colorLine = 'color-line';
                             }
-                            echo "<tr class='".$colorLine ."'><td class='t-label ".$colorLabel."'>".$row['request-number']."</td><td>".$row['above-table-total-costs']."</td><td>".$row['nursing-care-costs']."</td><td>".$row['nursing-and-health']."</td><td class='bold'>".$row['total']."</td></tr>";
+                            echo "<tr class='".$colorLine ."'><td class='t-label ".$colorLabel."'>".$row['request-number']."</td><td>".$row['above-table-total-costs']."</td><td>".$row['nursing-care-costs']."</td><td>".$row['nursing-and-health']."</td><td class='font-SourceHanSansJP-M'>".$row['total']."</td></tr>";
                         }
                     }
                 ?>
@@ -104,7 +104,7 @@
     <section class="sancare-section-wrapper">
         <div class="color-d-red">
             <div class="font28 font-Pr6N text-center">入居一時金</div>
-            <div class="font40 font-Pr6N bold text-center pb-3">1,000万円プラン料金表</div>
+            <div class="font40 font-Pr6N-M text-center pb-3">1,000万円プラン料金表</div>
             <div class="expenses-title-underline"></div>
             <div class="d-flex justify-content-center">
                 <div class="expenses-title-angle"></div>
@@ -156,7 +156,7 @@
                     $rows = get_field('1000-no-nursing-care-room', 'option');
                     if( $rows ) {
                         foreach( $rows as $row ) {
-                            echo "<tr><td class='t-label'>".$row['type']."</td><td>".$row['administrative-costs']."</td><td>".$row['other-costs']."</td><td>".$row['meal']."</td><td class='bold'>".$row['total']."</td></tr>";
+                            echo "<tr><td class='t-label'>".$row['type']."</td><td>".$row['administrative-costs']."</td><td>".$row['other-costs']."</td><td>".$row['meal']."</td><td class='font-SourceHanSansJP-M'>".$row['total']."</td></tr>";
                         }
                     }
                 ?>
@@ -191,7 +191,7 @@
                     $rows = get_field('1000-rooms-with-nursing-care', 'option');
                     if( $rows ) {
                         foreach( $rows as $row ) {
-                            echo "<tr><td class='t-label'>".$row['type']."</td><td>".$row['administrative-costs']."</td><td>".$row['other-costs']."</td><td>".$row['meal']."</td><td class='bold'>".$row['total']."</td></tr>";
+                            echo "<tr><td class='t-label'>".$row['type']."</td><td>".$row['administrative-costs']."</td><td>".$row['other-costs']."</td><td>".$row['meal']."</td><td class='font-SourceHanSansJP-M'>".$row['total']."</td></tr>";
                         }
                     }
                 ?>
@@ -220,7 +220,7 @@
                             if ($index == 2) {
                                 $colorLine = 'color-line';
                             }
-                            echo "<tr class='".$colorLine."'><td class='t-label ".$colorLabel."'>".$row['request-number']."</td><td>".$row['above-table-total-costs']."</td><td>".$row['nursing-care-costs']."</td><td>".$row['nursing-and-health']."</td><td class='bold'>".$row['total']."</td></tr>";
+                            echo "<tr class='".$colorLine."'><td class='t-label ".$colorLabel."'>".$row['request-number']."</td><td>".$row['above-table-total-costs']."</td><td>".$row['nursing-care-costs']."</td><td>".$row['nursing-and-health']."</td><td class='font-SourceHanSansJP-M'>".$row['total']."</td></tr>";
                         }
                     }
                 ?>
@@ -254,7 +254,7 @@
             $rows = get_field('main-costs', 'option');
             if( $rows ) {
                 foreach( $rows as $index => $row  ) {
-                    echo "<div class='d-flex wrap'><div></div><p class='color-d-blue font18 bold'>".($index + 1).".</p><div><p class='color-d-blue font18 bold'>".$row['title']."</p><p class='font16'>".$row['description']."</p></div></div>";
+                    echo "<div class='d-flex wrap'><div></div><div class='color-d-blue font18 font-SourceHanSansJP-M'>".($index + 1).".</div><div><div class='color-d-blue font18 font-SourceHanSansJP-M mb-1'>".$row['title']."</div><p class='font16'>".$row['description']."</p></div></div>";
                 }
             }
         ?>

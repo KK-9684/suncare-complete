@@ -56,7 +56,7 @@
         <div class="mb-2 font16">随時募集しています。</div>
         <div class="mb-3 font16">「ENTRY」ボタンよりご応募ください。</div>
         <a href="<?php echo esc_url( home_url() ); ?>/form-entry/">
-            <button class="entry-btn bg-color-d-blue font20 bold">ENTRY
+            <button class="entry-btn bg-color-d-blue font20">ENTRY
             </button>
         </a>
     </div>
