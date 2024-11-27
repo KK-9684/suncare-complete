@@ -10,7 +10,7 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
         <div class="grid-two-column">
             <div>
                 <h2 class="font25 font-Pr6N">気持ちに寄り添い、共感する。<br>一人ひとりの笑顔を守る場所です。</h2>
@@ -31,7 +31,7 @@
             <?php echo do_shortcode('[metaslider id="174"]'); ?>
         </section>
     </div>
-    <section class="sancare-section-wrapper" style="max-width:1080px">
+    <section class="sancare-section-wrapper" style="max-width:1240px">
         <div class="dayservice-section-title mb-5">
             <h4>THE FEATURE</h4>
             <h5>デイサービスセンター燦 あずき坂の強み</h5>
@@ -42,7 +42,8 @@
                 <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">心のこもった介護</p>
-                <p class="font14">利用者様とスタッフが楽しく日々を過ごせるような介護を目指しています。スタッフの入れ替わりが少なく、認知症の方でも顔を覚えやすい環境です。無理なくその方に合った支援を提供し、役割や楽しみを見つけながら、充実した時間を過ごしていただけるようサポートしています。
+                <p class="font14">
+                    利用者様とスタッフが楽しく日々を過ごせるような介護を目指しています。スタッフの入れ替わりが少なく、認知症の方でも顔を覚えやすい環境です。無理なくその方に合った支援を提供し、役割や楽しみを見つけながら、充実した時間を過ごしていただけるようサポートしています。
                 </p>
             </div>
             <div>
@@ -50,7 +51,8 @@
                 <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">飲食店にも負けない絶品の手作り昼食</p>
-                <p class="font14">美味しい食事は自然と笑顔を引き出します。あずき坂の自慢のお昼ごはんは、飲食店にも劣らない手作りの絶品料理。利用者様の近くで調理を行うことで、料理の温かさや香りが広がり、食欲をそそります。心を込めた手作りの食事が、利用者様に元気と笑顔をもたらします。
+                <p class="font14">
+                    美味しい食事は自然と笑顔を引き出します。あずき坂の自慢のお昼ごはんは、飲食店にも劣らない手作りの絶品料理。利用者様の近くで調理を行うことで、料理の温かさや香りが広がり、食欲をそそります。心を込めた手作りの食事が、利用者様に元気と笑顔をもたらします。
                 </p>
             </div>
             <div>
@@ -58,13 +60,14 @@
                 <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">ゆったり、のんびり、イライラせずに</p>
-                <p class="font14">利用者様一人ひとりの個性を大切にし、穏やかでリラックスできる時間を過ごしていただくことを心がけています。声掛けの際はその方に合わせた工夫を凝らし、表情や態度からも気持ちを汲み取るよう努めています。入居者様が施設での時間を楽しみにしてくださることが、スタッフにとっても大きな喜びです。
+                <p class="font14">
+                    利用者様一人ひとりの個性を大切にし、穏やかでリラックスできる時間を過ごしていただくことを心がけています。声掛けの際はその方に合わせた工夫を凝らし、表情や態度からも気持ちを汲み取るよう努めています。入居者様が施設での時間を楽しみにしてくださることが、スタッフにとっても大きな喜びです。
                 </p>
             </div>
         </div>
     </section>
     <div class="bg-color-lr-red container-fluid">
-        <section class="sancare-section-wrapper" style="max-width:1080px">
+        <section class="sancare-section-wrapper" style="max-width:1240px">
             <div class="dayservice-section-title mb-5">
                 <h4>TIME SCHEDULE</h4>
                 <h5>1日の過ごし方</h5>
@@ -77,7 +80,7 @@
                             foreach( $rows as $row ) {
                                 $margin = '';
                                 if (empty($row['schedule-time'])) $margin = 'margin-top--20';
-                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 bold' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 bold mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
+                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 font-SourceHanSansJP-M' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 font-SourceHanSansJP-M mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
                             }
                         }
                     ?>

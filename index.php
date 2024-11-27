@@ -1,7 +1,7 @@
 <?php get_header();?>
 <main class="top-page">
     <section class="top-main">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top.svg" alt="東洋ウェルフェア" loading="lazy"
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top.jpg" alt="東洋ウェルフェア" loading="lazy"
             class="top-img">
         <h1 class="top-description">
             人生を共にデザインし、<br>
@@ -121,7 +121,7 @@
     </section>
     <div class="bg-color-l-gray container-fluid">
         <section class="care-plan top-section-wrapper">
-            <div class="top-section-title">
+            <div class="top-section-title" style="border-color: #3e6149">
                 <h4 class="font28">CARE PLAN</h4>
                 <h5 class="font20">サン・ケア プランセンター</h5>
             </div>
@@ -143,9 +143,9 @@
             </div>
             <div class="mt-5 pt-4 text-center">
                 <div class="font15 mb-2">些細な事でもお気軽にご相談下さい。</div>
-                <div class="top-section-phone color-d-green mb-1 me-4 pe-2">
-                    <i class="fa fa-phone font25"></i>
-                    <span class="font32">0564-22-8277</span>
+                <div class="top-section-phone color-d-green">
+                    <i class="fa fa-phone font22"></i>
+                    <span class="font32 font-Pr6N-M">0564-22-8277</span>
                 </div>
                 <div class="font15 mb-3">受付時間 8:45~17:45</div>
                 <div class="font12">所在地:〒444-0038 愛知県岡崎市伝馬通1丁目78番地（サン・ケア レジデンス内）</div>

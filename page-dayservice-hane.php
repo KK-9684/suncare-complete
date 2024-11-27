@@ -10,7 +10,7 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
         <div class="grid-two-column">
             <div>
                 <h2 class="font25 font-Pr6N">長い木で、長い生きを。<br>温もりに包まれた心地よいケアをご提供します。</h2>
@@ -31,7 +31,7 @@
             <?php echo do_shortcode('[metaslider id="226"]'); ?>
         </section>
     </div>
-    <section class="sancare-section-wrapper" style="max-width:1080px">
+    <section class="sancare-section-wrapper" style="max-width:1240px">
         <div class="dayservice-section-title mb-5">
             <h4>THE FEATURE</h4>
             <h5>デイサービスセンター燦 はねの強み</h5>
@@ -42,7 +42,8 @@
                 <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">「笑顔」があふれる心のこもったケア</p>
-                <p class="font14">木の香りが漂う温かい空間で、最新のマッサージ機を使ったリラクゼーションが好評です。スタッフは一人ひとりに合わせた個別ケアを行い、利用者様の自立を支援します。スタッフの温かい対応により、他の施設では難しかった方も楽しく通えるようになっています。
+                <p class="font14">
+                    木の香りが漂う温かい空間で、最新のマッサージ機を使ったリラクゼーションが好評です。スタッフは一人ひとりに合わせた個別ケアを行い、利用者様の自立を支援します。スタッフの温かい対応により、他の施設では難しかった方も楽しく通えるようになっています。
                 </p>
             </div>
             <div>
@@ -50,7 +51,8 @@
                 <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">心と体にやさしい手作りのお昼ごはん</p>
-                <p class="font14">美味しいと評判のお昼ごはんでは、認知症予防に効果のあるといわれているえごま油も摂取していただいています。新鮮な食材で品数も多い自慢の昼食は、飲食店にも負けない絶品の手作りごはんで、利用者様の笑顔を引き出します。
+                <p class="font14">
+                    美味しいと評判のお昼ごはんでは、認知症予防に効果のあるといわれているえごま油も摂取していただいています。新鮮な食材で品数も多い自慢の昼食は、飲食店にも負けない絶品の手作りごはんで、利用者様の笑顔を引き出します。
                 </p>
             </div>
             <div>
@@ -58,13 +60,14 @@
                 <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">完全個浴で自宅のような安心感</p>
-                <p class="font14">完全個浴の3つのお風呂を用意し、利用者様お一人ずつの着替えと入浴をサポートしています。大勢での入浴が苦手な方でも安心してリラックスできる環境です。普段は会話が苦手な方も、入浴時には自然とコミュニケーションが生まれ、リラックスした雰囲気の中で会話が弾むこともあります。
+                <p class="font14">
+                    完全個浴の3つのお風呂を用意し、利用者様お一人ずつの着替えと入浴をサポートしています。大勢での入浴が苦手な方でも安心してリラックスできる環境です。普段は会話が苦手な方も、入浴時には自然とコミュニケーションが生まれ、リラックスした雰囲気の中で会話が弾むこともあります。
                 </p>
             </div>
         </div>
     </section>
     <div class="bg-color-lr-red container-fluid">
-        <section class="sancare-section-wrapper" style="max-width:1080px">
+        <section class="sancare-section-wrapper" style="max-width:1240px">
             <div class="dayservice-section-title mb-5">
                 <h4>TIME SCHEDULE</h4>
                 <h5>1日の過ごし方</h5>
@@ -77,7 +80,7 @@
                             foreach( $rows as $row ) {
                                 $margin = '';
                                 if (empty($row['schedule-time'])) $margin = 'margin-top--20';
-                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 bold' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 bold mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
+                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 font-SourceHanSansJP-M' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 font-SourceHanSansJP-M mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
                             }
                         }
                     ?>

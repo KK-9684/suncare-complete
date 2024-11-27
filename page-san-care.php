@@ -11,13 +11,14 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
         <div class="grid-two-column">
             <div>
-                <h2 class="font25 font-Pr6N"> 笑顔あふれる幸せな「わが家」が、ここにあります。</h2>
+                <h2 class="font25 font-Pr6N"> 笑顔あふれる幸せな「わが家」が、<br>ここにあります。</h2>
                 <p class="font16 pt-2">
                     寄り添って一緒に笑顔になる。<br>
-                    「どうしたら笑顔になっていただけるだろうか」、「どうすることがこの方にとって最善だろうか」。<br>
+                    「どうしたら笑顔になっていただけるだろうか」、<br>
+                    「どうすることがこの方にとって最善だろうか」。<br>
                     スタッフは常にこうした問いを心に抱き、ケアに取り組んでいます。できないときはそっと寄り添い、ゆっくりと待ち、できたときには自分のことのように喜びます。私たちは、皆様と喜びを分かち合いながら、日々を共に生きています。
                 </p>
             </div>
@@ -58,7 +59,7 @@
             <div>
                 <div class="font-Pr6N font31">02.介護サービス</div>
                 <div class="font-Pr6N font16">NURSING CARE SERVICE</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">寄り添って一緒に笑顔になる、きめ細やかな個別ケアを心がけています。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">寄り添って一緒に笑顔になる、<br>きめ細やかな個別ケアを心がけています。</h3>
                 <p class="font14 pt-2">
                     プライベートな時間を尊重しながら、安心で安全なきめ細やかな個別ケアを心がけています。食事や入浴、排泄などのケアも、ご本人の意思を大切にし、丁寧に対応いたします。
                 </p>
@@ -89,7 +90,7 @@
             <div>
                 <div class="font-Pr6N font31">03.医療・リハビリ</div>
                 <div class="font-Pr6N font16">MEDICAL / REHABILITATION</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">生活機能の維持や向上を目指し、健やかで楽しい毎日をサポートいたします。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">生活機能の維持や向上を目指し、<br>健やかで楽しい毎日をサポートいたします。</h3>
                 <p class="font14 pt-2">
                     毎日の健康状態を見守り、必要に応じてお薬の管理やリハビリをサポートします。看護師が常駐しており、医療機関との連携もスムーズです。定期的に医師による診療が行われるため、安心して日々をお過ごしいただけます。協力医療機関と連携し、定期健康診断や健康相談も実施し、入居者様一人ひとりに寄り添ったケアを提供しています。
                 </p>
@@ -99,7 +100,7 @@
             <div>
                 <div class="font-Pr6N font31">04.食事</div>
                 <div class="font-Pr6N font16">MEAL</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">安全・安心の食材を吟味し、こだわりの食事で健康を応援します。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">安全・安心の食材を吟味し、<br>こだわりの食事で健康を応援します。</h3>
                 <p class="font14 pt-2">
                     私たちは美味しさはもちろん、毎日の食事が楽しみになるよう創意工夫を凝らしています。<br>
                     安全で信頼できる食材を厳選し、入居者様・利用者様の健康状態に合わせたお食事を提供いたします。えごまオイルを取り入れるなど、健康づくりをサポートしています。
@@ -124,7 +125,7 @@
                 <p class="font14 pt-2">
                     当館は、お元気な方から医療を必要とされている方、お身体の不自由な方、認知症の方まで幅広く対応しています。日常の健康管理から緊急時の対応まで安心して過ごせる環境を整え、ご本人・ご家族希望に応じて看取りまでお世話させて頂きます。
                 </p>
-                <p class="pt-3 font12">
+                <p class="pt-1 font12" style="border-top: 1px solid">
                     ※入居者の言動が、他の入居者に精神的苦痛を与えたり、生命に危害を及ぼす恐れがあり、かつ入居者に対する通常の介護方法ではこれを防止する事ができない場合は、契約を解除し退所していただく事があります。
                 </p>
             </div>
@@ -133,7 +134,7 @@
             <div>
                 <div class="font-Pr6N font31">06.アクティビティ</div>
                 <div class="font-Pr6N font16">ACTIVITY</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">毎日を笑顔でお過ごしいただくために、明日が待ち遠しくなる多彩な催しをご用意しています。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">毎日を笑顔でお過ごしいただくために、<br>明日が待ち遠しくなる多彩な催しをご用意しています。</h3>
                 <p class="font14 pt-2">
                     入居者様が日々の暮らしを楽しんでいただけるよう、七夕やクリスマスなど季節に合わせたイベントを開催しています。また、レクリエーションや体操など、楽しみながら参加できるプログラムも充実しており、参加はご本人の意志を尊重し、自由に選んでいただけるよう配慮しています。
                 </p>
@@ -153,7 +154,7 @@
             <div>
                 <div class="font-Pr6N font31">07.立地</div>
                 <div class="font-Pr6N font16">LOCATION</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">岡崎の中心地。歴史と文化と自然に囲まれた、住み心地の良い住環境です。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">岡崎の中心地。歴史と文化と自然に囲まれた、<br>住み心地の良い住環境です。</h3>
                 <p class="font14 pt-2">
                     愛知県岡崎市の中心部に位置する「サン・ケア レジデンス」は、都市部名古屋市へのアクセスが良く、周辺には岡崎城や大岡越前守陣屋跡、図書館交流プラザなどの歴史的建造物や文化施設などが充実。<br>
                     岡崎公園前を流れる乙川沿いは、緑豊かで春には桜が咲き誇るなど、歴史と文化と自然が融合した住み心地の良い住環境です。
@@ -180,19 +181,15 @@
     <div class="bg-color-l-gray container-fluid py-80">
         <section class="expenses-box">
             <div class="top-section-title">
-                <h4>EXPENSES</h4>
-                <h5>ご利用料金のご案内</h5>
+                <h4 class="font28">EXPENSES</h4>
+                <h5 class="font20">ご利用料金のご案内</h5>
             </div>
-            <br>
-            <p class="expenses-title font-Pr6N">
-                入居費用は、
-                <span class="color-d-red">入居一時金0円プラン</span>
-                と
-                <span class="color-d-red">1,000万円〜プラン</span>
-                の2種類からお選び頂けます。
+            <p class="expenses-title font-Pr6N mt-5">
+                入居費用は、<span class="color-d-red">入居一時金0円プラン</span>と<span
+                    class="color-d-red">1,000万円〜プラン</span>の2種類からお選び頂けます。
             </p>
-            <p class="font16">【例】要介護1の場合（1人部屋でのご契約）</p>
-            <div class="plan-row">
+            <p class="font16 mt-4 mb-1">【例】要介護1の場合（1人部屋でのご契約）</p>
+            <div class="plan-row font-SourceHanSansJP-M">
                 <div>
                     <a class="plan-title">プラン1</a>
                     <span class="font22">入居一時金</span>
@@ -210,7 +207,7 @@
                     </div>
                 </div>
             </div>
-            <div class="plan-row">
+            <div class="plan-row font-SourceHanSansJP-M">
                 <div>
                     <a class="plan-title">プラン2</a>
                     <span class="font22">入居一時金</span>
@@ -229,13 +226,15 @@
                 </div>
             </div>
             <p class="font16">※特定契約をした場合の料金であり、サービス内容に違いはありません。</p>
-            <a href="<?php echo esc_url( home_url() ); ?>/expenses/">
-                <div class="toggle-btn text-center mt-5">
-                    <span>料金表を見る</span>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow-up-right.svg"
-                        alt="arrow-up-right-icon" class="arrow-up-right-icon" />
-                </div>
-            </a>
+            <div class="d-flex justify-content-center mt-40">
+                <a href=" <?php echo esc_url( home_url() ); ?>/expenses/">
+                    <div class="toggle-btn">
+                        <span>料金表を見る</span>
+                        <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/arrow-up-right.svg"
+                            alt="arrow-up-right-icon" class="arrow-up-right-icon" />
+                    </div>
+                </a>
+            </div>
         </section>
     </div>
     <div class="sancare-section-wrapper">

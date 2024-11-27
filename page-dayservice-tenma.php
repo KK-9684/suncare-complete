@@ -10,10 +10,10 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
         <div class="grid-two-column">
             <div>
-                <h2 class="font25 font-Pr6N">元気になれる、きれいになれるをスローガンに、未来に希望がもてる介護を目指しています。</h2>
+                <h2 class="font25 font-Pr6N">元気になれる、きれいになれるをスローガンに、<br>未来に希望がもてる介護を目指しています。</h2>
                 <p class="font16 pt-2">
                     デイサービスセンター燦
                     てんまでは、心と身体の両面から元気を引き出す取り組みを行っています。特に「ビューティタッチセラピー」によるフェイシャルマッサージやハンドマッサージ、ネイルケアなどの美容ケアは、リラクゼーション効果と血行促進を促し、心身のリフレッシュをサポートします。また、機能訓練系のデイサービスが難しい方にも、遊び感覚でリハビリを行うプログラムを提供するなど、余暇活動を通じて、健康と笑顔に満ちた日々をお届けします。
@@ -31,7 +31,7 @@
             <?php echo do_shortcode('[metaslider id="200"]'); ?>
         </section>
     </div>
-    <section class="sancare-section-wrapper" style="max-width:1080px">
+    <section class="sancare-section-wrapper" style="max-width:1240px">
         <div class="dayservice-section-title mb-5">
             <h4>THE FEATURE</h4>
             <h5>デイサービスセンター燦てんまの強み</h5>
@@ -67,7 +67,7 @@
         </div>
     </section>
     <div class="bg-color-lr-red container-fluid">
-        <section class="sancare-section-wrapper" style="max-width:1080px">
+        <section class="sancare-section-wrapper" style="max-width:1240px">
             <div class="dayservice-section-title mb-5">
                 <h4>TIME SCHEDULE</h4>
                 <h5>1日の過ごし方</h5>
@@ -80,7 +80,7 @@
                             foreach( $rows as $row ) {
                                 $margin = '';
                                 if (empty($row['schedule-time'])) $margin = 'margin-top--20';
-                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 bold' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 bold mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
+                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 font-SourceHanSansJP-M' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 font-SourceHanSansJP-M mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
                             }
                         }
                     ?>

@@ -88,12 +88,12 @@
         </div>
         <div class="d-flex align-items-center justify-content-end flex-wrap">
             <div class="d-flex align-items-baseline mt-1 mb-1">
-                <i class="fa fa-phone font16"></i>
+                <i class="fa fa-phone font15"></i>
                 <span class="font20 font-Pr6N-M mx-1">0564-22-7575</span>
                 <span class="font12">年中無休（9:00~18:00）</span>
             </div>
             <div class="d-flex ms-3">
-                <a href="<?php echo esc_url( home_url() ); ?>/form-document-request/"
+                <a href="<?php echo esc_url( home_url() ); ?>/form-request/"
                     class="menu-button-item bg-color-l-blue">資料請求</a>
                 <a href="<?php echo esc_url( home_url() ); ?>/form-visit/"
                     class="menu-button-item bg-color-d-red">見学予約</a>
@@ -122,7 +122,7 @@
             </div>
         </div>
     </header>
-    <div style="width:300px" class="ham-menu hide">
+    <div class="ham-menu hide">
         <a href="<?php echo esc_url( home_url() ); ?>"
             class="ham-main-menu-item-only bg-color-d-orange color-white">TOP</a>
         <div>
@@ -190,7 +190,7 @@
         </div>
         <a href="<?php echo esc_url( home_url() ); ?>/company/"
             class="ham-main-menu-item-only bg-color-d-orange color-white">会社概要</a>
-        <a href="<?php echo esc_url( home_url() ); ?>/form-document-request/"
+        <a href="<?php echo esc_url( home_url() ); ?>/form-request/"
             class="ham-main-menu-item-only bg-color-d-orange color-white">資料請求</a>
         <a href="<?php echo esc_url( home_url() ); ?>/form-visit/"
             class="ham-main-menu-item-only bg-color-d-orange color-white">見学予約</a>

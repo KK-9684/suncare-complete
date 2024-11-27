@@ -10,10 +10,10 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
         <div class="grid-two-column">
             <div>
-                <h2 class="font25 font-Pr6N">「共に笑い、共に生きる」をモットーに、共に成長をすることを目指しています。</h2>
+                <h2 class="font25 font-Pr6N"><span class="ml--">「共に笑い、共に生きる」をモットーに、</span><br>共に成長をすることを目指しています。</h2>
                 <p class="font16 pt-2">
                     デイサービスセンター燦
                     はっけんでは、「共に笑い、共に生きる」をモットーに、利用者様、家族様、スタッフが一体となり、成長を共にすることを目指しています。特に食事とレクリエーションに力を入れ、彩り豊かな美しいお食事や種類豊富なメニューを提供。おやつ作りでは利用者様にお手伝いいただき、楽しめる環境を整えています。職員の特技を活かした多彩なレクリエーションも好評で、心身ともに充実した時間をお過ごしいただけます。
@@ -31,7 +31,7 @@
             <?php echo do_shortcode('[metaslider id="213"]'); ?>
         </section>
     </div>
-    <section class="sancare-section-wrapper" style="max-width:1080px">
+    <section class="sancare-section-wrapper" style="max-width:1240px">
         <div class="dayservice-section-title mb-5">
             <h4>THE FEATURE</h4>
             <h5>デイサービスセンター燦 はっけんの強み</h5>
@@ -42,7 +42,8 @@
                 <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">ここに来たからこそ味わえる感動</p>
-                <p class="font14">無限の可能性で、ワンランク上の体験を創り上げています。個性豊かで多彩なスタッフが集まり、音楽、おやつ作り、創作活動、フラワーアレンジメント、己書教室、美容セラピー等様々なイベントを企画。日常生活に新しい感動が生まれ、個性を引き出すお手伝いをさせていただきます。
+                <p class="font14">
+                    無限の可能性で、ワンランク上の体験を創り上げています。個性豊かで多彩なスタッフが集まり、音楽、おやつ作り、創作活動、フラワーアレンジメント、己書教室、美容セラピー等様々なイベントを企画。日常生活に新しい感動が生まれ、個性を引き出すお手伝いをさせていただきます。
                 </p>
             </div>
             <div>
@@ -50,7 +51,8 @@
                 <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">心と体にやさしい手作りのお昼ごはん</p>
-                <p class="font14">美味しいと評判のお昼ごはんは、スタッフの真心込めた手作りです。新鮮な食材で、品数も多い自慢の昼食。イベント食にも力を入れ、食の楽しみ満載。見た目の美しさにもこだわり、飲食店にも負けていない絶品のメニューで、豊かな心と、健やかな身体づくりをお手伝いします。
+                <p class="font14">
+                    美味しいと評判のお昼ごはんは、スタッフの真心込めた手作りです。新鮮な食材で、品数も多い自慢の昼食。イベント食にも力を入れ、食の楽しみ満載。見た目の美しさにもこだわり、飲食店にも負けていない絶品のメニューで、豊かな心と、健やかな身体づくりをお手伝いします。
                 </p>
             </div>
             <div>
@@ -58,13 +60,14 @@
                 <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">笑顔が弾む、ガーデンスペース</p>
-                <p class="font14">デイルームから繋がるガーデンスペースには、温かみのある木のファニチャーがお出迎え。車椅子や歩行器でもお散歩が楽しめるアプローチでは、四季を感じながら、活動的に過ごせます。畑づくりは、利用者様から知識を教わりながら、共に季節の作物を育て、収穫し、食事やおやつでご提供しています。
+                <p class="font14">
+                    デイルームから繋がるガーデンスペースには、温かみのある木のファニチャーがお出迎え。車椅子や歩行器でもお散歩が楽しめるアプローチでは、四季を感じながら、活動的に過ごせます。畑づくりは、利用者様から知識を教わりながら、共に季節の作物を育て、収穫し、食事やおやつでご提供しています。
                 </p>
             </div>
         </div>
     </section>
     <div class="bg-color-lr-red container-fluid">
-        <section class="sancare-section-wrapper" style="max-width:1080px">
+        <section class="sancare-section-wrapper" style="max-width:1240px">
             <div class="dayservice-section-title mb-5">
                 <h4>TIME SCHEDULE</h4>
                 <h5>1日の過ごし方</h5>
@@ -77,7 +80,7 @@
                             foreach( $rows as $row ) {
                                 $margin = '';
                                 if (empty($row['schedule-time'])) $margin = 'margin-top--20';
-                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 bold' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 bold mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
+                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 font-SourceHanSansJP-M' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 bold mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
                             }
                         }
                     ?>

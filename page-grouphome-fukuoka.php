@@ -10,7 +10,7 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
         <div class="grid-two-column">
             <div>
                 <h2 class="font25 font-Pr6N">自宅のような温もりと安心感。<br>心に寄り添うケアで日々の暮らしを支えます。</h2>
@@ -41,7 +41,7 @@
             <div>
                 <div class="font-Pr6N font31">01.住空間 </div>
                 <div class="font-Pr6N font16">LIVING</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">自宅のように快適に過ごせる清潔感あふれる居室をご用意しています。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">自宅のように快適に過ごせる<br>清潔感あふれる居室をご用意しています。</h3>
                 <p class="font14 pt-2">
                     グループホーム燦
                     ふくおかの居室は、自宅のように快適に過ごせる工夫が施されています。明るく清潔感のある部屋には、介護用ベッドや収納スペースも備えており、日常生活をサポートする環境が整っています。利用者様が安心して快適に過ごせるよう、細部にわたり心配りを感じる空間となっています。
@@ -52,7 +52,7 @@
             <div>
                 <div class="font-Pr6N font31">02.介護サービス</div>
                 <div class="font-Pr6N font16">NURSING CARE SERVICE</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">アットホームな空間で、自立を尊重し、心のこもった介護をご提供いたします。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">アットホームな空間で、自立を尊重し、<br>心のこもった介護をご提供いたします。</h3>
                 <p class="font14 pt-2">
                     家庭的でアットホームな雰囲気を大切にし、入居者様がリラックスして過ごせる環境を整えています。職員が必要な部分を手助けしつつ、できる範囲で家事をお手伝いいただくことで、自立した生活をサポートしています。
                 </p>
@@ -72,7 +72,7 @@
             <div>
                 <div class="font-Pr6N font31">03.医療</div>
                 <div class="font-Pr6N font16">MEDICAL</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">週1回の定期訪問診療と24時間365日医療体制で、安心してお過ごしいただける環境を整えています。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">週1回の定期訪問診療と24時間365日医療体制で、<br>安心してお過ごしいただける環境を整えています。</h3>
                 <p class="font14 pt-2">
                     週1回の定期訪問診療を実施し、ひとり当たり月に2回の診察を受けられます。診察日以外でも、心配事があればいつでもご相談いただけるほか、24時間365日体制で入居者様の健康をサポートしています。内科をはじめ、眼科や皮膚科など幅広いケアを受けられ、必要に応じて専門医・専門医療機関を紹介を行っています。
                 </p>
@@ -82,7 +82,7 @@
             <div>
                 <div class="font-Pr6N font31">04.食事</div>
                 <div class="font-Pr6N font16">MEAL</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">栄養バランスに配慮した、新鮮な手づくりの食事です。（ミキサー食対応）</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">栄養バランスに配慮した、<br>新鮮な手づくりの食事です。（ミキサー食対応）</h3>
                 <p class="font14 pt-2">
                     新鮮な食材を使い、スタッフがひとつひとつ心を込めて手作りした温かいお食事をご提供しています。また、ご利用者様お一人おひとりの噛む力や飲み込む力に合わせて、おかゆや刻み食、ミキサー食にも対応しておりますので、安心して食事を召し上がっていただけます。
                 </p>
@@ -102,7 +102,7 @@
             <div>
                 <div class="font-Pr6N font31">05.アクティビティ</div>
                 <div class="font-Pr6N font16">ACTIVITY</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">「笑顔」が一番！毎月、ホーム主催の行事を予定しております。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">「笑顔」が一番！<br>毎月、ホーム主催の行事を予定しております。</h3>
                 <p class="font14 pt-2">
                     午前中は、ボールを使った機能訓練や脳トレを楽しみながら、利用者様が笑顔で過ごせる工夫をしています。午後は、ボランティアによる歌や踊り、生け花などのアクティビティを行い、お昼寝が必要な方には無理なくそれぞれのペースに合わせて、ゆったりとした時間をお過ごしいただけます。
                 </p>

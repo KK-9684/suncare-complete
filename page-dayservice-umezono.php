@@ -10,10 +10,10 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
         <div class="grid-two-column">
             <div>
-                <h2 class="font25 font-Pr6N">利用者様とご家族様の「穏やかな生活」を支援します。 </h2>
+                <h2 class="font25 font-Pr6N">利用者様とご家族様の<br><span class="ml--">「穏やかな生活」を支援します。</span></h2>
                 <p class="font16 pt-2">
                     デイサービスセンター燦
                     うめぞのでは、静かに過ごしたい方、音楽を楽しみたい方、お話をしたい方など、皆様がそれぞれの過ごし方を自由に選び、リラックスして過ごしていただける環境を整えています。スタッフは利用者様一人ひとりのペースに寄り添い、デイサービス内だけでなく、ご自宅でも安心して穏やかに過ごせることを目指しています。
@@ -31,7 +31,7 @@
             <?php echo do_shortcode('[metaslider id="187"]'); ?>
         </section>
     </div>
-    <section class="sancare-section-wrapper" style="max-width:1080px">
+    <section class="sancare-section-wrapper" style="max-width:1240px">
         <div class="dayservice-section-title mb-5">
             <h4>THE FEATURE</h4>
             <h5>デイサービスセンター燦 うめぞのの強み</h5>
@@ -42,7 +42,8 @@
                 <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">穏やかに過ごせる個別ケアの徹底</p>
-                <p class="font14">利用者様の意志や感情を最優先に考え、できる限りペースを乱さないよう心掛け、その方にとって最適なケアを提供しています。日々の生活の中では、食事後の片付けやタオルの洗濯など、利用者様が自主的にお手伝いくださる場面もあり、無理なく自然な形でケアを進めています。
+                <p class="font14">
+                    利用者様の意志や感情を最優先に考え、できる限りペースを乱さないよう心掛け、その方にとって最適なケアを提供しています。日々の生活の中では、食事後の片付けやタオルの洗濯など、利用者様が自主的にお手伝いくださる場面もあり、無理なく自然な形でケアを進めています。
                 </p>
             </div>
             <div>
@@ -50,7 +51,8 @@
                 <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">心と体にやさしい手作りのお昼ごはん</p>
-                <p class="font14">美味しいと評判のお昼ごはんでは、認知症予防に効果のあるといわれているえごま油も摂取していただいています。新鮮な食材で品数も多い自慢の昼食は、飲食店にも負けない絶品の手作りごはんで、利用者様の笑顔を引き出します。
+                <p class="font14">
+                    美味しいと評判のお昼ごはんでは、認知症予防に効果のあるといわれているえごま油も摂取していただいています。新鮮な食材で品数も多い自慢の昼食は、飲食店にも負けない絶品の手作りごはんで、利用者様の笑顔を引き出します。
                 </p>
             </div>
             <div>
@@ -58,13 +60,14 @@
                 <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">自然にふれ、共に楽しむレクリエーション</p>
-                <p class="font14">季節ごとに外出を楽しみ、桜や紅葉など自然の美しさを感じられるイベントを開催しています。八幡の蓮の花や川津桜、滝山寺、一畑山薬師寺への外出も好評で、利用者様は毎回楽しみにされています。少人数で行われる書道やパズルなど豊富なアクティビティもご用意しており、参加は自由です。
+                <p class="font14">
+                    季節ごとに外出を楽しみ、桜や紅葉など自然の美しさを感じられるイベントを開催しています。八幡の蓮の花や川津桜、滝山寺、一畑山薬師寺への外出も好評で、利用者様は毎回楽しみにされています。少人数で行われる書道やパズルなど豊富なアクティビティもご用意しており、参加は自由です。
                 </p>
             </div>
         </div>
     </section>
     <div class="bg-color-lr-red container-fluid">
-        <section class="sancare-section-wrapper" style="max-width:1080px">
+        <section class="sancare-section-wrapper" style="max-width:1240px">
             <div class="dayservice-section-title mb-5">
                 <h4>TIME SCHEDULE</h4>
                 <h5>1日の過ごし方</h5>
@@ -77,7 +80,7 @@
                             foreach( $rows as $row ) {
                                 $margin = '';
                                 if (empty($row['schedule-time'])) $margin = 'margin-top--20';
-                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 bold' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 bold mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
+                                echo "<div class='d-flex mb-4 ".$margin."'><span class='color-l-red font18 font-SourceHanSansJP-M' style='min-width:100px'>".$row['schedule-time']."</span><div><div class='color-l-red font18 font-SourceHanSansJP-M mb-2'>".$row['schedule-title']."</div><p class='wrap'>".$row['schedule-description']."</p></div></div>";
                             }
                         }
                     ?>

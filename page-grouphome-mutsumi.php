@@ -10,7 +10,7 @@
         <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
         <?php endif; ?>
     </div>
-    <section class="sancare-section-wrapper pt-0" style="max-width: 1080px">
+    <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
         <div class="grid-two-column">
             <div>
                 <h2 class="font25 font-Pr6N"> 自宅のような温もりと安心感。<br>心に寄り添うケアで日々の暮らしを支えます。</h2>
@@ -41,7 +41,7 @@
             <div>
                 <div class="font-Pr6N font31">01.住空間</div>
                 <div class="font-Pr6N font16">LIVING</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">自宅のように快適に過ごせる清潔感あふれる居室をご用意しています。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">自宅のように快適に過ごせる<br>清潔感あふれる居室をご用意しています。</h3>
                 <p class="font14 pt-2">
                     グループホーム燦
                     むつみはの居室は、自宅のように快適に過ごせる工夫が施されています。明るく清潔感のある部屋には、介護用ベッドや収納スペースも備えており、日常生活をサポートする環境が整っています。利用者様が安心して快適に過ごせるよう、細部にわたり心配りを感じる空間となっています。
@@ -52,7 +52,7 @@
             <div>
                 <div class="font-Pr6N font31">02.介護サービス</div>
                 <div class="font-Pr6N font16">NURSING CARE SERVICE</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">笑い声が絶えない環境で、自立を尊重しながら心のこもった介護をご提供いたします。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">笑い声が絶えない環境で、自立を尊重しながら<br>心のこもった介護をご提供いたします。</h3>
                 <p class="font14 pt-2">
                     地域に密着した家庭的な雰囲気の中で、入居者様の自立した生活を尊重しながらサポートしています。食器洗いや畑仕事など、できる範囲で家事をお手伝いいただくことで、役割を持つことによる達成感や充実感を感じ、『ここにいてよい』という安心感をもって暮らしていただける環境を目指しています。
                 </p>
@@ -72,7 +72,7 @@
             <div>
                 <div class="font-Pr6N font31">03.医療</div>
                 <div class="font-Pr6N font16">MEDICAL</div>
-                <div class="font-Pr6N font20 mt-4 mb-2">医療連携をしっかりと整え、安心して過ごせるケアをご提供しています。</div>
+                <div class="font-Pr6N font20 mt-4 mb-2">医療連携をしっかりと整え、<br>安心して過ごせるケアをご提供しています。</div>
                 <p class="font14 pt-2">
                     看護師による日常的な健康管理を徹底しています。また、24時間365日オンコール体制を整えており、万が一のケガや緊急事態にも迅速に対応できるため、入居者様とご家族様に安心して過ごしていただけます。必要に応じて、看取りケアまで丁寧に対応させていただくことで、安心して長く暮らしていただける医療体制を整えています。
                 </p>
@@ -82,7 +82,7 @@
             <div>
                 <div class="font-Pr6N font31">04.食事</div>
                 <div class="font-Pr6N font16">MEAL</div>
-                <div class="font-Pr6N font20 mt-4 mb-2">家庭菜園の恵みを取り入れた手作りの食事で、毎日楽しみにしていただいております。</div>
+                <div class="font-Pr6N font20 mt-4 mb-2">家庭菜園の恵みを取り入れた手作りの食事で、<br>毎日楽しみにしていただいております。</div>
                 <p class="font14 pt-2">
                     食事はスタッフが手作りし、新鮮な食材を使って品数も豊富です。目の前で調理するので、香りに誘われて「今日は何かな？」という会話も弾みます。家庭菜園で育てた野菜も取り入れ、利用者様にお手伝いいただくこともあり、食事の楽しみを一緒に感じていただけます。
                 </p>
@@ -102,7 +102,7 @@
             <div>
                 <div class="font-Pr6N font31">05.アクティビティ</div>
                 <div class="font-Pr6N font16">ACTIVITY</div>
-                <div class="font-Pr6N font20 mt-4 mb-2">四季折々のイベントと多彩なレクリエーションで、毎日笑顔をお届けしています。</div>
+                <div class="font-Pr6N font20 mt-4 mb-2">四季折々のイベントと多彩なレクリエーションで、<br>毎日笑顔をお届けしています。</div>
                 <p class="font14 pt-2">
                     季節のイベントやボランティアによる活動、職員による体操やゲームなど、豊富なレクリエーションを通じて、利用者様に笑顔を届けています。お花見やクリスマス会、子供たちとのふれあいなど、毎月さまざまな行事を企画し、楽しい時間を過ごしていただいています。
                 </p>
