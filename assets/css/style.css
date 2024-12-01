@@ -1140,6 +1140,9 @@ table {
     .mw_wp_form {
         min-width: unset;
     }
+    #floor {
+        width: 80%;
+    }
 }
 .modal {
     display: none; /* Hidden by default */
@@ -1154,6 +1157,9 @@ table {
 }
 .modal-content {
     position: relative;
+}
+#floor {
+    width: 45%;
 }
 .modal-dialog-centered {
     justify-content: center;

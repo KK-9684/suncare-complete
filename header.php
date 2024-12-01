@@ -231,7 +231,7 @@
                         echo 'bg-color-m-blue';
                     } else if (strpos($current_path, 'dayservice')) {
                         echo 'bg-color-l-red';
-                    } else if (strpos($current_path, 'san-care')) {
+                    } else if (strpos($current_path, 'san-care') || strpos($current_path, 'expenses')) {
                         echo 'bg-color-d-blue';
                     } else {
                         echo 'bg-color-d-orange';
@@ -251,7 +251,7 @@
                         echo 'bg-color-m-blue';
                     } else if (strpos($current_path, 'dayservice')){
                         echo 'bg-color-l-red';
-                    } else if (strpos($current_path, 'san-care')) {
+                    } else if (strpos($current_path, 'san-care') || strpos($current_path, 'expenses')) {
                         echo 'bg-color-d-blue';
                     } else {
                         echo 'bg-color-d-orange';

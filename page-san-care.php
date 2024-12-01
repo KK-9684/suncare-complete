@@ -268,7 +268,7 @@
         </section>
         <div class="modal" id="myModal" tabindex="-1">
             <div class="modal-dialog-centered" id="myModal">
-                <div class="modal-content" id="floor" style="width:30%">
+                <div class="modal-content" id="floor">
                     <div class="floor-prev"><i class="fa fa-angle-left"></i></div>
                     <?php if (!empty($floor[0])): ?>
                     <img src="<?php echo esc_url($floor[0]['url']); ?>" alt="Sancare Floor Image" id="floor_image"
@@ -285,7 +285,7 @@
 
 <script>
 $(document).ready(function() {
-    var width1 = "30%"
+    var width1 = "45%"
     var width2 = "80%"
     var isModal = false;
     var floorImages = <?php echo json_encode($floor); ?>;
@@ -294,6 +294,7 @@ $(document).ready(function() {
     $('#floor-toggle').click(function() {
         $('#myModal').fadeIn();
         isModal = true;
+        $('#floor').css("width", "45%");
         $('body').css('overflow-y', 'hidden');
         if (window.innerWidth <= 768) {
             $('#floor').css("width", "80%");
@@ -316,12 +317,12 @@ $(document).ready(function() {
                 width2 = "80%"
             }
         } else {
-            if (width1 == '30%') {
-                $('#floor').css("width", "50%");
-                width1 = "50%"
+            if (width1 == '45%') {
+                $('#floor').css("width", "55%");
+                width1 = "55%"
             } else {
-                $('#floor').css("width", "30%");
-                width1 = "30%"
+                $('#floor').css("width", "45%");
+                width1 = "45%"
             }
         }
     });
