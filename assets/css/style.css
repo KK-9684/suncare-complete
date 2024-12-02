@@ -484,6 +484,15 @@ th {
 .expenses-box .top-section-title {
     border-color: #8a392a;
 }
+.top-section-title h4 {
+    line-height: 1 !important;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+.top-section-title h5 {
+    line-height: 1 !important;
+    letter-spacing: 2px;
+}
 .plan-title {
     color: white;
     background-color: #8a392a;

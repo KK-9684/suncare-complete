@@ -51,7 +51,7 @@
 .font31 {
     font-size: clamp(28px, 5.6vw, 31px);
     line-height: 1.8;
-    letter-spacing: 4px;
+    letter-spacing: 0.3rem;
 }
 .font32 {
     font-size: 32px;

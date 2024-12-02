@@ -15,7 +15,7 @@
         <div class="grid-two-column">
             <div>
                 <h2 class="font25 font-Pr6N"> 笑顔あふれる幸せな「わが家」が、<br>ここにあります。</h2>
-                <p class="font16 pt-2">
+                <p class="font16 pt-4 mt-1">
                     寄り添って一緒に笑顔になる。<br>
                     「どうしたら笑顔になっていただけるだろうか」、<br>
                     「どうすることがこの方にとって最善だろうか」。<br>

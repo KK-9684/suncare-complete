@@ -46,7 +46,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="mt-3 mb-5">Cタイプ、Dタイプの費用は、2名様での利用料金となります。</div>
+        <div class="mb-5" style="margin-top: -15px">Cタイプ、Dタイプの費用は、2名様での利用料金となります。</div>
         <div class="expenses-table-title">介護付き（要支援・要介護）居室 【Aタイプ】</div>
         <div class="mb-3">月額利用料（1ヶ月を30日として換算しております／料金は税込表示です）</div>
         <div class="expenses-table-wrapper">
@@ -163,7 +163,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="mt-3 mb-5">Cタイプ、Dタイプの費用は、2名様での利用料金となります。</div>
+        <div class="mb-5" style="margin-top: -15px">Cタイプ、Dタイプの費用は、2名様での利用料金となります。</div>
         <div class="expenses-table-title">介護付き（要支援・要介護）居室 【Aタイプ】</div>
         <div class="mb-3">入居一時金</div>
         <div class="expenses-table-wrapper">
@@ -261,6 +261,3 @@
     </section>
 </main>
 <?php get_footer(); ?>
-
-<script>
-</script>

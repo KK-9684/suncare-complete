@@ -2,8 +2,8 @@
 <main class="top-page">
     <section class="section-wrapper d-block">
         <div class="top-section-title">
-            <h4>WORK ENVIRONMENT</h4>
-            <h5>職場環境等の取り組みについて</h5>
+            <h4 class="font28">WORK ENVIRONMENT</h4>
+            <h5 class="font20">職場環境等の取り組みについて</h5>
         </div>
         <p class="font18 mt-4 color-d-orange">
             介護職員等特定処遇改善加算に基づく職場環境等の取り組みについて

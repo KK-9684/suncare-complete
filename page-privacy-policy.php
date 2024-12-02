@@ -2,8 +2,8 @@
 <main class="top-page">
     <section class="section-wrapper d-block pb-80">
         <div class="top-section-title">
-            <h4>PRIVACY POLICY</h4>
-            <h5>個人情報保護方針</h5>
+            <h4 class="font28">PRIVACY POLICY</h4>
+            <h5 class="font20">個人情報保護方針</h5>
         </div>
         <p class="font15 my-4">東洋ウェルフェア株式会社（以下「当社」）は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、
             全従業員に個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。

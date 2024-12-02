@@ -3,8 +3,8 @@
     <section class="section-wrapper">
         <div>
             <div class="top-section-title">
-                <h4>COMPANY</h4>
-                <h5>会社概要</h5>
+                <h4 class="font28">COMPANY</h4>
+                <h5 class="font20">会社概要</h5>
             </div>
 
             <table class="company-table">
@@ -30,8 +30,8 @@
     <section class="section-wrapper pb-80">
         <div>
             <div class="top-section-title">
-                <h4>HISTORY</h4>
-                <h5>会社沿革</h5>
+                <h4 class="font28">HISTORY</h4>
+                <h5 class="font20">会社沿革</h5>
             </div>
             <table class="company-table">
                 <tbody id="comapany-history-table">
