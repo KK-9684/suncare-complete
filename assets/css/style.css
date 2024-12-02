@@ -335,9 +335,11 @@ th {
 }
 .metaslider.ms-theme-clarity .flexslider .flex-direction-nav li a.flex-next {
     right: -45px !important;
+    background-image: url('../img/flex-next.svg') !important;
 }
 .metaslider.ms-theme-clarity .flexslider .flex-direction-nav li a.flex-prev {
     left: -45px !important;
+    background-image: url('../img/flex-prev.svg') !important;
 }
 .metaslider.ms-theme-clarity .flexslider .slides li {
     margin-top: 0px;
@@ -863,10 +865,10 @@ table {
         height: 40px !important;
     }
     .metaslider.ms-theme-clarity .flexslider .flex-direction-nav li a.flex-next {
-        right: -25px !important;
+        right: -22px !important;
     }
     .metaslider.ms-theme-clarity .flexslider .flex-direction-nav li a.flex-prev {
-        left: -25px !important;
+        left: -22px !important;
     }
     .section-big-title-bar h1 {
         font-size: 20px !important;
@@ -1214,3 +1216,4 @@ select,
 option {
     color: #4c4d4f !important;
 }
+
