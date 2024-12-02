@@ -238,7 +238,7 @@
                     }
                 ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-icon.svg" alt="instagram" />
-                <span class="color-l-gray font16 ms-2">Instagram</span><?php echo $current_path; ?>
+                <span class="color-l-gray font16 ms-2">Instagram</span>
             </button>
         </a>
         <div style="margin-top:6px"></div>
