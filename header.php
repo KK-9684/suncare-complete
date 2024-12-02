@@ -223,9 +223,9 @@
                         echo 'https://www.instagram.com/toyo.welfare/p/C3p_BTaBx8V/?locale=es_ES%2F&img_index=1';
                     }
                 ?>" target="_blank"
-            class="<?php if($current_path == '/sun-care/' || $current_path == '/sun-care/recruit/' || strpos($current_path, 'form-')) {echo 'hide';} else {echo '';} ?>">
+            class="<?php if($current_path == '/' || strpos($current_path, 'recruit') || strpos($current_path, 'form-')) {echo 'hide';} else {echo '';} ?>">
             <button class="footer-fixed-button 
-                <?php 
+                <?php
                     $current_path = esc_url($_SERVER['REQUEST_URI']);
                     if (strpos($current_path, 'grouphome')) {
                         echo 'bg-color-m-blue';
@@ -238,12 +238,12 @@
                     }
                 ?>">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-icon.svg" alt="instagram" />
-                <span class="color-l-gray font16 ms-2">Instagram</span>
+                <span class="color-l-gray font16 ms-2">Instagram</span><?php echo $current_path; ?>
             </button>
         </a>
         <div style="margin-top:6px"></div>
         <a href="<?php echo get_template_directory_uri(); ?>/pdf/information.pdf" target="_blank"
-            class="<?php if($current_path == '/sun-care/recruit/' || strpos($current_path, 'form-')) {echo 'hide';} else {echo '';} ?>">
+            class="<?php if(strpos($current_path, 'recruit') || strpos($current_path, 'form-')) {echo 'hide';} else {echo '';} ?>">
             <button class="footer-fixed-button 
                 <?php 
                     $current_path = esc_url($_SERVER['REQUEST_URI']);

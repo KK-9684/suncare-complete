@@ -383,6 +383,7 @@ th {
     white-space: nowrap;
     position: relative;
     line-height: 48px;
+    text-align: center;
 }
 .arrow-up-right-icon {
     position: absolute;
@@ -425,9 +426,8 @@ th {
 .grid-two-column-3 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 30px;
-    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -927,6 +927,7 @@ table {
 
 /* Form */
 .form-desc {
+    padding: 10px;
     font-size: 16px;
     font-family: "Source Han Sans JP";
     margin-bottom: 50px;
