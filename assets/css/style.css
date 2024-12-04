@@ -323,7 +323,7 @@ th {
     background: #F9F8F4 !important;
     padding: 10px 0px !important;
     color: #4c4d4f !important;
-    font-family: "Source Han Sans JP" !important;
+    font-family: "游明朝体 Pr6N" !important;
 }
 .carousel-mode .metaslider.ms-theme-clarity .flexslider .flex-direction-nav li a {
     width: 40px !important;
@@ -358,7 +358,23 @@ th {
     width: 100%;
 }
 .bottom-grid {
-    column-gap: 40px !important;
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    align-items: center;
+    column-gap: 40px;
+}
+.container-fluid {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.container-fluid .sancare-section-wrapper {
+    padding-left: unset !important;
+    padding-right: unset !important;
+}
+.bottom-grid img {
+    width: 100%;
+    max-width: 440px;
 }
 .service-btns-wrapper {
     display: grid;
@@ -419,7 +435,7 @@ th {
 /* dayservice */
 .grid-two-column-5 {
     display: grid;
-    grid-template-columns: 65% calc(35% - 50px);
+    grid-template-columns: 62% calc(38% - 50px);
     gap: 50px;
     max-width: 1000px;
     margin-left: auto;
@@ -427,19 +443,30 @@ th {
 }
 .grid-two-column-3 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
     margin-left: auto;
     margin-right: auto;
+    white-space: nowrap;
 }
 .grid-two-column-3 img {
+    max-height: 226px;
     max-width: 392px;
     width: 100%;
 }
 .dayservice-section-title {
     border-left: 3px solid #ec6d56;
     padding-left: 16px;
+}
+.dayservice-section-title h4 {
+    line-height: 1 !important;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+.dayservice-section-title h5 {
+    line-height: 1 !important;
+    letter-spacing: 2px;
 }
 .dayservice-section-title {
     font-family: "游明朝体 Pr6N";
@@ -733,6 +760,9 @@ table {
         padding-left: 5%;
         padding-right: 5%;
     }
+    .facility-info-description {
+        display: block !important
+    }
 }
 @media screen and (max-width: 1270px) {
     .header {
@@ -780,6 +810,11 @@ table {
     }
     .expenses-box {
         padding: 0px 3%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .bottom-grid {
+        flex-direction: column;
     }
 }
 @media screen and (max-width: 768px) {
@@ -839,11 +874,6 @@ table {
         margin-top: 50px;
     }
 
-    .grid-two-column-3 img {
-        max-width: unset;
-        width: 100%;
-    }
-
     .column-reverse {
         flex-direction: column-reverse;
     }
@@ -851,9 +881,6 @@ table {
     .sancare-section-wrapper {
         padding-top: 50px;
         padding-bottom: 50px;
-    }
-    .facility-info-description {
-        display: block !important
     }
     .circle-image-wrapper {
         height: 700px;

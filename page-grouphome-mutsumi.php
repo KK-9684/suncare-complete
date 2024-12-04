@@ -135,7 +135,7 @@
     </section>
     <div class="bg-color-mr-blue container-fluid">
         <section class="sancare-section-wrapper" style="max-width: 820px">
-            <div class="grid-two-column bottom-grid mt-0">
+            <div class="bottom-grid mt-0">
                 <div>
                     <p class="color-m-blue font18 font-Pr6N">■施設情報</p>
                     <div class="font16">グループホーム燦 むつみ</div>

@@ -135,7 +135,7 @@
     </section>
     <div class="bg-color-mr-blue container-fluid">
         <section class="sancare-section-wrapper" style="max-width: 820px">
-            <div class="grid-two-column bottom-grid mt-0">
+            <div class="bottom-grid mt-0">
                 <div>
                     <p class="color-m-blue font18 font-Pr6N">■施設情報</p>
                     <div class="font16">グループホーム燦 ふくおか</div>
@@ -143,18 +143,16 @@
                         <i class="fa fa-phone font18"></i>
                         <span>0564-59-5159</span>
                     </p>
-                    <p>
+                    <p class="font14">
                         ●介護保険事業所番号<br>
                         　認知症対応型共同生活介護　2372101440<br>
                         　介護予防認知症対応型共同生活介護　2372101440<br>
                         　共用型指定認知症対応型通所介護　2372101026
                     </p>
                 </div>
-                <div>
-                    <?php if (!empty($image[7])): ?>
-                    <img src="<?php echo esc_url($image[7]['url']); ?>" width="100%" alt="Sancare Image" loading="lazy">
-                    <?php endif; ?>
-                </div>
+                <?php if (!empty($image[7])): ?>
+                <img src="<?php echo esc_url($image[7]['url']); ?>" width="100%" alt="Sancare Image" loading="lazy">
+                <?php endif; ?>
             </div>
         </section>
     </div>

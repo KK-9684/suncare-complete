@@ -33,8 +33,8 @@
     </div>
     <section class="sancare-section-wrapper" style="max-width:1240px">
         <div class="dayservice-section-title mb-5">
-            <h4>THE FEATURE</h4>
-            <h5>デイサービスセンター燦 はねの強み</h5>
+            <h4 class="font28">THE FEATURE</h4>
+            <h5 class="font20">デイサービスセンター燦 はねの強み</h5>
         </div>
         <div class="grid-column-4">
             <div>
@@ -69,8 +69,8 @@
     <div class="bg-color-lr-red container-fluid">
         <section class="sancare-section-wrapper" style="max-width:1240px">
             <div class="dayservice-section-title mb-5">
-                <h4>TIME SCHEDULE</h4>
-                <h5>1日の過ごし方</h5>
+                <h4 class="font28">TIME SCHEDULE</h4>
+                <h5 class="font20">1日の過ごし方</h5>
             </div>
             <div class="grid-two-column-5">
                 <div class="mb-5">
@@ -125,7 +125,7 @@
                     </p>
                     <div class="d-flex facility-info-description">
                         <div>
-                            ●事業所種別／通常規模型デイサービス <br>
+                            ●事業所種別／通常規模型デイサービス　<br>
                             ●事業所番号／2372104816<br>
                             ●営業日／月～土曜日<br>
                             ●休業日／日曜日

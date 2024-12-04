@@ -184,48 +184,31 @@
                 <h4 class="font28">EXPENSES</h4>
                 <h5 class="font20">ご利用料金のご案内</h5>
             </div>
+            <?php $example = get_field('例', 'option'); ?>
+            <?php $comment = get_field('コメント', 'option'); ?>
             <p class="expenses-title font-Pr6N mt-5">
-                入居費用は、<span class="color-d-red">入居一時金0円プラン</span>と<span
-                    class="color-d-red">1,000万円〜プラン</span>の2種類からお選び頂けます。
+                <?php 
+                    $entryExpenses = get_field_object('入居費用', 'option');
+                    foreach ($entryExpenses['value'] as $row) {
+                        if ($row['色'] == "black") {
+                            echo "<span>" . $row['句'] . "</span>";
+                        } else {
+                            echo "<span class='color-d-red'>" . $row['句'] . "</span>";
+                        }
+                    }
+                ?>
             </p>
-            <p class="font16 mt-4 mb-1">【例】要介護1の場合（1人部屋でのご契約）</p>
-            <div class="plan-row font-SourceHanSansJP-M">
-                <div>
-                    <a class="plan-title">プラン1</a>
-                    <span class="font22">入居一時金</span>
-                </div>
-                <div class="plan-price">
-                    <div>
-                        <span class="color-d-red font32">0</span>
-                        <span class="color-d-red font25">円</span>
-                        <span class="font22 me-2">／月額利用料</span>
-                    </div>
-                    <div>
-                        <span class="color-d-red font25">337,402</span>
-                        <span class="color-d-red font22">円</span>
-                        <span class="font16">（税込）</span>
-                    </div>
-                </div>
-            </div>
-            <div class="plan-row font-SourceHanSansJP-M">
-                <div>
-                    <a class="plan-title">プラン2</a>
-                    <span class="font22">入居一時金</span>
-                </div>
-                <div class="plan-price">
-                    <div>
-                        <span class="color-d-red font32">1,000</span>
-                        <span class="color-d-red font25">万円</span>
-                        <span class="font22 me-2">／月額利用料</span>
-                    </div>
-                    <div>
-                        <span class="color-d-red font25">267,902</span>
-                        <span class="color-d-red font22">円</span>
-                        <span class="font16">（税込）</span>
-                    </div>
-                </div>
-            </div>
-            <p class="font16">※特定契約をした場合の料金であり、サービス内容に違いはありません。</p>
+            <p class="font16 mt-4 mb-1"><?php echo $example; ?></p>
+            <?php
+                $plans = get_field_object('プラン', 'option');
+                foreach ($plans['value'] as $row) {
+                    echo '<div class="plan-row font-SourceHanSansJP-M">';
+                    echo '<div><a class="plan-title">'. $row['番号'] .'</a><span class="font22">'. $row['タイトル'] .'</span></div>';
+                    echo '<div class="plan-price"><div><span class="color-d-red font32">'. $row['タイプ'] .'</span><span class="color-d-red font25">'. $row['単位'] .'</span><span class="font22 me-2">'. $row['テキスト'] .'</span></div><div><span class="color-d-red font25">'. $row['価格'] .'</span><span class="color-d-red font22">'. $row['価格単位'] .'</span><span class="font16">'. $row['税金'] .'</span></div></div>';
+                    echo '</div>';
+                }
+            ?>
+            <p class="font16"><?php echo $comment; ?></p>
             <div class="d-flex justify-content-center mt-40">
                 <a href=" <?php echo esc_url( home_url() ); ?>/expenses/">
                     <div class="toggle-btn">
