@@ -207,8 +207,10 @@
         </div>
         <a href="<?php 
                     $current_path = esc_url($_SERVER['REQUEST_URI']);
-                    if (strpos($current_path, 'grouphome')) {
+                    if (strpos($current_path, 'grouphome-fukuoka')) {
                         echo 'https://www.instagram.com/ghsanhukuoka/';
+                    } else if (strpos($current_path, 'grouphome-mutsumi')){
+                        echo 'https://www.instagram.com/ghsanmutsumi/';
                     } else if (strpos($current_path, 'dayservice-azukizaka')){
                         echo '#';
                     } else if (strpos($current_path, 'dayservice-umezono')){

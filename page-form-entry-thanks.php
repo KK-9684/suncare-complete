@@ -8,7 +8,7 @@
         <h1>新卒・キャリア採用 エントリーフォーム</h1>
     </div>
     <section class="sancare-section-wrapper text-center">
-        <p class="font25 bold mt-40 py-5">ご応募が完了いたしました。</p>
+        <p class="font25 bold mt-40 py-5">ご応募が完了致しました。</p>
         <p class="font16 ">
             この度は、求人採用にご応募いただきまして、誠にありがとうございます。<br>
             後日、担当者よりご連絡をさせていただきますので、<br>

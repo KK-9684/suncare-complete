@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <div class="bg-color-l-gray container-fluid">
+    <div class="bg-color-mr-blue container-fluid">
         <section class="sancare-section-wrapper carousel-mode">
             <?php echo do_shortcode('[metaslider id="148"]'); ?>
         </section>
@@ -143,12 +143,12 @@
                         <i class="fa fa-phone font18"></i>
                         <span>0564-59-5159</span>
                     </p>
-                    <p class="font14">
+                    <div class="font14 line-normal">
                         ●介護保険事業所番号<br>
                         　認知症対応型共同生活介護　2372101440<br>
                         　介護予防認知症対応型共同生活介護　2372101440<br>
                         　共用型指定認知症対応型通所介護　2372101026
-                    </p>
+                    </div>
                 </div>
                 <?php if (!empty($image[7])): ?>
                 <img src="<?php echo esc_url($image[7]['url']); ?>" width="100%" alt="Sancare Image" loading="lazy">

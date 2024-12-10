@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <div class="bg-color-l-gray container-fluid">
+    <div class="bg-color-lr-red container-fluid">
         <section class="sancare-section-wrapper carousel-mode">
             <?php echo do_shortcode('[metaslider id="174"]'); ?>
         </section>
@@ -118,12 +118,12 @@
             <div class="grid-two-column-3 mt-0">
                 <div>
                     <p class="color-l-red font18 font-Pr6N">■施設情報</p>
-                    <div class="font16">デイサービスセンター燦 あずき坂</div>
-                    <p class="font25 font-Pr6N-M">
+                    <div class="font16 line-normal">デイサービスセンター燦 あずき坂</div>
+                    <p class="font25 font-Pr6N-M line-normal">
                         <i class="fa fa-phone font18"></i>
                         <span>0564-58-1250</span>
                     </p>
-                    <div class="d-flex facility-info-description">
+                    <div class="font14 line-normal d-flex facility-info-description">
                         <div>
                             ●事業所種別／認知症対応型通所介護（単独型）<br>
                             ●事業所番号／2392100216<br>

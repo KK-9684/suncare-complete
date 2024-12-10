@@ -143,10 +143,10 @@
             </div>
             <div class="mt-5 pt-4 text-center">
                 <div class="font15 mb-2">些細な事でもお気軽にご相談下さい。</div>
-                <div class="top-section-phone color-d-green">
+                <a href="tel:0564228277" class="top-section-phone color-d-green">
                     <i class="fa fa-phone font22"></i>
                     <span class="font32 font-Pr6N-M">0564-22-8277</span>
-                </div>
+                </a>
                 <div class="font15 mb-3">受付時間 8:45~17:45</div>
                 <div class="font12">所在地:〒444-0038 愛知県岡崎市伝馬通1丁目78番地（サン・ケア レジデンス内）</div>
             </div>

@@ -13,7 +13,7 @@
     <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
         <div class="grid-two-column">
             <div>
-                <h2 class="font25 font-Pr6N"><span class="ml--">「共に笑い、共に生きる」をモットーに、</span><br>共に成長をすることを目指しています。</h2>
+                <h2 class="font25 font-Pr6N"><span class="ml--">「共に笑い、共に生きる」をモットーに、</span>共に成長をすることを目指しています。</h2>
                 <p class="font16 pt-4 mt-1">
                     デイサービスセンター燦
                     はっけんでは、「共に笑い、共に生きる」をモットーに、利用者様、家族様、スタッフが一体となり、成長を共にすることを目指しています。特に食事とレクリエーションに力を入れ、彩り豊かな美しいお食事や種類豊富なメニューを提供。おやつ作りでは利用者様にお手伝いいただき、楽しめる環境を整えています。職員の特技を活かした多彩なレクリエーションも好評で、心身ともに充実した時間をお過ごしいただけます。
@@ -118,12 +118,12 @@
             <div class="grid-two-column-3 mt-0">
                 <div>
                     <p class="color-l-red font18 font-Pr6N">■施設情報</p>
-                    <div class="font16">デイサービスセンター燦 はっけん</div>
-                    <p class="font25 font-Pr6N-M">
+                    <div class="font16 line-normal">デイサービスセンター燦 はっけん</div>
+                    <p class="font25 font-Pr6N-M line-normal">
                         <i class="fa fa-phone font18"></i>
                         <span>0566-45-7070</span>
                     </p>
-                    <div class="d-flex facility-info-description">
+                    <div class="font14 line-normal d-flex facility-info-description">
                         <div>
                             ●事業所種別／通常規模型デイサービス　<br>
                             ●事業所番号／2373101910<br>

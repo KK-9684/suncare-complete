@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <div class="bg-color-l-gray container-fluid">
+    <div class="bg-color-lr-red container-fluid">
         <section class="sancare-section-wrapper carousel-mode">
             <?php echo do_shortcode('[metaslider id="226"]'); ?>
         </section>
@@ -118,12 +118,12 @@
             <div class="grid-two-column-3 mt-0">
                 <div>
                     <p class="color-l-red font18 font-Pr6N">■施設情報</p>
-                    <div class="font16 mb-2">デイサービスセンター燦 はね</div>
-                    <p class="font25 font-Pr6N-M">
+                    <div class="font16 line-normal">デイサービスセンター燦 はね</div>
+                    <p class="font25 font-Pr6N-M line-normal">
                         <i class="fa fa-phone font20"></i>
                         <span>0564-64-7560</span>
                     </p>
-                    <div class="d-flex facility-info-description">
+                    <div class="font14 line-normal d-flex facility-info-description">
                         <div>
                             ●事業所種別／通常規模型デイサービス　<br>
                             ●事業所番号／2372104816<br>

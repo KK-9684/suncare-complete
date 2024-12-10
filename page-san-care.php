@@ -202,9 +202,17 @@
             <?php
                 $plans = get_field_object('プラン', 'option');
                 foreach ($plans['value'] as $row) {
-                    echo '<div class="plan-row font-SourceHanSansJP-M">';
+                    echo '<div class="plan-row pc font-SourceHanSansJP-M">';
                     echo '<div><a class="plan-title">'. $row['番号'] .'</a><span class="font22">'. $row['タイトル'] .'</span></div>';
                     echo '<div class="plan-price"><div><span class="color-d-red font32">'. $row['タイプ'] .'</span><span class="color-d-red font25">'. $row['単位'] .'</span><span class="font22 me-2">'. $row['テキスト'] .'</span></div><div><span class="color-d-red font25">'. $row['価格'] .'</span><span class="color-d-red font22">'. $row['価格単位'] .'</span><span class="font16">'. $row['税金'] .'</span></div></div>';
+                    echo '</div>';
+                }
+
+                foreach ($plans['value'] as $row) {
+                    echo '<div class="sp font-SourceHanSansJP-M">';
+                    echo '<div class="plan-title">'. $row['番号'] .'</div>';
+                    echo '<div><span class="font22 me-2">'. $row['タイトル'] .'</span><span class="color-d-red font32">'. $row['タイプ'] .'</span><span class="color-d-red font25">'. $row['単位'] .'</span></div>';
+                    echo '<div><span class="font22 me-2">'. $row['テキスト'] .'</span><span class="color-d-red font25">'. $row['価格'] .'</span><span class="color-d-red font22">'. $row['価格単位'] .'</span><span class="font16">'. $row['税金'] .'</span></div>';
                     echo '</div>';
                 }
             ?>

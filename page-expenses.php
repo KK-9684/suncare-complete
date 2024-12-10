@@ -77,7 +77,7 @@
                     <th></th>
                     <th>①上記表合計費用</th>
                     <th>介護費用</th>
-                    <th>介護保健負担分</th>
+                    <th>介護保険負担分</th>
                     <th>合計</th>
                 </thead>
                 <tbody id="zero-plan-3">
@@ -204,7 +204,7 @@
                     <th></th>
                     <th>①上記表合計費用</th>
                     <th>介護費用</th>
-                    <th>介護保健負担分</th>
+                    <th>介護保険負担分</th>
                     <th>合計</th>
                 </thead>
                 <tbody id="thousand-plan-5">

@@ -28,7 +28,7 @@
                     $rows = get_field('recruitment', 'option');
                     if( $rows ) {
                         foreach( $rows as $index => $row  ) {
-                            echo "<div class='recruit-item'><span> &nbsp ".$row['recruitment-title']."<br>".$row['recruitment-category']."</span><span> ー </span></div>";
+                            echo "<div class='recruit-item'><span> &nbsp ".$row['recruitment-title']."<br>".$row['recruitment-category']."</span>".($row['recruitment-content'] ? "<span class='recruit-item-icon'> ＋ </span>" : '' )."</div>";
                             
                             if ($row['recruitment-content']) {
                                 echo "<div class='recruit-item-menu hide'>";
@@ -68,13 +68,13 @@ $(document).ready(function() {
     $(".recruit-item").on("click", function() {
         if (!$(this).next().hasClass('hide')) {
             $(this).next().toggleClass('hide');
-            $(this).find('.recruit-item-icon').text('ー')
+            $(this).find('.recruit-item-icon').text('＋')
             return;
         }
         $('.recruit-list').find(".recruit-item-menu").addClass('hide');
         $(this).next().toggleClass('hide');
-        $('.recruit-list').find(".recruit-item-icon").text('ー');
-        $(this).find('.recruit-item-icon').text('＋')
+        $('.recruit-list').find(".recruit-item-icon").text('＋');
+        $(this).find('.recruit-item-icon').text('ー')
     });
 });
 </script>

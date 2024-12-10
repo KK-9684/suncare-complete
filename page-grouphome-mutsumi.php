@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <div class="bg-color-l-gray container-fluid">
+    <div class="bg-color-mr-blue container-fluid">
         <section class="sancare-section-wrapper carousel-mode">
             <?php echo do_shortcode('[metaslider id="161"]'); ?>
         </section>
@@ -52,7 +52,7 @@
             <div>
                 <div class="font-Pr6N font31">02.介護サービス</div>
                 <div class="font-Pr6N font16">NURSING CARE SERVICE</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">笑い声が絶えない環境で、自立を尊重しながら<br>心のこもった介護をご提供いたします。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2">笑い声が絶えない環境で、自立を尊重しながら心のこもった介護をご提供いたします。</h3>
                 <p class="font14 pt-2">
                     地域に密着した家庭的な雰囲気の中で、入居者様の自立した生活を尊重しながらサポートしています。食器洗いや畑仕事など、できる範囲で家事をお手伝いいただくことで、役割を持つことによる達成感や充実感を感じ、『ここにいてよい』という安心感をもって暮らしていただける環境を目指しています。
                 </p>
@@ -143,11 +143,11 @@
                         <i class="fa fa-phone font18"></i>
                         <span>0564-58-3003</span>
                     </p>
-                    <p>
+                    <div class="font14 line-normal">
                         ●介護保険事業所番号<br>
                         　認知症対応型共同生活介護　2372100034<br>
                         　介護予防認知症対応型共同生活介護　2372100034<br>
-                    </p>
+                    </div>
                 </div>
                 <?php if (!empty($image[7])): ?>
                 <img src="<?php echo esc_url($image[7]['url']); ?>" alt="Sancare Image" loading="lazy">

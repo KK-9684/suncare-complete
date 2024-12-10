@@ -198,6 +198,9 @@ th {
     max-width: 420px;
 }
 .top-section-phone {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Kaisei Haruno Umi";
     display: flex;
     justify-content: center;
@@ -315,12 +318,15 @@ th {
 .metaslider.ms-theme-clarity .flexslider {
     margin-bottom: 0px !important;
 }
+.flexslider .slides li {
+    background: transparent !important;
+}
 .carousel-mode .metaslider.ms-theme-clarity .flexslider .caption-wrap {
-    background: #F9F8F4 !important;
+    background: transparent !important;
     border: none !important;
 }
 .carousel-mode .metaslider.ms-theme-clarity .flexslider .caption-wrap .caption {
-    background: #F9F8F4 !important;
+    background: transparent !important;
     padding: 10px 0px !important;
     color: #4c4d4f !important;
     font-family: "游明朝体 Pr6N" !important;
@@ -361,7 +367,7 @@ th {
     display: flex;
     justify-content: space-between;
     white-space: nowrap;
-    align-items: center;
+    align-items: end;
     column-gap: 40px;
 }
 .container-fluid {
@@ -451,9 +457,10 @@ th {
     white-space: nowrap;
 }
 .grid-two-column-3 img {
-    max-height: 226px;
-    max-width: 392px;
+    min-height: 215px;
+    max-width: 410px;
     width: 100%;
+    object-fit: cover;
 }
 .dayservice-section-title {
     border-left: 3px solid #ec6d56;
@@ -526,6 +533,7 @@ th {
     padding: 8px 38px;
     margin-right: 10px;
     font-size: 18px;
+    max-width: 142px;
 }
 .plan-price {
     display: flex;
@@ -886,8 +894,8 @@ table {
         height: 700px;
     }
     .circle-image {
-        width: 320px;
-        height: 320px;
+        width: 90vw;
+        height: 90vw;
     }
     .special img {
         max-width: none;

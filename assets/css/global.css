@@ -63,6 +63,9 @@
     line-height: 1.8;
     letter-spacing: 0.03em;
 }
+.line-normal {
+    line-height: 1.6;
+}
 .no-border {
     border: unset !important;
 }
@@ -175,4 +178,16 @@
 }
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .pc {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .sp {
+        display: none !important;
+    }
 }
