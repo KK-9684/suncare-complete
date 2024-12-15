@@ -1,6 +1,6 @@
 <?php get_header();?>
 <main class="top-page">
-    <section class="section-wrapper d-block">
+    <section class="section-wrapper d-block pb-80 mb-80">
         <div class="top-section-title">
             <h4 class="font28">WORK ENVIRONMENT</h4>
             <h5 class="font20">職場環境等の取り組みについて</h5>

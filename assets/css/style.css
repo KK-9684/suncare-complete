@@ -367,8 +367,9 @@ th {
     display: flex;
     justify-content: space-between;
     white-space: nowrap;
-    align-items: end;
+    align-items: center;
     column-gap: 40px;
+    row-gap: 30px;
 }
 .container-fluid {
     padding-left: 5%;

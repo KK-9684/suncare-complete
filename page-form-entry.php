@@ -5,7 +5,8 @@
 <main class="top-page">
     <div class="section-title-bar bg-color-d-blue">
         <h5 class="mb-3">ENTRY</h5>
-        <h1>新卒・キャリア採用 エントリーフォーム</h1>
+        <h1 class="pc">新卒・キャリア採用 エントリーフォーム</h1>
+        <h1 class="sp">新卒・キャリア採用<br>エントリーフォーム</h1>
     </div>
     <section class="sancare-section-wrapper">
         <div class="form-desc">下記のフォームに必要事項をご入力いただき、「確認」ボタンをクリックしてください。<br>
