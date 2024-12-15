@@ -1,6 +1,6 @@
 <?php get_header();?>
 <main class="top-page">
-    <section class="section-wrapper d-block pb-80">
+    <section class="section-wrapper d-block pb-80 mb-80">
         <div class="top-section-title">
             <h4 class="font28">PRIVACY POLICY</h4>
             <h5 class="font20">個人情報保護方針</h5>
@@ -49,7 +49,7 @@
         <p class="font16 mt-3">
             当社の個人情報の取扱に関するお問い合せは下記までご連絡ください。
         </p>
-        <p class="font16 mt-3 mb-0">
+        <p class="font16 mt-3">
             東洋ウェルフェア株式会社本社<br>
             〒444-0038 愛知県岡崎市伝馬通1丁目78番地（サンケアレジデンス内）<br>
             TEL 0564-22-7575 / FAX 0564-22-1755

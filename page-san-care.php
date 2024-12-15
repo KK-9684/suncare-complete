@@ -29,7 +29,7 @@
             </div>
         </div>
     </section>
-    <div class="bg-color-l-gray container-fluid">
+    <div class="bg-color-l-gray container-fluid-8">
         <section class="sancare-section-wrapper carousel-mode">
             <?php echo do_shortcode('[metaslider id="48"]'); ?>
         </section>
@@ -168,13 +168,13 @@
         <div class="font20 font-Pr6N text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3269.9712577643136!2d137.16543807552142!3d34.95732906940032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bd2f005a6855%3A0xab1c8b1eb2bfccc3!2z44CSNDQ0LTAwMzgg5oSb55-l55yM5bKh5bSO5biC5Lyd6aas6YCa77yR5LiB55uu77yX77yY!5e0!3m2!1sja!2sjp!4v1723104680464!5m2!1sja!2sjp"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1634.9816285798897!2d137.16678343828053!3d34.95752959148657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bd2f00591a5d%3A0x1d1a3d9b1de67082!2z44K144Oz44O744Kx44Ki44Os44K444OH44Oz44K5!5e0!3m2!1sja!2sjp!4v1733971523480!5m2!1sja!2sjp"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div>
             所在地：〒444-0038 愛知県岡崎市伝馬通1丁目78番地　
-            <a href="https://www.google.com/maps?ll=34.957325,137.168013&z=15&t=m&hl=ja&gl=JP&mapclient=embed&q=%E3%80%92444-0038+%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E4%BC%9D%E9%A6%AC%E9%80%9A%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%97%EF%BC%98"
+            <a href="https://www.google.com/maps/place/%E3%82%B5%E3%83%B3%E3%83%BB%E3%82%B1%E3%82%A2%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9/@34.9575296,137.1667834,18z/data=!3m1!4b1!4m6!3m5!1s0x6004bd2f00591a5d:0x1d1a3d9b1de67082!8m2!3d34.9575274!4d137.1680709!16s%2Fg%2F1v16q7ph?hl=ja&entry=ttu&g_ep=EgoyMDI0MTIwOC4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank" class="nowrap">（Googleマップで見る）</a>
         </div>
     </section>

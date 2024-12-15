@@ -230,7 +230,7 @@
         <div class="bg-color-d-blue expenses-table-title-2">
             オプションサービスの費用例（各タイプ共通）</div>
         <div class="expenses-table-wrapper">
-            <table class="expenses-table mt-4 td-2">
+            <table class="expenses-table mb-0 td-2">
                 <thead>
                     <th>サービス内容</th>
                     <th>料金（税込表示です）</th>

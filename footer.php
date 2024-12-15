@@ -2,15 +2,15 @@
     <div class="d-flex flex-wrap justify-content-center align-items-center">
         <a href="<?php echo esc_url( home_url() ); ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="東洋ウェルフェア株式会社"
-                class="log-img" />
+                class="log-img mb-3" />
         </a>
         <a href="https://ota-oil.co.jp/" target="_blank">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-logo-otaoil.png" alt="太田油脂株式会社"
-                class="log-img" />
+                class="log-img mb-3" />
         </a>
     </div>
     <div class="footer-menu-items mt-3">
-        <div class="menu-text-item-wrapper">
+        <div class="menu-text-item-wrapper mb-3">
             <div class="menu-text-item">有料老人ホーム</div>
             <div class="menu-text-item-menu hide">
                 <a href="<?php echo esc_url( home_url() ); ?>/san-care/" class="menu-text-item-menu-item">
@@ -19,7 +19,7 @@
                 </a>
             </div>
         </div>
-        <div class="menu-text-item-wrapper">
+        <div class="menu-text-item-wrapper mb-3">
             <div class="menu-text-item">グループホーム</div>
             <div class="menu-text-item-menu hide">
                 <a href="<?php echo esc_url( home_url() ); ?>/grouphome-fukuoka/" class="menu-text-item-menu-item">
@@ -32,7 +32,7 @@
                 </a>
             </div>
         </div>
-        <div class="menu-text-item-wrapper">
+        <div class="menu-text-item-wrapper mb-3">
             <div class="menu-text-item">デイサービス</div>
             <div class="menu-text-item-menu hide">
                 <a href="<?php echo esc_url( home_url() ); ?>/dayservice-azukizaka/" class="menu-text-item-menu-item">
@@ -57,11 +57,11 @@
                 </a>
             </div>
         </div>
-        <a href="<?php echo esc_url( home_url() ); ?>/company/" class="menu-text-item"><span>会社概要</span></a>
+        <a href="<?php echo esc_url( home_url() ); ?>/company/" class="mb-3 menu-text-item"><span>会社概要</span></a>
         <a href="<?php echo esc_url( home_url() ); ?>/privacy-policy/"
-            class="menu-text-item"><span>個人情報保護について</span></a>
+            class="mb-3 menu-text-item"><span>個人情報保護について</span></a>
         <a href="<?php echo esc_url( home_url() ); ?>/work-environment/"
-            class="menu-text-item"><span>職場環境等の取り組みについて</span></a>
+            class="mb-3 menu-text-item"><span>職場環境等の取り組みについて</span></a>
     </div>
     <?php wp_footer(); ?>
 </footer>

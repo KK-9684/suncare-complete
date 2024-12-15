@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <div class="bg-color-lr-red container-fluid">
+    <div class="bg-color-lr-red container-fluid-8">
         <section class="sancare-section-wrapper carousel-mode">
             <?php echo do_shortcode('[metaslider id="174"]'); ?>
         </section>
@@ -73,7 +73,7 @@
                 <h5 class="font20">1日の過ごし方</h5>
             </div>
             <div class="schedule grid-two-column-5">
-                <div class="mb-5">
+                <div class="">
                     <?php 
                         $rows = get_field('azukizaka-time-schedule', 'option');
                         if( $rows ) {                            
@@ -103,7 +103,7 @@
         <div class="font20 font-Pr6N text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.28548500013!2d137.17371617551998!3d34.9243764711789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bc52dd2a8f83%3A0x5a7ebcaf43163aa5!2z44CSNDQ0LTA4MTQg5oSb55-l55yM5bKh5bSO5biC57695qC555S65bCP6LGG5Z2C77yY77yXIOODh-OCpOOCteODvOODk-OCueOCu-ODs-OCv-ODvOeHpuOBguOBmuOBjeWdgg!5e0!3m2!1sja!2sjp!4v1723215582885!5m2!1sja!2sjp"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.2858637310674!2d137.17368531210744!3d34.924366971064515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bc52dcd05443%3A0x303b564ce08322b7!2z44OH44Kk44K144O844OT44K544K744Oz44K_44O854emIOOBguOBmuOBjeWdgg!5e0!3m2!1sja!2sjp!4v1733939230776!5m2!1sja!2sjp"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>

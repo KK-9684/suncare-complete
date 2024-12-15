@@ -374,6 +374,10 @@ th {
     padding-left: 5%;
     padding-right: 5%;
 }
+.container-fluid-8 {
+    padding-left: 8%;
+    padding-right: 8%;
+}
 .container-fluid .sancare-section-wrapper {
     padding-left: unset !important;
     padding-right: unset !important;
@@ -442,6 +446,7 @@ th {
 .grid-two-column-5 {
     display: grid;
     grid-template-columns: 62% calc(38% - 50px);
+    align-items: center;
     gap: 50px;
     max-width: 1000px;
     margin-left: auto;
@@ -449,7 +454,7 @@ th {
 }
 .grid-two-column-3 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 30px;
     margin-left: auto;
@@ -458,7 +463,7 @@ th {
 }
 .grid-two-column-3 img {
     min-height: 215px;
-    max-width: 410px;
+    max-width: 400px;
     width: 100%;
     object-fit: cover;
 }
@@ -499,7 +504,6 @@ th {
     justify-content: space-between;
     height: calc(50vw + 60px);
     max-height: 700px;
-    margin-bottom: 60px;
 }
 .circle-image {
     width: 25vw;
@@ -624,8 +628,10 @@ th {
 /* recruit */
 .section-title-bar {
     height: 200px;
-    text-align: center;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     font-family: "游明朝体 Pr6N";
     color: #eeefef;
 }
@@ -699,7 +705,7 @@ table {
     border-top: 1px solid #ebebeb;
     padding-top: 50px;
     padding-bottom: 50px;
-    margin-bottom: 80px;    
+    margin-bottom: 100px;    
 }
 .footer .menu-text-item:nth-child(1) {
     border-left: none;
@@ -770,6 +776,9 @@ table {
     }
     .facility-info-description {
         display: block !important
+    }
+    .grid-two-column-3 {
+        justify-content: center;
     }
 }
 @media screen and (max-width: 1270px) {
@@ -891,9 +900,13 @@ table {
         padding-bottom: 50px;
     }
     .circle-image-wrapper {
-        height: 700px;
+        height: unset;
+        max-height: unset;
+        gap: 50px;
     }
     .circle-image {
+        max-width: 400px;
+        max-height: 400px;
         width: 90vw;
         height: 90vw;
     }
@@ -1074,6 +1087,10 @@ table {
     font-size: 14px;
     text-align: center;
 }
+.form-policy a {
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}
 .form-policy-sub {
     font-size: 12px;
     text-align: center;
@@ -1099,6 +1116,7 @@ table {
     color: white;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
 }
 .form-submit-btn:hover {
     opacity: 0.7;

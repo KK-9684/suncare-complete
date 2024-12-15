@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <div class="bg-color-mr-blue container-fluid">
+    <div class="bg-color-mr-blue container-fluid-8">
         <section class="sancare-section-wrapper carousel-mode">
             <?php echo do_shortcode('[metaslider id="148"]'); ?>
         </section>
@@ -123,13 +123,13 @@
         <div class="font20 font-Pr6N text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.25048273573!2d137.148635675519!3d34.90016307248479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bdeb840fb79d%3A0x8bca28b9a18f9bb!2z44CSNDQ0LTA4MjUg5oSb55-l55yM5bKh5bSO5biC56aP5bKh55S66YCa6ZW377yT77yW!5e0!3m2!1sja!2sjp!4v1723136585876!5m2!1sja!2sjp"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.251100283481!2d137.14862197392424!3d34.90014757248834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bdeb84109a2b%3A0x66c2da8898b8254c!2z44Kw44Or44O844OX44Ob44O844Og44O754em44G144GP44GK44GL!5e0!3m2!1sja!2sjp!4v1733971760639!5m2!1sja!2sjp"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="mt-3">
             所在地：〒444-0825　岡崎市福岡町字通長36番地　
-            <a href="https://maps.google.com/maps?ll=34.900159,137.151211&z=17&t=m&hl=ja&gl=JP&mapclient=embed&q=%E3%80%92444-0825%20%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E7%A6%8F%E5%B2%A1%E7%94%BA%E9%80%9A%E9%95%B7%EF%BC%93%EF%BC%96"
+            <a href="https://www.google.com/maps/place/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%BB%E7%87%A6%E3%81%B5%E3%81%8F%E3%81%8A%E3%81%8B/@34.9001476,137.148622,17z/data=!3m1!4b1!4m6!3m5!1s0x6004bdeb84109a2b:0x66c2da8898b8254c!8m2!3d34.9001432!4d137.1511969!16s%2Fg%2F1td7hpcr?hl=ja&entry=ttu&g_ep=EgoyMDI0MTIwOC4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank" class="nowrap">（Googleマップで見る）</a>
         </div>
     </section>

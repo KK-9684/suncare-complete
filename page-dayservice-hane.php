@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <div class="bg-color-lr-red container-fluid">
+    <div class="bg-color-lr-red container-fluid-8">
         <section class="sancare-section-wrapper carousel-mode">
             <?php echo do_shortcode('[metaslider id="226"]'); ?>
         </section>
@@ -73,7 +73,7 @@
                 <h5 class="font20">1日の過ごし方</h5>
             </div>
             <div class="grid-two-column-5">
-                <div class="mb-5">
+                <div class="">
                     <?php 
                         $rows = get_field('hane-time-schedule', 'option');
                         if( $rows ) {
@@ -103,13 +103,13 @@
         <div class="font20 font-Pr6N text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.28548500013!2d137.17371617551998!3d34.9243764711789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bc52dd2a8f83%3A0x5a7ebcaf43163aa5!2z44CSNDQ0LTA4MTQg5oSb55-l55yM5bKh5bSO5biC57695qC555S65bCP6LGG5Z2C77yY77yXIOODh-OCpOOCteODvOODk-OCueOCu-ODs-OCv-ODvOeHpuOBguOBmuOBjeWdgg!5e0!3m2!1sja!2sjp!4v1723215582885!5m2!1sja!2sjp"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.074221409536!2d137.15959617392602!3d34.929675470895624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6004bd0005740479%3A0xfea3f96c7b9b5617!2z44OH44Kj44K144O844OT44K554em44Gv44Gt!5e0!3m2!1sja!2sjp!4v1733971251251!5m2!1sja!2sjp"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="mt-3">
             所在地：〒444-1213　愛知県岡崎市羽根北町一丁目３番地２　
-            <a href="https://maps.google.com/maps?ll=34.924372,137.176291&z=17&t=m&hl=ja&gl=JP&mapclient=embed&q=%E3%83%87%E3%82%A4%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E7%87%A6%E3%81%82%E3%81%9A%E3%81%8D%E5%9D%82%20%E3%80%92444-0814%20%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E7%BE%BD%E6%A0%B9%E7%94%BA%E5%B0%8F%E8%B1%86%E5%9D%82%EF%BC%98%EF%BC%97"
+            <a href="https://www.google.com/maps/place/%E3%83%87%E3%82%A3%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E7%87%A6%E3%81%AF%E3%81%AD/@34.9296755,137.1595962,17z/data=!3m1!4b1!4m6!3m5!1s0x6004bd0005740479:0xfea3f96c7b9b5617!8m2!3d34.9296711!4d137.1621711!16s%2Fg%2F11wpsqf69v?hl=ja&entry=ttu&g_ep=EgoyMDI0MTIwOC4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank" class="nowrap">（Googleマップで見る）</a>
         </div>
     </section>

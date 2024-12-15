@@ -26,7 +26,7 @@
             </div>
         </div>
     </section>
-    <div class="bg-color-mr-blue container-fluid">
+    <div class="bg-color-mr-blue container-fluid-8">
         <section class="sancare-section-wrapper carousel-mode">
             <?php echo do_shortcode('[metaslider id="161"]'); ?>
         </section>
@@ -52,7 +52,8 @@
             <div>
                 <div class="font-Pr6N font31">02.介護サービス</div>
                 <div class="font-Pr6N font16">NURSING CARE SERVICE</div>
-                <h3 class="font-Pr6N font20 mt-4 mb-2">笑い声が絶えない環境で、自立を尊重しながら心のこもった介護をご提供いたします。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2 pc">笑い声が絶えない環境で、自立を尊重しながら<br>心のこもった介護をご提供いたします。</h3>
+                <h3 class="font-Pr6N font20 mt-4 mb-2 sp">笑い声が絶えない環境で、自立を尊重しながら心のこもった介護をご提供いたします。</h3>
                 <p class="font14 pt-2">
                     地域に密着した家庭的な雰囲気の中で、入居者様の自立した生活を尊重しながらサポートしています。食器洗いや畑仕事など、できる範囲で家事をお手伝いいただくことで、役割を持つことによる達成感や充実感を感じ、『ここにいてよい』という安心感をもって暮らしていただける環境を目指しています。
                 </p>
@@ -123,13 +124,13 @@
         <div class="font20 font-Pr6N text-center pb-3">アクセス</div>
         <div class="my-3 google-map">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.1211212331423!2d137.13213817552003!3d34.928499170956506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600497df16a604c5%3A0xb0b0c854f46d3b9e!2z44CSNDQ0LTAyNDEg5oSb55-l55yM5bKh5bSO5biC6LWk5riL55S65a-65YmN77yR77yZ4oiS77yR!5e0!3m2!1sja!2sjp!4v1723138779564!5m2!1sja!2sjp"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.1216794135717!2d137.132097273926!3d34.92848517095992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600497df14172439%3A0xf4e80c205875131f!2z44Kw44Or44O844OX44Ob44O844Og54em44KA44Gk44G_!5e0!3m2!1sja!2sjp!4v1733971821918!5m2!1sja!2sjp"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="mt-3">
             所在地：〒444-0241　岡崎市赤渋町寺前19番地1　
-            <a href="https://maps.google.com/maps?ll=34.928495,137.134713&z=17&t=m&hl=ja&gl=JP&mapclient=embed&q=%E3%80%92444-0241%20%E6%84%9B%E7%9F%A5%E7%9C%8C%E5%B2%A1%E5%B4%8E%E5%B8%82%E8%B5%A4%E6%B8%8B%E7%94%BA%E5%AF%BA%E5%89%8D%EF%BC%91%EF%BC%99%E2%88%92%EF%BC%91"
+            <a href="https://www.google.com/maps/place/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%83%9B%E3%83%BC%E3%83%A0%E7%87%A6%E3%82%80%E3%81%A4%E3%81%BF/@34.9284852,137.1320973,17z/data=!3m1!4b1!4m6!3m5!1s0x600497df14172439:0xf4e80c205875131f!8m2!3d34.9284808!4d137.1346722!16s%2Fg%2F1tdqzntb?hl=ja&entry=ttu&g_ep=EgoyMDI0MTIwOC4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank" class="nowrap">（Googleマップで見る）</a>
         </div>
     </section>
