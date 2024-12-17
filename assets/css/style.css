@@ -154,7 +154,7 @@ th {
 }
 .top-img {
     width: 100%;
-    height: calc(100vh - 90px);
+    height: calc(100vh -90px);
     max-height: 2000px;
     min-height: 740px;
     object-fit: cover;
@@ -163,7 +163,7 @@ th {
 .top-description {
     font-family: "游明朝体 Pr6N M";
     position: absolute;
-    top: 33%;
+    top: 30%;
     left: 330px;
     color: #4c4d4f;
     font-size: 34px;
@@ -762,7 +762,7 @@ table {
 }
 @media screen and (max-width: 1920px) {
     .top-description {
-        left: 15vw;
+        left: 10vw;
     }
 }  
 @media screen and (max-width: 1700px) {
@@ -793,8 +793,8 @@ table {
         display: block;
     }
     .top-description {
-        left: 10vw;
-        top: 140px;
+        left: 6vw;
+        top: 100px;
         font-size: 24px;
     }
     .top-section-wrapper {
@@ -848,7 +848,7 @@ table {
     }
     .top-description {
         left: 0;
-        top: 165px;
+        top: 25px;
         padding:0 5%;
         font-size: clamp(17px, 4.5vw, 22px);
     }
