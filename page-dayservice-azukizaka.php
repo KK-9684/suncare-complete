@@ -7,7 +7,7 @@
     </div>
     <div class="sancare-top-img">
         <?php if (!empty($image[0])): ?>
-        <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
+        <img src="<?php echo esc_url($image[0]['url']); ?>" alt="デイサービスセンター燦 あずき坂" loading="lazy">
         <?php endif; ?>
     </div>
     <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
@@ -21,7 +21,7 @@
             </div>
             <div>
                 <?php if (!empty($image[1])): ?>
-                <img src="<?php echo esc_url($image[1]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[1]['url']); ?>" alt="デイサービスセンター燦 あずき坂" loading="lazy">
                 <?php endif; ?>
             </div>
         </div>
@@ -39,7 +39,7 @@
         <div class="grid-column-4">
             <div>
                 <?php if (!empty($image[2])): ?>
-                <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[2]['url']); ?>" alt="デイサービスセンター燦 あずき坂" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">心のこもった介護</p>
                 <p class="font14">
@@ -48,7 +48,7 @@
             </div>
             <div>
                 <?php if (!empty($image[3])): ?>
-                <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[3]['url']); ?>" alt="デイサービスセンター燦 あずき坂" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">飲食店にも負けない絶品の手作り昼食</p>
                 <p class="font14">
@@ -57,7 +57,7 @@
             </div>
             <div>
                 <?php if (!empty($image[4])): ?>
-                <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[4]['url']); ?>" alt="デイサービスセンター燦 あずき坂" loading="lazy">
                 <?php endif; ?>
                 <p class="pt-4 font18 font-Pr6N">ゆったり、のんびり、イライラせずに</p>
                 <p class="font14">
@@ -87,11 +87,11 @@
                 </div>
                 <div class="circle-image-wrapper">
                     <?php if (!empty($image[5])): ?>
-                    <img src="<?php echo esc_url($image[5]['url']); ?>" alt="Sancare Image" class="circle-image"
+                    <img src="<?php echo esc_url($image[5]['url']); ?>" alt="デイサービスセンター燦 あずき坂" class="circle-image"
                         loading="lazy">
                     <?php endif; ?>
                     <?php if (!empty($image[6])): ?>
-                    <img src="<?php echo esc_url($image[6]['url']); ?>" alt="Sancare Image" class="circle-image"
+                    <img src="<?php echo esc_url($image[6]['url']); ?>" alt="デイサービスセンター燦 あずき坂" class="circle-image"
                         loading="lazy">
                     <?php endif; ?>
                 </div>
@@ -137,7 +137,7 @@
                     </div>
                 </div>
                 <?php if (!empty($image[7])): ?>
-                <img src="<?php echo esc_url($image[7]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[7]['url']); ?>" alt="デイサービスセンター燦 あずき坂" loading="lazy">
                 <?php endif; ?>
             </div>
         </section>

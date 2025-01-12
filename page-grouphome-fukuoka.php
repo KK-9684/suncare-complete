@@ -7,7 +7,7 @@
     </div>
     <div class="sancare-top-img">
         <?php if (!empty($image[0])): ?>
-        <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
+        <img src="<?php echo esc_url($image[0]['url']); ?>" alt="グループホーム燦 ふくおか" loading="lazy">
         <?php endif; ?>
     </div>
     <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
@@ -21,7 +21,7 @@
             </div>
             <div>
                 <?php if (!empty($image[1])): ?>
-                <img src="<?php echo esc_url($image[1]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[1]['url']); ?>" alt="グループホーム燦 ふくおか" loading="lazy">
                 <?php endif; ?>
             </div>
         </div>
@@ -35,7 +35,7 @@
         <div class="grid-two-column">
             <div>
                 <?php if (!empty($image[2])): ?>
-                <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[2]['url']); ?>" alt="グループホーム燦 ふくおか" loading="lazy">
                 <?php endif; ?>
             </div>
             <div>
@@ -59,14 +59,14 @@
             </div>
             <div>
                 <?php if (!empty($image[3])): ?>
-                <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[3]['url']); ?>" alt="グループホーム燦 ふくおか" loading="lazy">
                 <?php endif; ?>
             </div>
         </div>
         <div class="grid-two-column">
             <div>
                 <?php if (!empty($image[4])): ?>
-                <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[4]['url']); ?>" alt="グループホーム燦 ふくおか" loading="lazy">
                 <?php endif; ?>
             </div>
             <div>
@@ -91,14 +91,14 @@
             </div>
             <div>
                 <?php if (!empty($image[5])): ?>
-                <img src="<?php echo esc_url($image[5]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[5]['url']); ?>" alt="グループホーム燦 ふくおか" loading="lazy">
                 <?php endif; ?>
             </div>
         </div>
         <div class="grid-two-column">
             <div>
                 <?php if (!empty($image[6])): ?>
-                <img src="<?php echo esc_url($image[6]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[6]['url']); ?>" alt="グループホーム燦 ふくおか" loading="lazy">
                 <?php endif; ?>
             </div>
             <div>
@@ -153,7 +153,7 @@
                     </div>
                 </div>
                 <?php if (!empty($image[7])): ?>
-                <img src="<?php echo esc_url($image[7]['url']); ?>" width="100%" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[7]['url']); ?>" width="100%" alt="グループホーム燦 ふくおか" loading="lazy">
                 <?php endif; ?>
             </div>
         </section>

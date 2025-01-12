@@ -25,7 +25,7 @@
                     if ($assisted) {
                         foreach ($assisted as $image) {
                             if (isset($image['url'])) {
-                                echo "<img src='" . esc_url($image['url']) . "' alt='assisted' class='top-section-img' loading='lazy'>";
+                                echo "<img src='" . esc_url($image['url']) . "' alt='有料老人ホーム' class='top-section-img' loading='lazy'>";
                             }
                         }
                     }
@@ -47,7 +47,7 @@
             <?php $groupHome = get_field('group-home', 'option'); ?>
             <a href="<?php echo esc_url( home_url() ); ?>/grouphome-fukuoka/">
                 <?php if (!empty($groupHome[0])): ?>
-                <img src="<?php echo esc_url($groupHome[0]['url']); ?>" alt="group-home" loading="lazy"
+                <img src="<?php echo esc_url($groupHome[0]['url']); ?>" alt="グループホーム" loading="lazy"
                     class="top-section-img">
                 <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">グループホーム燦 ふくおか</div>
@@ -55,7 +55,7 @@
             </a>
             <a href="<?php echo esc_url( home_url() ); ?>/grouphome-mutsumi/">
                 <?php if (!empty($groupHome[1])): ?>
-                <img src="<?php echo esc_url($groupHome[1]['url']); ?>" alt="group-home" loading="lazy"
+                <img src="<?php echo esc_url($groupHome[1]['url']); ?>" alt="グループホーム" loading="lazy"
                     class="top-section-img">
                 <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">グループホーム燦 むつみ</div>
@@ -76,7 +76,7 @@
             <?php $dayCareService = get_field('day-care-service', 'option'); ?>
             <a href="<?php echo esc_url( home_url() ); ?>/dayservice-azukizaka/">
                 <?php if (!empty($dayCareService[0])): ?>
-                <img src="<?php echo esc_url($dayCareService[0]['url']); ?>" alt="day-care-service" loading="lazy"
+                <img src="<?php echo esc_url($dayCareService[0]['url']); ?>" alt="デイサービス" loading="lazy"
                     class="top-section-img">
                 <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">デイサービスセンター燦 あずき坂</div>
@@ -84,7 +84,7 @@
             </a>
             <a href="<?php echo esc_url( home_url() ); ?>/dayservice-umezono/">
                 <?php if (!empty($dayCareService[1])): ?>
-                <img src="<?php echo esc_url($dayCareService[1]['url']); ?>" alt="day-care-service" loading="lazy"
+                <img src="<?php echo esc_url($dayCareService[1]['url']); ?>" alt="デイサービス" loading="lazy"
                     class="top-section-img">
                 <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">デイサービスセンター燦 うめぞの</div>
@@ -95,7 +95,7 @@
         <div class="top-section-viewer">
             <a href="<?php echo esc_url( home_url() ); ?>/dayservice-tenma/">
                 <?php if (!empty($dayCareService[2])): ?>
-                <img src="<?php echo esc_url($dayCareService[2]['url']); ?>" alt="day-care-service" loading="lazy"
+                <img src="<?php echo esc_url($dayCareService[2]['url']); ?>" alt="デイサービス" loading="lazy"
                     class="top-section-img">
                 <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">デイサービスセンター燦 てんま</div>
@@ -103,7 +103,7 @@
             </a>
             <a href="<?php echo esc_url( home_url() ); ?>/dayservice-hakken/">
                 <?php if (!empty($dayCareService[3])): ?>
-                <img src="<?php echo esc_url($dayCareService[3]['url']); ?>" alt="day-care-service" loading="lazy"
+                <img src="<?php echo esc_url($dayCareService[3]['url']); ?>" alt="デイサービス" loading="lazy"
                     class="top-section-img">
                 <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">デイサービスセンター燦 はっけん</div>
@@ -111,7 +111,7 @@
             </a>
             <a href="<?php echo esc_url( home_url() ); ?>/dayservice-hane/">
                 <?php if (!empty($dayCareService[4])): ?>
-                <img src="<?php echo esc_url($dayCareService[4]['url']); ?>" alt="day-care-service" loading="lazy"
+                <img src="<?php echo esc_url($dayCareService[4]['url']); ?>" alt="デイサービス" loading="lazy"
                     class="top-section-img">
                 <?php endif; ?>
                 <div class="top-section-main-addresss font18 mt-4">デイサービスセンター燦 はね</div>
@@ -135,7 +135,7 @@
                 if ($care) {
                     foreach ($care as $image) {
                         if (isset($image['url'])) {
-                            echo "<img src='" . esc_url($image['url']) . "' alt='care-plan' class='top-section-img' loading='lazy'>";
+                            echo "<img src='" . esc_url($image['url']) . "' alt='サン・ケア プランセンター' class='top-section-img' loading='lazy'>";
                         }
                     }
                 }

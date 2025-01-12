@@ -8,7 +8,7 @@
     </div>
     <div class="sancare-top-img">
         <?php if (!empty($image[0])): ?>
-        <img src="<?php echo esc_url($image[0]['url']); ?>" alt="Sancare Image" loading="lazy">
+        <img src="<?php echo esc_url($image[0]['url']); ?>" alt="サン・ケアレジデンス" loading="lazy">
         <?php endif; ?>
     </div>
     <section class="sancare-section-wrapper pt-0" style="max-width: 1240px">
@@ -24,7 +24,7 @@
             </div>
             <div>
                 <?php if (!empty($image[1])): ?>
-                <img src="<?php echo esc_url($image[1]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[1]['url']); ?>" alt="サン・ケアレジデンス" loading="lazy">
                 <?php endif; ?>
             </div>
         </div>
@@ -38,7 +38,7 @@
         <div class="grid-two-column">
             <div>
                 <?php if (!empty($image[2])): ?>
-                <img src="<?php echo esc_url($image[2]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[2]['url']); ?>" alt="サン・ケアレジデンス" loading="lazy">
                 <?php endif; ?>
             </div>
             <div>
@@ -66,7 +66,7 @@
             </div>
             <div>
                 <?php if (!empty($image[3])): ?>
-                <img src="<?php echo esc_url($image[3]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[3]['url']); ?>" alt="サン・ケアレジデンス" loading="lazy">
                 <?php endif; ?>
             </div>
         </div>
@@ -84,7 +84,7 @@
         <div class="grid-two-column">
             <div>
                 <?php if (!empty($image[4])): ?>
-                <img src="<?php echo esc_url($image[4]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[4]['url']); ?>" alt="サン・ケアレジデンス" loading="lazy">
                 <?php endif; ?>
             </div>
             <div>
@@ -108,14 +108,14 @@
             </div>
             <div>
                 <?php if (!empty($image[5])): ?>
-                <img src="<?php echo esc_url($image[5]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[5]['url']); ?>" alt="サン・ケアレジデンス" loading="lazy">
                 <?php endif; ?>
             </div>
         </div>
         <div class="grid-two-column">
             <div>
                 <?php if (!empty($image[6])): ?>
-                <img src="<?php echo esc_url($image[6]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[6]['url']); ?>" alt="サン・ケアレジデンス" loading="lazy">
                 <?php endif; ?>
             </div>
             <div>
@@ -141,14 +141,14 @@
             </div>
             <div>
                 <?php if (!empty($image[7])): ?>
-                <img src="<?php echo esc_url($image[7]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[7]['url']); ?>" alt="サン・ケアレジデンス" loading="lazy">
                 <?php endif; ?>
             </div>
         </div>
         <div class="grid-two-column">
             <div>
                 <?php if (!empty($image[8])): ?>
-                <img src="<?php echo esc_url($image[8]['url']); ?>" alt="Sancare Image" loading="lazy">
+                <img src="<?php echo esc_url($image[8]['url']); ?>" alt="サン・ケアレジデンス" loading="lazy">
                 <?php endif; ?>
             </div>
             <div>
@@ -239,7 +239,7 @@
                     <span>0564-22-7575</span>
                 </p>
                 <?php if (!empty($image[9])): ?>
-                <img src="<?php echo esc_url($image[9]['url']); ?>" alt="Sancare Image" width="100%" loading="lazy">
+                <img src="<?php echo esc_url($image[9]['url']); ?>" alt="サン・ケアレジデンス" width="100%" loading="lazy">
                 <?php endif; ?>
             </div>
             <div>
@@ -263,7 +263,7 @@
                 <div class="modal-content" id="floor">
                     <div class="floor-prev"><i class="fa fa-angle-left"></i></div>
                     <?php if (!empty($floor[0])): ?>
-                    <img src="<?php echo esc_url($floor[0]['url']); ?>" alt="Sancare Floor Image" id="floor_image"
+                    <img src="<?php echo esc_url($floor[0]['url']); ?>" alt="サン・ケアレジデンス" id="floor_image"
                         loading="lazy">
                     <?php endif; ?>
                     <div class="floor-next"><i class="fa fa-angle-right"></i></div>

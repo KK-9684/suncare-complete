@@ -118,7 +118,7 @@
                 <span class="font12">年中無休（9:00~18:00）</span>
             </div>
             <div class="header-sp-hamburger">
-                <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="hamburger" />
+                <img src=" <?php echo get_template_directory_uri(); ?>/assets/img/hamburger.svg" alt="hamburger-icon" />
             </div>
         </div>
     </header>
@@ -239,12 +239,14 @@
                         echo 'bg-color-d-orange';
                     }
                 ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-icon.svg" alt="instagram" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/instagram-icon.svg"
+                    alt="instagram-icon" />
                 <span class="color-l-gray font16 ms-2">Instagram</span>
             </button>
         </a>
         <div style="margin-top:6px"></div>
-        <a href="<?php echo get_template_directory_uri(); ?>/pdf/information.pdf" target="_blank"
+        <?php $file = get_field('file', 'option');?>
+        <a href="<?php echo $file['url'] ?>" target="_blank"
             class="<?php if(strpos($current_path, 'recruit') || strpos($current_path, 'form-')) {echo 'hide';} else {echo '';} ?>">
             <button class="footer-fixed-button 
                 <?php 
@@ -259,7 +261,7 @@
                         echo 'bg-color-d-orange';
                     }
                 ?>">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bell-icon.svg" alt="instagram" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/bell-icon.svg" alt="instagram-icon" />
                 <span class="color-l-gray font16 ms-2 me-2">お知らせ</span>
             </button>
         </a>
